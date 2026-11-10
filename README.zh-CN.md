@@ -10,7 +10,7 @@ UrHeart 的 Unity 工程，使用 **Unity 6000.4.11f1**，渲染管线为 URP。
 
 ### 方式一：下载完整工程 ZIP
 
-从 [工程发布页](https://github.com/lettersama/UrHeart/releases) 下载 **UrHeart-UnityProject-2026-11-10.zip**，解压后得到 `UrHeart` 文件夹。
+从 [工程发布页](https://github.com/lettersama/UrHeart/releases#urheart-2026-11-10-zh-cn) 下载 **UrHeart-UnityProject-2026-11-10.zip**，解压后得到 `UrHeart` 文件夹。
 
 这个包已包含字体、TextMesh Pro 字体资产、`Packages` 和 `ProjectSettings`，不需要另外下载字体补充包。网盘镜像后续提供时，将使用同一份 ZIP。
 
@@ -22,7 +22,7 @@ UrHeart 的 Unity 工程，使用 **Unity 6000.4.11f1**，渲染管线为 URP。
 git clone https://github.com/lettersama/UrHeart.git
 ```
 
-然后从同一个[工程发布页](https://github.com/lettersama/UrHeart/releases)下载 **UrHeart-FontAssets-2026-11-10.zip**，解压到工程根目录，也就是包含 `Assets`、`Packages`、`ProjectSettings` 的目录。
+然后从同一个[工程发布页](https://github.com/lettersama/UrHeart/releases#urheart-2026-11-10-zh-cn-source)下载 **UrHeart-FontAssets-2026-11-10.zip**，解压到工程根目录，也就是包含 `Assets`、`Packages`、`ProjectSettings` 的目录。
 
 解压后应有 `Assets/Font/` 和 `Assets/Font.meta`。请保留所有 `.meta` 文件，它们用于恢复场景、预制体和本地化配置中的字体引用。
 

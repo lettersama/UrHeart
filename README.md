@@ -10,7 +10,7 @@ This project includes the game code, scenes, assets, and project settings. **DOT
 
 ### Option 1: Download the full project ZIP
 
-Download **UrHeart-UnityProject-2026-11-10.zip** from the [Releases page](https://github.com/lettersama/UrHeart/releases), then extract it to get the `UrHeart` folder.
+Download **UrHeart-UnityProject-2026-11-10.zip** from the [Releases page](https://github.com/lettersama/UrHeart/releases#urheart-2026-11-10-en), then extract it to get the `UrHeart` folder.
 
 This archive includes the fonts, TextMesh Pro font assets, `Packages`, and `ProjectSettings`. You do not need the separate font package. Any future cloud-drive mirror will use the same full project ZIP.
 
@@ -22,7 +22,7 @@ Clone this repository, or choose **Code → Download ZIP** on GitHub:
 git clone https://github.com/lettersama/UrHeart.git
 ```
 
-Then download **UrHeart-FontAssets-2026-11-10.zip** from the same [Releases page](https://github.com/lettersama/UrHeart/releases). Extract it into the project root—the folder containing `Assets`, `Packages`, and `ProjectSettings`.
+Then download **UrHeart-FontAssets-2026-11-10.zip** from the same [Releases page](https://github.com/lettersama/UrHeart/releases#urheart-2026-11-10-en-source). Extract it into the project root—the folder containing `Assets`, `Packages`, and `ProjectSettings`.
 
 After extraction, you should have `Assets/Font/` and `Assets/Font.meta`. Keep every `.meta` file: these preserve font references in scenes, prefabs, and localization settings.
 

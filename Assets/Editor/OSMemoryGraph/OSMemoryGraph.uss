@@ -1,0 +1,184 @@
+.os-memory-window {
+    flex-grow: 1;
+    background-color: #202020;
+    color: #dedede;
+    font-size: 12px;
+}
+
+.os-memory-toolbar {
+    height: 40px;
+    min-height: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #303030;
+    border-bottom-width: 1px;
+    border-bottom-color: #171717;
+}
+
+.os-memory-toolbar__asset {
+    width: 250px;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.os-memory-toolbar__button {
+    height: 26px;
+    flex-shrink: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+}
+
+.os-memory-toolbar__icon {
+    width: 28px;
+    min-width: 28px;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.os-memory-toolbar__icon > Image {
+    width: 16px;
+    height: 16px;
+}
+
+.os-memory-toolbar__menu {
+    height: 26px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    flex-shrink: 0;
+}
+
+.os-memory-toolbar__spacer { flex-grow: 1; }
+.os-memory-toolbar__search { width: 178px; min-width: 140px; margin-left: 8px; }
+.os-memory-content { flex-grow: 1; min-height: 0; }
+.os-memory-graph { flex-grow: 1; min-width: 360px; }
+
+.os-memory-graph GridBackground {
+    --grid-background-color: #202020;
+    --line-color: #292929;
+    --thick-line-color: #323232;
+    --spacing: 24;
+}
+
+.os-memory-inspector {
+    min-width: 290px;
+    max-width: 520px;
+    padding: 12px;
+    background-color: #282828;
+    border-left-width: 1px;
+    border-left-color: #151515;
+}
+
+.os-memory-inspector .unity-scroll-view__content-container { min-width: 0; }
+.os-memory-inspector__title {
+    height: 27px;
+    font-size: 13px;
+    -unity-font-style: bold;
+    color: #eeeeee;
+}
+
+.os-memory-inspector__node-title {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    -unity-font-style: bold;
+    color: #95c4af;
+}
+
+.os-memory-inspector__field { margin-bottom: 6px; }
+.os-memory-inspector .unity-base-field__label { min-width: 86px; width: 86px; }
+.os-memory-inspector__body {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.os-memory-inspector__body > .unity-base-field__label { margin-bottom: 6px; }
+.os-memory-inspector__body > .unity-base-field__input {
+    min-height: 156px;
+    padding: 8px;
+    white-space: normal;
+    font-size: 13px;
+    background-color: #202020;
+    border-color: #454545;
+    border-radius: 3px;
+}
+
+.os-memory-inspector__body .unity-text-field__input { white-space: normal; }
+.os-memory-inspector__settings {
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top-width: 1px;
+    border-top-color: #404040;
+}
+
+.os-memory-inspector__empty { margin-top: 12px; color: #aaaaaa; }
+.os-memory-status {
+    height: 25px;
+    min-height: 25px;
+    padding-left: 12px;
+    padding-top: 4px;
+    color: #b1b1b1;
+    background-color: #2b2b2b;
+    border-top-width: 1px;
+    border-top-color: #171717;
+}
+
+.os-memory-status--warning { color: #e0bd7a; }
+.os-memory-status--error { color: #ed918b; }
+.os-memory-node { width: 320px; }
+.os-memory-node > #node-border {
+    background-color: #303030;
+    border-color: #575757;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.os-memory-node #title {
+    height: 30px;
+    min-height: 30px;
+    background-color: #383838;
+    border-bottom-width: 1px;
+    border-bottom-color: #222222;
+}
+
+.os-memory-node #title-label {
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: #eeeeee;
+}
+
+.os-memory-node #top { flex-direction: column; }
+.os-memory-node #input, .os-memory-node #output { padding: 2px 6px; }
+.os-memory-node .port { min-height: 24px; }
+.os-memory-node .port #type { max-width: 267px; white-space: normal; font-size: 11px; }
+.os-memory-node__preview {
+    min-height: 42px;
+    max-height: 90px;
+    margin: 8px 10px;
+    padding: 0;
+    white-space: normal;
+    overflow: hidden;
+    color: #d8d8d8;
+    font-size: 12px;
+}
+
+.os-memory-node__compact-body { background-color: #303030; }
+.os-memory-node__meta { height: 20px; padding-top: 4px; color: #9eafa5; font-size: 11px; }
+.os-memory-node--start #title { background-color: #35443b; }
+.os-memory-node--choice #title { border-bottom-color: #8f7649; }
+.os-memory-node--error > #node-border { border-color: #df716a; border-width: 2px; }
+.os-memory-node--missing > #node-border { border-right-color: #dfb368; border-right-width: 3px; }
+.os-memory-node--unreachable { opacity: 0.6; }
+.os-memory-node--search > #node-border { border-color: #77bbcc; border-width: 2px; }
+.os-memory-node.selected > #node-border { border-color: #83b6c0; border-width: 2px; }
+.os-memory-port--next { color: #97bba5; }
+.os-memory-port--option { color: #dcbc84; }

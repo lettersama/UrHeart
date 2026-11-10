@@ -1,0 +1,422 @@
+{
+  "version": 2,
+  "targetLUFS": -30.0,
+  "processing": "Static gain; no limiter; original pitch",
+  "sources": {
+    "casino-audio": {
+      "title": "Casino Audio 1.1",
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "url": "https://kenney.nl/assets/casino-audio",
+      "downloaded": "2026-09-20",
+      "downloadUrl": "https://kenney.nl/media/pages/assets/casino-audio/2472606a04-1721639069/kenney_casino-audio.zip",
+      "archiveSha256": "f36250766ac5bc378c13708ddf12a23a8e54a3251f8d482c7536e51b5dbafa18",
+      "licensePath": "Tools/PaperPush/AudioSources/casino-audio/License.txt"
+    },
+    "impact-sounds": {
+      "title": "Impact Sounds 1.0",
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "url": "https://kenney.nl/assets/impact-sounds",
+      "downloaded": "2026-09-20",
+      "downloadUrl": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "archiveSha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+      "licensePath": "Tools/PaperPush/AudioSources/impact-sounds/License.txt"
+    },
+    "interface-sounds": {
+      "title": "Interface Sounds 1.0",
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "url": "https://kenney.nl/assets/interface-sounds",
+      "downloaded": "2026-09-20",
+      "downloadUrl": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "archiveSha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+      "licensePath": "Tools/PaperPush/AudioSources/interface-sounds/License.txt"
+    }
+  },
+  "clips": [
+    {
+      "name": "Hop",
+      "label": "立牌落脚",
+      "usage": "实际跳跃落脚时；相持时不播放",
+      "character": "一张纸牌轻落桌面",
+      "volume": 0.4,
+      "duration": 1.0101666666666667,
+      "parts": [
+        {
+          "pack": "casino-audio",
+          "file": "card-place-1.ogg",
+          "start": 0.13,
+          "take": 0.36,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-place-1.ogg",
+          "sha256": "d8f26c33a665dcbdcc6f632f6050bc9dd548feb0d4942d4547615926d3926810",
+          "layerGainDb": -7.65
+        }
+      ],
+      "lufs": -29.95,
+      "truePeak": -6.21,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.05,
+      "sha256": "6f5dafa2883f4ebf96c1355b4a8cbf17f542e9523b52824502c84df8b519581a",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Hop.wav"
+    },
+    {
+      "name": "Choice",
+      "label": "选招提示",
+      "usage": "开始对局、体力耗尽进入选招时",
+      "character": "简短电子选择音",
+      "volume": 0.65,
+      "duration": 1.0,
+      "parts": [
+        {
+          "pack": "interface-sounds",
+          "file": "select_006.ogg",
+          "start": 0.02,
+          "take": 0.25,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/select_006.ogg",
+          "sha256": "b44550fa8d3276c072ce7c3c1315d949f7a28a95bc22b3618ad4eea62eac8abe",
+          "layerGainDb": -13.75
+        }
+      ],
+      "lufs": -30.05,
+      "truePeak": -14.57,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": -0.05,
+      "sha256": "cd08c63205dc0e13fab86c1cbf26383796b0385fff507c495b069194ff90aa84",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Choice.wav"
+    },
+    {
+      "name": "Guard",
+      "label": "防御架稳",
+      "usage": "防御开始、立牌压低站稳时",
+      "character": "纸牌抽动，收住支撑点",
+      "volume": 0.65,
+      "duration": 1.0,
+      "parts": [
+        {
+          "pack": "casino-audio",
+          "file": "cards-pack-take-out-1.ogg",
+          "start": 0.025,
+          "take": 0.465,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-take-out-1.ogg",
+          "sha256": "6d38b979f64d20e4153173187ed67b04c6c004767c0a43eddb65c75fa925a1c4",
+          "layerGainDb": -15.05
+        }
+      ],
+      "lufs": -29.99,
+      "truePeak": -13.5,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": -0.01,
+      "sha256": "f9c0ce7fa91f99b62d0a9b59e97394ed2a1118e648071bb4fd248828f44e9118",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Guard.wav"
+    },
+    {
+      "name": "Windup",
+      "label": "重推蓄力",
+      "usage": "蓄力开始；打断／释放时停止",
+      "character": "纸牌展开的渐密摩擦",
+      "volume": 0.65,
+      "duration": 1.0,
+      "parts": [
+        {
+          "pack": "casino-audio",
+          "file": "card-fan-1.ogg",
+          "start": 0.04,
+          "take": 0.681,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 0.85,
+          "fadeIn": 0.05,
+          "fadeOut": 0.08,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-fan-1.ogg",
+          "sha256": "7a9758ccad8899baef1b9f60b4064e4baa724a548293832fdaea07e6e07e638d",
+          "layerGainDb": -8.6
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -8.72,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.0,
+      "sha256": "734f97046539c9ef28c63c4f3034fc0c42e6b31d6c36f8133017801d16846027",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Windup.wav"
+    },
+    {
+      "name": "Light",
+      "label": "轻推接触",
+      "usage": "轻推命中或双方轻推相抵",
+      "character": "短软碰撞，带较轻纸牌推擦",
+      "volume": 0.85,
+      "duration": 1.0101666666666667,
+      "parts": [
+        {
+          "pack": "impact-sounds",
+          "file": "impactSoft_medium_000.ogg",
+          "start": 0,
+          "take": 0.12,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactSoft_medium_000.ogg",
+          "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3",
+          "layerGainDb": -10.75
+        },
+        {
+          "pack": "casino-audio",
+          "file": "card-shove-4.ogg",
+          "start": 0.18,
+          "take": 0.63,
+          "gainDb": -7,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-shove-4.ogg",
+          "sha256": "0a1ad3a2f16bd2ed73349e6342426ca7a59a6e26b7e26e36d51d51c2c2349d6f",
+          "layerGainDb": -10.69
+        }
+      ],
+      "lufs": -30.06,
+      "truePeak": -7.67,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.96,
+      "sha256": "a0f56e7185597dde6745bb334b628d40806bbaf27ff5207157af956858b8e889",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Light.wav"
+    },
+    {
+      "name": "Heavy",
+      "label": "重推撞击",
+      "usage": "1 秒蓄力结束后的撞击点",
+      "character": "柔和厚碰撞，叠较轻纸牌擦动",
+      "volume": 1,
+      "duration": 1.0088333333333332,
+      "parts": [
+        {
+          "pack": "impact-sounds",
+          "file": "impactSoft_heavy_000.ogg",
+          "start": 0,
+          "take": 0.53,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactSoft_heavy_000.ogg",
+          "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1",
+          "layerGainDb": -11.33
+        },
+        {
+          "pack": "casino-audio",
+          "file": "card-shove-1.ogg",
+          "start": 0.1,
+          "take": 0.666,
+          "gainDb": -7,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-shove-1.ogg",
+          "sha256": "1ea667aa6795d5f14239192116ebcbd8f3f47eb1c7faaf2ec56844b9067b8b06",
+          "layerGainDb": -10.43
+        }
+      ],
+      "lufs": -30.02,
+      "truePeak": -8.84,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.32,
+      "sha256": "e18596ff696127cefabe27362d8c7b386ad9230f6b0eee3120e573cc257dfcf3",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Heavy.wav"
+    },
+    {
+      "name": "Parry",
+      "label": "防御反弹",
+      "usage": "成功挡住轻推、进攻方被弹开时",
+      "character": "短弹性提示，区分格挡与普通碰撞",
+      "volume": 1,
+      "duration": 1.0,
+      "parts": [
+        {
+          "pack": "interface-sounds",
+          "file": "bong_001.ogg",
+          "start": 0,
+          "take": 0.12,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.001,
+          "fadeOut": 0.012,
+          "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/bong_001.ogg",
+          "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710",
+          "layerGainDb": -7.25
+        }
+      ],
+      "lufs": -30.05,
+      "truePeak": -8.19,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": -0.05,
+      "sha256": "670fb5efba2d629e6bcf85e31844dcecb9e1a64e4cb40cbd172d0895ece02cce",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Parry.wav"
+    },
+    {
+      "name": "Fall",
+      "label": "倒地／出界",
+      "usage": "纸偶倾倒碰到支撑面时",
+      "character": "软着地闷响，带较轻纸牌拍落",
+      "volume": 0.9,
+      "duration": 1.0101666666666667,
+      "parts": [
+        {
+          "pack": "impact-sounds",
+          "file": "impactSoft_heavy_003.ogg",
+          "start": 0,
+          "take": 0.54,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactSoft_heavy_003.ogg",
+          "sha256": "d00286a2dc62ee5cb4d42bf56120e7050a855f69e655fc1294410aadd337eba3",
+          "layerGainDb": -11.32
+        },
+        {
+          "pack": "casino-audio",
+          "file": "card-place-4.ogg",
+          "start": 0.24,
+          "take": 0.361,
+          "gainDb": -12,
+          "at": 0.025,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-place-4.ogg",
+          "sha256": "18e3ba713b7259605fd27cdc048085ed56cf86b32403f070b6cb125019f77183",
+          "layerGainDb": -18.05
+        }
+      ],
+      "lufs": -29.97,
+      "truePeak": -9.55,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": -0.23,
+      "sha256": "67bd8b135e69c1a7d1bbf52f0579febdb89d130c88ab6d1c3a1d53eff6f518ef",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Fall.wav"
+    },
+    {
+      "name": "GetUp",
+      "label": "弹起站稳",
+      "usage": "倒地后起身时",
+      "character": "较轻的纸牌抽动，与落脚区别",
+      "volume": 0.55,
+      "duration": 1.0,
+      "parts": [
+        {
+          "pack": "casino-audio",
+          "file": "cards-pack-take-out-2.ogg",
+          "start": 0,
+          "take": 0.63,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-take-out-2.ogg",
+          "sha256": "d991829eeaf7e5a6f8462594e5be0d91535309ffd6249278f34eec70470395a4",
+          "layerGainDb": -12.19
+        }
+      ],
+      "lufs": -30.01,
+      "truePeak": -12.61,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.01,
+      "sha256": "e95659b507146dfe4455e05a450c4cd87bb951a48881d79a1a489a0dbe00160a",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_GetUp.wav"
+    },
+    {
+      "name": "Win",
+      "label": "玩家获胜",
+      "usage": "出局动作落定后",
+      "character": "完整的电子确认提示",
+      "volume": 0.75,
+      "duration": 1.1,
+      "parts": [
+        {
+          "pack": "interface-sounds",
+          "file": "confirmation_002.ogg",
+          "start": 0,
+          "take": 0.54,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/confirmation_002.ogg",
+          "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c",
+          "layerGainDb": -15.53
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -16.73,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.0,
+      "sha256": "126489c39a52684f1f6400b8d28af1f754424aa1c17efbe3e480f61a989eb4ae",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Win.wav"
+    },
+    {
+      "name": "Lose",
+      "label": "本局失利",
+      "usage": "出局动作落定后",
+      "character": "简短电子失误提示",
+      "volume": 0.65,
+      "duration": 1.1,
+      "parts": [
+        {
+          "pack": "interface-sounds",
+          "file": "error_006.ogg",
+          "start": 0.015,
+          "take": 0.482,
+          "gainDb": 0,
+          "at": 0,
+          "tempo": 1,
+          "fadeIn": 0.002,
+          "fadeOut": 0.02,
+          "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/error_006.ogg",
+          "sha256": "a97513d7fd2b12b1210c423be943b4c1ab0e899b11db95855e9b74836e646ae0",
+          "layerGainDb": -9.57
+        }
+      ],
+      "lufs": -30.01,
+      "truePeak": -10.31,
+      "channels": 1,
+      "sampleRate": 48000,
+      "gainDb": 0.03,
+      "sha256": "9dfb0de4334194290fa522f1e27a75ee5507ce8349e970d728de454da2ee159a",
+      "path": "Assets/Audio/SFX/PaperPush/PaperPush_Lose.wav"
+    }
+  ]
+}

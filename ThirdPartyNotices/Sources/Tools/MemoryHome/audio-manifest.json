@@ -1,0 +1,724 @@
+{
+  "date": "2026-09-18",
+  "targetLUFS": -30.0,
+  "sources": {
+    "door": {
+      "path": "Tools/MemoryHome/AudioSources/dragon-studio-door-opening-454242.mp3",
+      "title": "Door Opening",
+      "author": "DRAGON-STUDIO",
+      "url": "https://pixabay.com/sound-effects/door-opening-454242/",
+      "sha256": "e9a297f166050ed7f98bb93aee0215235d67483ec9e43ae86ac372aea6ea63eb"
+    },
+    "stairs": {
+      "path": "Tools/MemoryHome/AudioSources/freesound_community-walking-up-wood-stairs-in-shoes-83439.mp3",
+      "title": "walking up wood stairs in shoes",
+      "author": "Bastard Fish / freesound_community",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-walking-up-wood-stairs-in-shoes-83439/",
+      "sha256": "52cdadd39c5ffdc34cbf5fd5a3e8a60cfd2445a44675fcd8f81a708a1a5ae267"
+    },
+    "glass": {
+      "path": "Tools/MemoryHome/AudioSources/glass-454859.mp3",
+      "title": "Broken Glass Impact",
+      "author": "Universfield",
+      "url": "https://pixabay.com/sound-effects/broken-glass-impact-454859/",
+      "sha256": "4b2e30e1eb3bbddc7ae9e037f713564ad9e26dc51f998ae0e23b08c69da1dc8e"
+    },
+    "hammer": {
+      "path": "Tools/MemoryHome/AudioSources/hammer-38478.mp3",
+      "title": "Hitting nails with Hammer",
+      "author": "aidansamuel / freesound_community",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-hitting-nails-with-hammer-38478/",
+      "sha256": "656755096535efc963753ae8dc930fe32da49a69e705267c7b4acdbeb2ec6dc4"
+    },
+    "knock": {
+      "path": "Tools/MemoryHome/AudioSources/knock-175163.mp3",
+      "title": "Door Knocking",
+      "author": "SoundReality",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-door-knocking-175163/",
+      "sha256": "0d7b197140a8e61ecffb826b114e9bada6090bf4aec0125e17edb221951a96f0"
+    },
+    "sweep": {
+      "path": "Tools/MemoryHome/AudioSources/sweep-456369.mp3",
+      "title": "Sweep the glass with a broom",
+      "author": "spinopel",
+      "url": "https://pixabay.com/sound-effects/sweep-the-glass-with-a-broom-456369/",
+      "sha256": "e6b8227d4052e99be8b589ce16a1b89577000d626f0c0e23e8076a059c3a0407"
+    },
+    "wood": {
+      "path": "Tools/MemoryHome/AudioSources/wood-230892.mp3",
+      "title": "Large Wood Plank Falls Down",
+      "author": "Alex_Jauk",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-large-wood-plank-falls-down-230892/",
+      "sha256": "e2ea4b9a64925fb86d38df520ede46f8aed1e081d0bed29e857fa2f66e16978c"
+    },
+    "cloth": {
+      "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+      "title": "Cloth Grab Foley",
+      "author": "Soundque",
+      "url": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+      "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+    },
+    "drawer": {
+      "path": "Tools/MemoryHome/AudioSources/drawer-98801.mp3",
+      "title": "Drawer OPEN",
+      "author": "cMilan / freesound_community",
+      "url": "https://pixabay.com/sound-effects/drawer-open-98801/",
+      "sha256": "b3e5110ab6dabf7c25e9acabaf22ede2948fde430addd2c6c1557227935843e9"
+    },
+    "dishes": {
+      "path": "Tools/MemoryHome/AudioSources/dishes-88148.mp3",
+      "title": "Dishes",
+      "author": "Nomadyag / freesound_community",
+      "url": "https://pixabay.com/sound-effects/film-special-effects-dishes-88148/",
+      "sha256": "ae5198cae3b3d249f7662b9a5c3e60c02cef1ec368938d061bb200f72d18dd0d"
+    },
+    "lock": {
+      "path": "Assets/Audio/SFX/freesound_community-double-door-lock-101210.mp3",
+      "title": "double-door-lock",
+      "author": "freesound_community",
+      "url": "https://pixabay.com/sound-effects/double-door-lock-101210/",
+      "sha256": "84aef52f9741ded60fb498389cffc8d453310275a2272e4f8a9d17d2df4cd167"
+    },
+    "jack": {
+      "path": "Assets/Audio/SFX/freesound_community-guitar-jack-noises-raw-26374.mp3",
+      "title": "guitar jack noises raw",
+      "author": "freesound_community",
+      "url": "https://pixabay.com/sound-effects/guitar-jack-noises-raw-26374/",
+      "sha256": "67d7ddeef4c2cbb5e33e55c4baa01d55b441c2098e4249ad64e902c4f7bd8750"
+    },
+    "motor": {
+      "path": "Assets/Audio/SFX/edr-electric-fan-motor-blades-removed-13169.mp3",
+      "title": "electric fan motor blades removed",
+      "author": "edr",
+      "url": "https://pixabay.com/sound-effects/electric-fan-motor-blades-removed-13169/",
+      "sha256": "1f8b1867a624ab9c08936c0060a141ffc41f16bb44b98441c94d7f19490a935b"
+    },
+    "beep": {
+      "path": "Assets/Audio/SFX/eaglaxle-electronic-beep-1-453381.mp3",
+      "title": "electronic beep 1",
+      "author": "eaglaxle",
+      "url": "https://pixabay.com/sound-effects/electronic-beep-1-453381/",
+      "sha256": "7b076d3245a7d3de15bafee5b9dc74ef3fba4d3aa6b0b3b515f8ff2bc7002f16"
+    },
+    "paper": {
+      "path": "Assets/Audio/SFX/Paper_Game_01_Switch.wav",
+      "title": "Paper_Game_01_Switch",
+      "author": "项目已有资源",
+      "url": "",
+      "sha256": "e6d37a597f389045026d237c24639a17b16e77962dbc7ce613472e3c1fdf304d"
+    }
+  },
+  "clips": [
+    {
+      "cue": "door",
+      "file": "MemoryHome_DoorOpen.wav",
+      "label": "开门",
+      "duration": 1.35,
+      "usage": "进家门、进入工作室和卧室",
+      "layers": [
+        {
+          "source": "door",
+          "start": 0,
+          "take": 1.65,
+          "at": 0,
+          "gain": 0,
+          "filters": "atempo=1.25"
+        }
+      ],
+      "lufs": -30.01,
+      "truePeak": -13.0,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -13.93,
+      "sha256": "640b658eb0762c863227e97137a4b026b27b418160cb4a8dd0c917c7e0e1b5d6"
+    },
+    {
+      "cue": "stairs_up",
+      "file": "MemoryHome_StairsUp.wav",
+      "label": "上楼",
+      "duration": 1.45,
+      "usage": "楼下走廊上楼；两步",
+      "layers": [
+        {
+          "source": "stairs",
+          "start": 1.93,
+          "take": 1.45,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.04,
+      "truePeak": -11.21,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 7.17,
+      "sha256": "65717eb2c5245c7076d7819c573109ad786452c39b0af14fa7b260fcdb67a301"
+    },
+    {
+      "cue": "stairs_down",
+      "file": "MemoryHome_StairsDown.wav",
+      "label": "下楼",
+      "duration": 1.45,
+      "usage": "楼上走廊下楼；同源脚步另一段，略降音调",
+      "layers": [
+        {
+          "source": "stairs",
+          "start": 5.73,
+          "take": 1.38,
+          "at": 0,
+          "gain": 0,
+          "filters": "asetrate=45600,aresample=48000"
+        }
+      ],
+      "lufs": -30.03,
+      "truePeak": -9.17,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 12.26,
+      "sha256": "3f66d03a7cdf5e2a0f37007fed4c28d8f1e0d1959f5afa2b30e8b332cf8e729f"
+    },
+    {
+      "cue": "walk",
+      "file": "MemoryHome_Walk.wav",
+      "label": "房间移动",
+      "duration": 1.15,
+      "usage": "厨房、客厅、女儿门前及房间返回走廊",
+      "layers": [
+        {
+          "source": "stairs",
+          "start": 3.35,
+          "take": 1.15,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.03,
+      "truePeak": -8.82,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 8.83,
+      "sha256": "1fc0c5f44d6acdf1af8e91eb6530646a54199615e23c08e7b9078c66c17d7144"
+    },
+    {
+      "cue": "door_locked",
+      "file": "MemoryHome_DoorLocked.wav",
+      "label": "门把手未打开",
+      "duration": 1.05,
+      "usage": "备用，未触发：此处只有文本反馈，无物件或场景变化",
+      "layers": [
+        {
+          "source": "lock",
+          "start": 0,
+          "take": null,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "lock",
+          "start": 0,
+          "take": 0.32,
+          "at": 0.38,
+          "gain": -4,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.03,
+      "truePeak": -11.67,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 1.59,
+      "sha256": "daed02305ffd6763bcc024166f9974b76c81660b2b057664fe0ed67f3a995e9a",
+      "enabled": false
+    },
+    {
+      "cue": "drawer",
+      "file": "MemoryHome_Drawer.wav",
+      "label": "拉动抽屉",
+      "duration": 1.2,
+      "usage": "进入走廊抽屉特写",
+      "layers": [
+        {
+          "source": "drawer",
+          "start": 0,
+          "take": null,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -12.71,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -3.03,
+      "sha256": "f4124cbd9ae9ada0e9846ff028aedce1839627aa5d9d7a114a8c0bf5b99a2540"
+    },
+    {
+      "cue": "paper",
+      "file": "MemoryHome_Paper.wav",
+      "label": "翻动信件",
+      "duration": 1.1,
+      "usage": "备用，未触发：此处只有文本反馈，无物件或场景变化",
+      "layers": [
+        {
+          "source": "paper",
+          "start": 0,
+          "take": null,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "paper",
+          "start": 0,
+          "take": null,
+          "at": 0.43,
+          "gain": -3,
+          "filters": "atempo=.9"
+        }
+      ],
+      "lufs": -29.98,
+      "truePeak": -8.3,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -4.32,
+      "sha256": "7527dbf0626965e65c1239948509727cbc0e789b6a9d73ea5640d6e5e762e0aa",
+      "enabled": false
+    },
+    {
+      "cue": "wood",
+      "file": "MemoryHome_Wood.wav",
+      "label": "木板碰放",
+      "duration": 1.15,
+      "usage": "拿木板、放木板、扶正木相框",
+      "layers": [
+        {
+          "source": "wood",
+          "start": 0.13,
+          "take": 1.0,
+          "at": 0,
+          "gain": 0,
+          "filters": "highpass=f=65"
+        }
+      ],
+      "lufs": -29.96,
+      "truePeak": -11.09,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -13.77,
+      "sha256": "8dd082939afea8363005c266d315399d2cb4dbbe120450f2733751713811f4b1"
+    },
+    {
+      "cue": "cloth",
+      "file": "MemoryHome_Cloth.wav",
+      "label": "布料整理",
+      "duration": 1.15,
+      "usage": "拿抹布、摆正靠垫",
+      "layers": [
+        {
+          "source": "cloth",
+          "start": 2.77,
+          "take": 1.15,
+          "at": 0,
+          "gain": 0,
+          "filters": "highpass=f=100"
+        }
+      ],
+      "lufs": -29.98,
+      "truePeak": -12.52,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 13.16,
+      "sha256": "dd017282c0b784546dfd6d58fd9a22b850b28ebb6e4b678d27eda95f4d51d7a2"
+    },
+    {
+      "cue": "pickup",
+      "file": "MemoryHome_Pickup.wav",
+      "label": "拿起扫帚",
+      "duration": 1.1,
+      "usage": "拿扫帚：握取布料声叠轻木声",
+      "layers": [
+        {
+          "source": "cloth",
+          "start": 0.9,
+          "take": 0.75,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "wood",
+          "start": 0.13,
+          "take": 0.65,
+          "at": 0.16,
+          "gain": -9,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.03,
+      "truePeak": -11.15,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -4.12,
+      "sha256": "106752412a06a0210f94e2a06579eb9b7a1e74c65833ba5ea38c09fe45b5cf78"
+    },
+    {
+      "cue": "metal_pickup",
+      "file": "MemoryHome_MetalPickup.wav",
+      "label": "拿起小工具",
+      "duration": 1.05,
+      "usage": "拿锤子、钉子、保险丝",
+      "layers": [
+        {
+          "source": "lock",
+          "start": 0,
+          "take": null,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "jack",
+          "start": 0.54,
+          "take": 0.22,
+          "at": 0.48,
+          "gain": -6,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.04,
+      "truePeak": -11.43,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 0.64,
+      "sha256": "b0101c87db1b0e2f96edf63068edc83f8f95fe514098f0ff5fb81f6d774cdf6f"
+    },
+    {
+      "cue": "toolbox",
+      "file": "MemoryHome_Toolbox.wav",
+      "label": "打开工具箱",
+      "duration": 1.25,
+      "usage": "解锁工具箱特写后打开",
+      "layers": [
+        {
+          "source": "drawer",
+          "start": 0,
+          "take": 1.15,
+          "at": 0,
+          "gain": -5,
+          "filters": ""
+        },
+        {
+          "source": "lock",
+          "start": 0,
+          "take": null,
+          "at": 0.08,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.99,
+      "truePeak": -13.7,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -0.53,
+      "sha256": "de6822412063e7268b09cf35257376569f778e25d8abcb48f61e0dfb4f7a066c"
+    },
+    {
+      "cue": "robot_place",
+      "file": "MemoryHome_RobotPlace.wav",
+      "label": "放下机器人",
+      "duration": 1.05,
+      "usage": "工作台首次放置；主要落放声在前半秒",
+      "layers": [
+        {
+          "source": "wood",
+          "start": 0.13,
+          "take": 0.48,
+          "at": 0,
+          "gain": 0,
+          "filters": "lowpass=f=3500,atempo=1.1"
+        },
+        {
+          "source": "lock",
+          "start": 0,
+          "take": null,
+          "at": 0.08,
+          "gain": -9,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -11.04,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -10.5,
+      "sha256": "26a4499eda4b0c95e243ae47e25242392c29baed9b8b18a8ea247fbb8aed366a"
+    },
+    {
+      "cue": "nail_place",
+      "file": "MemoryHome_NailPlace.wav",
+      "label": "放置钉子",
+      "duration": 1.05,
+      "usage": "六处钉子各自第一次点击",
+      "layers": [
+        {
+          "source": "lock",
+          "start": 0.05,
+          "take": 0.28,
+          "at": 0,
+          "gain": 0,
+          "filters": "highpass=f=500"
+        },
+        {
+          "source": "lock",
+          "start": 0.15,
+          "take": 0.22,
+          "at": 0.32,
+          "gain": -5,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -11.5,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 2.9,
+      "sha256": "493b89316bc39c08005c52a75fae0c82c1cb26367ea1f230a7c0fddb0cb00c26"
+    },
+    {
+      "cue": "hammer",
+      "file": "MemoryHome_Hammer.wav",
+      "label": "锤钉子",
+      "duration": 1.25,
+      "usage": "六处钉子各自第二次点击；两下锤击",
+      "layers": [
+        {
+          "source": "hammer",
+          "start": 0.12,
+          "take": 1.25,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.98,
+      "truePeak": -10.47,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -9.78,
+      "sha256": "b5967d438f0c7ce0ed6158c6a1731aa3db55b95ddac5124bcde604bcfa62ec31"
+    },
+    {
+      "cue": "glass",
+      "file": "MemoryHome_GlassBreak.wav",
+      "label": "楼下碎玻璃",
+      "duration": 1.6,
+      "usage": "放下机器人后原有剧情事件",
+      "layers": [
+        {
+          "source": "glass",
+          "start": 0,
+          "take": 1.6,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.98,
+      "truePeak": -21.92,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -22.22,
+      "sha256": "ee80e906da73f0bec3d9f1c7e5bfb94bea7a4d8d203fe035cce0b39cffef3c5a"
+    },
+    {
+      "cue": "sweep",
+      "file": "MemoryHome_Sweep.wav",
+      "label": "扫掉玻璃",
+      "duration": 1.5,
+      "usage": "满足木板加固和扫帚条件后清理",
+      "layers": [
+        {
+          "source": "sweep",
+          "start": 0.43,
+          "take": 1.5,
+          "at": 0,
+          "gain": 0,
+          "filters": "highpass=f=100"
+        }
+      ],
+      "lufs": -29.97,
+      "truePeak": -12.55,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -6.07,
+      "sha256": "65e56df222e5e759d38ab98ac1e3b32f15cccee2df22d6ed9ecbe971591de90e"
+    },
+    {
+      "cue": "dishes",
+      "file": "MemoryHome_Dishes.wav",
+      "label": "收拾碗碟",
+      "duration": 1.35,
+      "usage": "持有抹布后收拾水槽",
+      "layers": [
+        {
+          "source": "dishes",
+          "start": 0,
+          "take": 1.35,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.0,
+      "truePeak": -14.11,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -12.97,
+      "sha256": "589c70fa5ee1418bbf12e194dd1645327c55cc0f1d2c4227943dbb24cae42bab"
+    },
+    {
+      "cue": "power_off",
+      "file": "MemoryHome_PowerOff.wav",
+      "label": "断开电源",
+      "duration": 1.05,
+      "usage": "机器人接口断电",
+      "layers": [
+        {
+          "source": "jack",
+          "start": 0.02,
+          "take": 0.5,
+          "at": 0,
+          "gain": 0,
+          "filters": "lowpass=f=5000"
+        }
+      ],
+      "lufs": -30.02,
+      "truePeak": -17.5,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -12.48,
+      "sha256": "bae8c47cfe3c5680109ad6ad46051791d0123e5c94cedef320fa53a08c12cc18"
+    },
+    {
+      "cue": "connect",
+      "file": "MemoryHome_Connect.wav",
+      "label": "接好电线",
+      "duration": 1.05,
+      "usage": "正确接口配对成功",
+      "layers": [
+        {
+          "source": "jack",
+          "start": 0.29,
+          "take": 0.48,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "lock",
+          "start": 0.1,
+          "take": 0.15,
+          "at": 0.4,
+          "gain": -7,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.95,
+      "truePeak": -13.1,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -5.77,
+      "sha256": "5468848bbdaa1ac2923b761bb864a10ca1c3aeb297804fff4f988d32a53e1188"
+    },
+    {
+      "cue": "fuse",
+      "file": "MemoryHome_Fuse.wav",
+      "label": "更换保险丝",
+      "duration": 1.1,
+      "usage": "断电后放入保险丝",
+      "layers": [
+        {
+          "source": "lock",
+          "start": 0,
+          "take": 0.4,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        },
+        {
+          "source": "jack",
+          "start": 0.54,
+          "take": 0.22,
+          "at": 0.45,
+          "gain": -4,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.99,
+      "truePeak": -11.39,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": 0.39,
+      "sha256": "ed1e6c7f8e9a171660297811797777aee19666e7bee3a30d7ae4d4d98d07b15e"
+    },
+    {
+      "cue": "power_on",
+      "file": "MemoryHome_PowerOn.wav",
+      "label": "通电测试成功",
+      "duration": 1.25,
+      "usage": "接线及保险丝就绪后通电",
+      "layers": [
+        {
+          "source": "motor",
+          "start": 0,
+          "take": 0.9,
+          "at": 0,
+          "gain": -4,
+          "filters": ""
+        },
+        {
+          "source": "beep",
+          "start": 0,
+          "take": null,
+          "at": 0.65,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -29.99,
+      "truePeak": -10.61,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -2.51,
+      "sha256": "f49dd46c2f1f9d51b6cecb28f7698c47dfbb0c8bcffbbfaec4acb36a89d9cef8"
+    },
+    {
+      "cue": "knock",
+      "file": "MemoryHome_Knock.wav",
+      "label": "门外敲门",
+      "duration": 1.4,
+      "usage": "修好机器人后的原有剧情事件",
+      "layers": [
+        {
+          "source": "knock",
+          "start": 0,
+          "take": 1.4,
+          "at": 0,
+          "gain": 0,
+          "filters": ""
+        }
+      ],
+      "lufs": -30.02,
+      "truePeak": -16.49,
+      "channels": 2,
+      "rate": 48000,
+      "gainDB": -16.53,
+      "sha256": "599f186ac4d51448356cb5e53c7c2ace5bb774b7b9aa33eee2d510e73004ade9"
+    }
+  ]
+}

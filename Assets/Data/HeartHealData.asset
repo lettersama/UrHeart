@@ -1,0 +1,837 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913f678c809912543a5767c7ed1b085d, type: 3}
+  m_Name: HeartHealData
+  m_EditorClassIdentifier: Assembly-CSharp::HeartHealData_SO
+  hitWindowSeconds: 0.09
+  successState: 80
+  reinforcedBreakShader: {fileID: 4800000, guid: 6ec6719bad834ec3b68b7efb5ceec278, type: 3}
+  puzzles:
+  - heartIndex: 1
+    musicClip: {fileID: 8300000, guid: 69edd1b404b84d8ca770265aeb71ed80, type: 3}
+    initialState: 20
+    successStateOverride: 70
+    hitHeal: 1.5
+    missDamage: 1
+    approachDuration: 2
+    exitDuration: 0.35
+    chartDuration: 0
+    hardStopTime: 0
+    musicFadeOutStartTime: 0
+    musicStopTime: 0
+    holdTickHeal: 0.25
+    reinforcedHitHealMultiplier: 2
+    beatSequence:
+    - hitTime: 3
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 3.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 3.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 3.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 4.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 5.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 6.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 6.375
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 1
+      holdDuration: 1.625
+      holdFeedbackInterval: 0.1
+    - hitTime: 8.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 8.625
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 9.375
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 9.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 9.625
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 10.5
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 11.25
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 11.625
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 14
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 14.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 14.625
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 14.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 14.875
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 15
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 15.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 16.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 16.875
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 17.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 18
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 18.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 19.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 21
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 21.375
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 1
+      holdDuration: 1.625
+      holdFeedbackInterval: 0.1
+    - hitTime: 24.125
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 25.375
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 26.625
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 28
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 28.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 30
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 34.0179
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 2
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+      reinforcedSpeedMultiplier: 0.7
+      reinforcedOuterScale: 1.4
+      reinforcedSecondHitWindow: 0.35
+    - hitTime: 36
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 37
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 37.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 38
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 1
+      holdDuration: 1.5
+      holdFeedbackInterval: 0.1
+    - hitTime: 39.7679
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 2
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+      reinforcedSpeedMultiplier: 0.7
+      reinforcedOuterScale: 1.4
+      reinforcedSecondHitWindow: 0.35
+    - hitTime: 41.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 1
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+    - hitTime: 42.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+      beatType: 0
+      holdDuration: 1
+      holdFeedbackInterval: 0.1
+  - heartIndex: 2
+    musicClip: {fileID: 0}
+    initialState: 20
+    successStateOverride: 0
+    hitHeal: 6
+    missDamage: 3
+    approachDuration: 2
+    exitDuration: 0.35
+    chartDuration: 0
+    hardStopTime: 0
+    musicFadeOutStartTime: 0
+    musicStopTime: 0
+    holdTickHeal: 1
+    reinforcedHitHealMultiplier: 2
+    beatSequence:
+    - hitTime: 2
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 2.75
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 3.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 4.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 5.15
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 5.9
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 6.65
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 7.4
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 8.3
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 9.05
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 9.8
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 10.55
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 11.45
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 12.2
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 12.95
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 13.7
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 14.6
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 15.35
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+  - heartIndex: 3
+    musicClip: {fileID: 0}
+    initialState: 0
+    successStateOverride: 0
+    hitHeal: 7
+    missDamage: 4
+    approachDuration: 2
+    exitDuration: 0.35
+    chartDuration: 0
+    hardStopTime: 0
+    musicFadeOutStartTime: 0
+    musicStopTime: 0
+    holdTickHeal: 1
+    reinforcedHitHealMultiplier: 2
+    beatSequence:
+    - hitTime: 2
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 2.7
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 3.4
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 4.1
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 4.8
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 5.65
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 6.35
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 7.05
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 7.75
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 8.45
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 9.3
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 10
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 10.7
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 11.4
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 12.1
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 12.95
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 13.65
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 14.35
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 15.05
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 15.75
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+  - heartIndex: 4
+    musicClip: {fileID: 0}
+    initialState: 20
+    successStateOverride: 0
+    hitHeal: 6
+    missDamage: 3
+    approachDuration: 2
+    exitDuration: 0.35
+    chartDuration: 0
+    hardStopTime: 0
+    musicFadeOutStartTime: 0
+    musicStopTime: 0
+    holdTickHeal: 1
+    reinforcedHitHealMultiplier: 2
+    beatSequence:
+    - hitTime: 2
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 2.65
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 3.3
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 3.95
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 4.75
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 5.4
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 6.05
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 6.7
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 7.5
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 8.15
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 8.8
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 9.45
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 10.25
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 10.9
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 11.55
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 12.2
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 13
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 13.65
+      motionState: 1
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 14.3
+      motionState: 2
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05
+    - hitTime: 14.95
+      motionState: 0
+      specialStateLeadTime: 0.85
+      specialStateDuration: 0.35
+      fastSpeedMultiplier: 1.65
+      hiddenAlpha: 0.05

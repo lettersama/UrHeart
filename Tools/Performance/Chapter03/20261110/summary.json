@@ -1,0 +1,35 @@
+{
+  "scope": "Unity Editor, Chapter 3 opening study, ordinary pointer-click walking, CPU Profiler enabled, Deep Profile off, vSync 0, targetFrameRate -1. Steady-state captures use the final 180 recorded frames; Editor overhead is included in main-thread timings. Not a standalone-player benchmark.",
+  "before": {
+    "sampledFrames": 180,
+    "editorMainThreadMs": 13.725437766666667,
+    "editorP95Ms": 17.3024,
+    "homeMeanMs": 4.502398876349131
+  },
+  "after": {
+    "sampledFrames": 180,
+    "editorMainThreadMs": 7.494897215388889,
+    "editorP95Ms": 8.5227,
+    "homeMeanMs": 0.7416272203127543
+  },
+  "changes": [
+    "Cache inferred object tile width; refresh when glyph text changes, preserve explicit widths and Unicode text elements.",
+    "Reuse nonserialized validation HashSets for interaction receipts and collected music, remove per-read predicate allocation, retain normalization on every call."
+  ],
+  "validation": {
+    "authoredObjectWidths": 70,
+    "ordinaryShelfClick": "4 steps -> adjacent tile (5,3), saved tile matches, interaction.study.shelf queued",
+    "normalization": "duplicate/blank IDs, completion receipts, consumed pending message, same-instance mutations and JSON roundtrip passed",
+    "messageQueueRegression": "PASS: 135 countdown checks",
+    "messageQueueResults": "Tools/MessageCountdown/Validation/20261110-032144-3062a4",
+    "unityConsoleErrors": 0,
+    "originalSaveAndBackupHashes": "unchanged after cleanup",
+    "cleanup": "Play Mode stopped; prior Profiler recording settings and audio volume restored",
+    "diffCheck": "passed"
+  },
+  "homeAllocationBytesPerFrame": {
+    "before": 972732,
+    "after": 1968,
+    "measurement": "GC.Alloc sample metadata attributed to OSHomeView.LateUpdate, warmed steady-state captures"
+  }
+}

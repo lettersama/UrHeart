@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "authoringDate": "2026-10-15",
+  "scope": "One additional Chapter 2 heart-talk memory warning; separate from the existing 45-cue inventory",
+  "format": "Mono PCM16 WAV, 48000 Hz",
+  "buildScript": "Tools/Chapter02Music/build_alert_audio.py",
+  "sharedRenderHelper": "Tools/Chapter02Audio/build_minigame_audio.py",
+  "processing": "Original electronic pulses plus filtered Kenney CC0 switch contacts; static loudness gain, no compressor/limiter",
+  "verification": "Integrated loudness, true/sample peak, RMS, clipping, output/source hashes. Not an auditory review or Play Mode test.",
+  "cues": [
+    {
+      "cue": "Chapter02_MemoryAlert",
+      "label": "回忆区警告双脉冲",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_MemoryAlert.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 2.12,
+      "layers": [
+        {
+          "kind": "original_procedural",
+          "source": {
+            "path": "Tools/Chapter02Music/build_alert_audio.py",
+            "author": "MrTGame production",
+            "title": "Soft descending electronic warning pulse",
+            "sourceUrl": null,
+            "license": "Original project-generated audio",
+            "licenseUrl": null,
+            "sha256": "681cfb573dc0bc805b0f95cfd00085561a4d06560349fead21b775322e1684fa"
+          },
+          "atSeconds": 0,
+          "parameters": {
+            "durationSeconds": 0.25,
+            "frequencyStartHz": 784,
+            "frequencyEndHz": 768,
+            "secondHarmonicGain": 0.12,
+            "lowerOctaveGain": 0.14,
+            "fadeInSeconds": 0.014,
+            "fadeOutSeconds": 0.1
+          },
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": -24.5222
+        },
+        {
+          "kind": "original_procedural",
+          "source": {
+            "path": "Tools/Chapter02Music/build_alert_audio.py",
+            "author": "MrTGame production",
+            "title": "Soft descending electronic warning pulse",
+            "sourceUrl": null,
+            "license": "Original project-generated audio",
+            "licenseUrl": null,
+            "sha256": "681cfb573dc0bc805b0f95cfd00085561a4d06560349fead21b775322e1684fa"
+          },
+          "atSeconds": 0.34,
+          "parameters": {
+            "durationSeconds": 0.31,
+            "frequencyStartHz": 660,
+            "frequencyEndHz": 644,
+            "secondHarmonicGain": 0.12,
+            "lowerOctaveGain": 0.14,
+            "fadeInSeconds": 0.014,
+            "fadeOutSeconds": 0.1
+          },
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -25.518
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/switch_002.ogg",
+            "author": "Kenney",
+            "title": "switch_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/interface-sounds/License.txt",
+            "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.06,
+          "playbackRate": 1.0,
+          "highpassHz": 500,
+          "lowpassHz": 2800,
+          "fadeInSeconds": 0.004,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -47,
+          "staticLayerGainDb": -30.228
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/switch_002.ogg",
+            "author": "Kenney",
+            "title": "switch_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/interface-sounds/License.txt",
+            "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+          },
+          "atSeconds": 0.34,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.06,
+          "playbackRate": 1.0,
+          "highpassHz": 500,
+          "lowpassHz": 2800,
+          "fadeInSeconds": 0.004,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -47,
+          "staticLayerGainDb": -30.228
+        }
+      ],
+      "measurements": {
+        "lufs": -29.99,
+        "truePeakDbtp": -20.73,
+        "durationSeconds": 0.76,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -20.738,
+        "rmsDbfs": -29.712,
+        "dcOffset": 3.8899873432360197e-07,
+        "clippedSampleCount": 0
+      },
+      "sha256": "14f5518b91ffafb2464d361bc3fabf9d95d74d32b5b726aa5d18eea8b5ee586d",
+      "authoringNotes": "Two soft descending pulses at 0 and .34 seconds, with restrained lower support and quiet CC0 switch contacts. Plays once at the real warning-band reveal (.35 s after TriggerQuake), never during RestorePresentation. Loading has no additional SFX."
+    }
+  ]
+}

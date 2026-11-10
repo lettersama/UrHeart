@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34823ddc9edd77449b7ecdf86a652939, type: 3}
+  m_Name: Chapter01Home
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicScenarioData
+  scenarioId: chapter01_home
+  entryMemoryIndex: 2680
+  firstSceneId: entrance
+  firstMemoryIndex: 2700
+  scenes:
+  - {fileID: 11400000, guid: 486801ae4e6def449955e8a59217f233, type: 2}
+  - {fileID: 11400000, guid: 1c0f84acef9449e4b9f8bd53dbc06d53, type: 2}
+  - {fileID: 11400000, guid: 54df388142567954981e75a5ffa27216, type: 2}
+  - {fileID: 11400000, guid: 958a7a87c5424f74bb3a6042eb481c77, type: 2}
+  - {fileID: 11400000, guid: ab4990de142fad641802b840b9d76fdf, type: 2}
+  - {fileID: 11400000, guid: 81904bc3022a09d4ab228b7e8f55fc28, type: 2}
+  - {fileID: 11400000, guid: 05dbb496e16e721469bda7d1fd14db49, type: 2}
+  - {fileID: 11400000, guid: ca6390bca9d54b148af52477976903fd, type: 2}
+  - {fileID: 11400000, guid: 1da0c83e37137584b9b60fe03e252b3d, type: 2}
+  - {fileID: 11400000, guid: ae535b37c80d2ca4f95caee303fcb880, type: 2}
+  - {fileID: 11400000, guid: 14af48f29a08daf49beb7b85a267dd30, type: 2}
+  - {fileID: 11400000, guid: 5d510027c25e22247ae93f2d7998438a, type: 2}
+  - {fileID: 11400000, guid: 8eedb4c428f3fb64e9970b8cc783ee8f, type: 2}
+  - {fileID: 11400000, guid: fb93ecca6280adb488a10f917842a6fb, type: 2}
+  items:
+  - itemId: robot
+    labelKey: os.memory.pic.item.robot
+    memoryIndex: 3550
+    icon: {fileID: 21300000, guid: cdd846d12ad51a84da7c0cee20e5438b, type: 3}
+  - itemId: wood
+    labelKey: os.memory.pic.item.wood
+    memoryIndex: 3560
+    icon: {fileID: 21300000, guid: 9806c15fa2d8e174d99148f1b966148f, type: 3}
+  - itemId: hammer
+    labelKey: os.memory.pic.item.hammer
+    memoryIndex: 3570
+    icon: {fileID: 21300000, guid: 914aa8b4d2db15e49b6a89957abe02ef, type: 3}
+  - itemId: nails
+    labelKey: os.memory.pic.item.nails
+    memoryIndex: 3580
+    icon: {fileID: 21300000, guid: d44b1b5fbee1be74db517bdf00023b8f, type: 3}
+  - itemId: broom
+    labelKey: os.memory.pic.item.broom
+    memoryIndex: 3590
+    icon: {fileID: 21300000, guid: 4a590d2c354e9d441802c9433cd00643, type: 3}
+  - itemId: cloth
+    labelKey: os.memory.pic.item.cloth
+    memoryIndex: 3600
+    icon: {fileID: 21300000, guid: 7819c90ecc18a7c479d69febb70bbb76, type: 3}
+  - itemId: tape
+    labelKey: os.memory.pic.item.tape
+    memoryIndex: 3610
+    icon: {fileID: 21300000, guid: 636d09cc82edbae439cb025898f5ef12, type: 3}
+  - itemId: fuse
+    labelKey: os.memory.pic.item.fuse
+    memoryIndex: 3620
+    icon: {fileID: 21300000, guid: 36d8830f159cc5c4b80b0b73ab1bdd43, type: 3}
+  memoryIndices: 8c0a0000960a0000a00a0000aa0a0000b40a0000be0a0000c80a0000d20a0000dc0a0000e60a0000f00a0000fa0a0000040b00000e0b0000180b0000220b00002c0b0000360b0000400b00004a0b0000540b00005e0b0000680b0000720b00007c0b0000860b0000900b00009a0b0000a40b0000ae0b0000b80b0000c20b0000cc0b0000d60b0000e00b0000ea0b0000f40b0000fe0b0000080c0000120c00001c0c0000260c0000300c00003a0c0000440c00004e0c0000580c0000620c00006c0c0000760c0000800c00008a0c0000940c00009e0c0000a80c0000b20c0000bc0c0000c60c0000d00c0000da0c0000e40c0000ee0c0000f80c0000020d00000c0d0000160d0000200d00002a0d0000340d00003e0d0000480d0000520d00005c0d0000660d0000700d00007a0d0000840d00008e0d0000980d0000a20d0000ac0d0000b60d0000c00d0000ca0d0000d40d0000de0d0000e80d0000f20d0000fc0d0000060e0000100e00001a0e0000240e00002e0e0000380e0000420e00004c0e0000560e0000600e00006a0e0000740e00007e0e0000880e0000920e00009c0e0000a60e0000b00e0000ba0e0000c40e0000ce0e0000d80e0000
+  initialItems:
+  - robot
+  sounds:
+  - cueId: door
+    clip: {fileID: 8300000, guid: 5453a42e048931f4aa9a03e9101a2c9b, type: 3}
+  - cueId: glass
+    clip: {fileID: 8300000, guid: 16934f7ee58561547a6f9b20e26a640e, type: 3}
+  - cueId: hammer
+    clip: {fileID: 8300000, guid: 1b3469489d0361948aacc205dfed42c5, type: 3}
+  - cueId: connect
+    clip: {fileID: 8300000, guid: 4e85452815f2d37408c70d9c6b0ce292, type: 3}
+  - cueId: knock
+    clip: {fileID: 8300000, guid: 58961dc51dc7abc4f82b12dcae24798f, type: 3}
+  - cueId: stairs_up
+    clip: {fileID: 8300000, guid: adcec989ca140334b9aef4fc6d82acc7, type: 3}
+  - cueId: stairs_down
+    clip: {fileID: 8300000, guid: 0711424aac6b74d48a749a3a05a7832b, type: 3}
+  - cueId: walk
+    clip: {fileID: 8300000, guid: ea4729abe40497e4087cd96f0ab6a8bf, type: 3}
+  - cueId: door_locked
+    clip: {fileID: 8300000, guid: 9b35200c8bf52474db833c0692f09411, type: 3}
+  - cueId: drawer
+    clip: {fileID: 8300000, guid: 4ed3b908fad42c94ea268f7a1a299935, type: 3}
+  - cueId: paper
+    clip: {fileID: 8300000, guid: 0dd2739fec84b2146be9b04a7765054b, type: 3}
+  - cueId: wood
+    clip: {fileID: 8300000, guid: d41688d85079c9043a2b69f0fea2d7f9, type: 3}
+  - cueId: cloth
+    clip: {fileID: 8300000, guid: 774b5563c5d359c4f8a468bd445dc53d, type: 3}
+  - cueId: pickup
+    clip: {fileID: 8300000, guid: 4fc8c066c5ee9f0469c4016e648358e9, type: 3}
+  - cueId: metal_pickup
+    clip: {fileID: 8300000, guid: d695a63df6f6ccd409b3d702c9fad240, type: 3}
+  - cueId: toolbox
+    clip: {fileID: 8300000, guid: 16655043fada5a141a5cdaaa5b6ccfb5, type: 3}
+  - cueId: robot_place
+    clip: {fileID: 8300000, guid: ade5cbf43f2e947428c946f22d28db4a, type: 3}
+  - cueId: nail_place
+    clip: {fileID: 8300000, guid: 601d346d206aa9541aadf09046665d80, type: 3}
+  - cueId: sweep
+    clip: {fileID: 8300000, guid: 5bffe0f108c956e4d83d6ab2f5aa6359, type: 3}
+  - cueId: dishes
+    clip: {fileID: 8300000, guid: 77318e7570d08084b9dc864a48bac4a2, type: 3}
+  - cueId: power_off
+    clip: {fileID: 8300000, guid: fada5bbd2804f04449c8e7e0e5189c43, type: 3}
+  - cueId: fuse
+    clip: {fileID: 8300000, guid: 7405af3f6714d444e8439ec0a73eaaaf, type: 3}
+  - cueId: power_on
+    clip: {fileID: 8300000, guid: 5b92627f6d009844c9a56aada9e8cd1a, type: 3}
+  wrongSocketMemoryIndex: 3420
+  selectWireMemoryIndex: 3400
+  connectedWireMemoryIndex: 3430
+  alreadyConnectedMemoryIndex: 3440
+  powerRequiredMemoryIndex: 3390
+  cableRequiredMemoryIndex: 3410
+  knockMemoryIndex: 3530
+  glassMemoryIndex: 2950

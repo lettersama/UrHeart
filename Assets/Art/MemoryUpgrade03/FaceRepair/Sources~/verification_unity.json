@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pngCount": 398,
+  "loadedSprites": 398,
+  "canvasWidth": 216,
+  "canvasHeight": 162,
+  "importSettings": "Sprite/Single, Point, Uncompressed, No mipmap, NPOT None, PPU 20",
+  "failures": []
+}

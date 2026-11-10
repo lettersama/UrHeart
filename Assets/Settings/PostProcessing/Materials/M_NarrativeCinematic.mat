@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_NarrativeCinematic
+  m_Shader: {fileID: 4800000, guid: f0073994d442495468f4a56ff321ddf4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BlackLift: 0.008
+    - _Contrast: 1.08
+    - _CurveStrength: 0.2
+    - _DitherStrength: 0.4
+    - _EffectEnabled: 1
+    - _Exposure: -0.04
+    - _Fade: 0
+    - _GrainFPS: 8
+    - _GrainIntensity: 0.004
+    - _GrainResponse: 0.75
+    - _GrainSize: 2
+    - _HighlightRolloff: 0.25
+    - _HighlightTintStrength: 0.08
+    - _Intensity: 1
+    - _Letterbox: 0
+    - _LetterboxSoftness: 0.001
+    - _PeripheralDesaturation: 0.08
+    - _Saturation: 0.88
+    - _ShadowDesaturation: 0.08
+    - _ShadowTintStrength: 0.12
+    - _VignetteInner: 0.62
+    - _VignetteIntensity: 0.2
+    - _VignetteOuter: 1.42
+    - _VignetteRoundness: 0.32
+    m_Colors:
+    - _FadeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FocusCenter: {r: 0.5, g: 0.46, b: 0, a: 0}
+    - _HighlightTint: {r: 1, g: 0.82, b: 0.58, a: 1}
+    - _LetterboxColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowTint: {r: 0.72, g: 0.8399999, b: 1, a: 1}
+    - _VignetteColor: {r: 0.006, g: 0.009, b: 0.014, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

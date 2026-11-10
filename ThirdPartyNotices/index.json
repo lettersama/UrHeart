@@ -1,0 +1,165 @@
+{
+  "purpose": "Existing third-party source records retained during project cleanup; this is not a completed redistribution license audit.",
+  "created": "2026-11-04",
+  "sources": [
+    {
+      "originalPath": "Docs/Chapter04CreditsSources.md",
+      "preservedPath": "Sources/Docs/Chapter04CreditsSources.md",
+      "sha256": "2D7AA8E094EFB59A65A8974DA70CB02AEEF9AABB4B38DC15A3D385B589690A37"
+    },
+    {
+      "originalPath": "Tools/Gramophone/audio-notes.md",
+      "preservedPath": "Sources/Tools/Gramophone/audio-notes.md",
+      "sha256": "E14EA897C8CD68D1060F02C88D204B5078BCE57F3233C50743027A403BE078F0"
+    },
+    {
+      "originalPath": "Tools/Chapter02Music/memory-music-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Music/memory-music-manifest.json",
+      "sha256": "BEC8D47AD659967FF6600C38180F1126B548D055A6B18660F0C571A6B713610C"
+    },
+    {
+      "originalPath": "Tools/Chapter02Music/music-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Music/music-manifest.json",
+      "sha256": "F11759B101D8DDFE3D173ADF2AFC0A2E4403CF9D50E70B721E7621FCF4A3A2DD"
+    },
+    {
+      "originalPath": "Tools/PaperPush/MusicSources/source.json",
+      "preservedPath": "Sources/Tools/PaperPush/MusicSources/source.json",
+      "sha256": "5F930CF66EB941DBECC6D3B87842EBCBA71536A83E6A7BBECD95A995E45ADDD8"
+    },
+    {
+      "originalPath": "Tools/PaperPush/MusicSources/README.md",
+      "preservedPath": "Sources/Tools/PaperPush/MusicSources/README.md",
+      "sha256": "0723E19ED62C1957677428EB6A201D42544BB6076972A54D61EA4AE27ED9DCEF"
+    },
+    {
+      "originalPath": "Tools/PaperPush/StageAudioSources/sources.json",
+      "preservedPath": "Sources/Tools/PaperPush/StageAudioSources/sources.json",
+      "sha256": "AE59B4CCAE542A516AD14824176A663D90A659AC56EB90E5C7ADD9AD5C6AB5DC"
+    },
+    {
+      "originalPath": "Tools/PaperPush/StageAudioSources/mix.json",
+      "preservedPath": "Sources/Tools/PaperPush/StageAudioSources/mix.json",
+      "sha256": "6717B1464A04C6428BC8BAC527F32D0183CE38755D73223DBD5AA4D39E01121B"
+    },
+    {
+      "originalPath": "Tools/Chapter03Audio/source-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter03Audio/source-manifest.json",
+      "sha256": "B99D5542902E45D5074D9249BAA2932BB2EC03CFEAA62968AD35BFEFD5F26189"
+    },
+    {
+      "originalPath": "Tools/Chapter03Audio/production-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter03Audio/production-manifest.json",
+      "sha256": "FB86966D1784D10ADD395C765809554C3E17E772C19EFDD649F326C59BE01AF3"
+    },
+    {
+      "originalPath": "Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/LICENSE.txt",
+      "preservedPath": "Sources/Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/LICENSE.txt",
+      "sha256": "A2010F343487D3F7618AFFE54F789F5487602331C0A8D03F49E9A7C547CF0499"
+    },
+    {
+      "originalPath": "Tools/PaperPush/AudioSources/interface-sounds/License.txt",
+      "preservedPath": "Sources/Tools/PaperPush/AudioSources/interface-sounds/License.txt",
+      "sha256": "F7966C773BBED0ECA6A9C75081C44A178B38EAE112724DBB5FDFBD4192D118A9"
+    },
+    {
+      "originalPath": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+      "preservedPath": "Sources/Tools/PaperPush/AudioSources/casino-audio/License.txt",
+      "sha256": "3D9C53ACB6E236D760DA14030F54BC53E1D8C2599F78470C36B96FDDCDE09221"
+    },
+    {
+      "originalPath": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+      "preservedPath": "Sources/Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+      "sha256": "B49AA9C56B04528B95913DE13E506A0F7C5E807B9925DB9BFEF86AF1F91120DB"
+    },
+    {
+      "originalPath": "Tools/Chapter02Music/Sources/OGA_MusicBoxTracks_AureolusOmicron.page.html",
+      "preservedPath": "Sources/Tools/Chapter02Music/Sources/OGA_MusicBoxTracks_AureolusOmicron.page.html",
+      "sha256": "251652BF286DD2A27F7AFBCA295AB2A707A25204C076D2AE27E0641B388D1225"
+    },
+    {
+      "originalPath": "Tools/Chapter02Audio/minigame-audio-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Audio/minigame-audio-manifest.json",
+      "sha256": "2C4B4D1CA2CACAC94865B9145EA308B4C93559C9A323EEFEBFB1CF1F95C19461"
+    },
+    {
+      "originalPath": "Tools/Chapter02Audio/foley-audio-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Audio/foley-audio-manifest.json",
+      "sha256": "53BC5CA73B39786DB122E0E2F0A07F80712A70EBCB942D35F0EE787BE5CEA348"
+    },
+    {
+      "originalPath": "Tools/Chapter02Audio/environment-audio-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Audio/environment-audio-manifest.json",
+      "sha256": "4DA9C8DD33502CF0462999A9AF7D965E2DF57DD5A21EC000B004477ADAC8EFFA"
+    },
+    {
+      "originalPath": "Tools/Chapter02Audio/detail-audio-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Audio/detail-audio-manifest.json",
+      "sha256": "BBD58901A0C99A8DA0EB73D2E73BD0DF6D524A73B366D90642E4C1B30EE23371"
+    },
+    {
+      "originalPath": "Tools/Chapter02Music/ambient-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Music/ambient-manifest.json",
+      "sha256": "A1D45A7FA04274596C961156E95FAC67B19722C74FA03CCFDBB648BF682CE95B"
+    },
+    {
+      "originalPath": "Tools/Chapter02Music/alert-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter02Music/alert-manifest.json",
+      "sha256": "4348DA0406650C8000FBCD00EDD52A6E5266C9309676EBF1ED29A3BF12746C91"
+    },
+    {
+      "originalPath": "Tools/PaperPush/audio-manifest.json",
+      "preservedPath": "Sources/Tools/PaperPush/audio-manifest.json",
+      "sha256": "29582F9DC2DEE4397493347158B966E9470D1DA7B2893C22A6B77903027E17AA"
+    },
+    {
+      "originalPath": "Tools/MemoryHome/audio-manifest.json",
+      "preservedPath": "Sources/Tools/MemoryHome/audio-manifest.json",
+      "sha256": "4F2A3A3177A443817421E2C3DCAAA507F53B4401BB42C1B21B5E8D9EF51867F8"
+    },
+    {
+      "originalPath": "Tools/Chapter03Audio/acquired-sources.json",
+      "preservedPath": "Sources/Tools/Chapter03Audio/acquired-sources.json",
+      "sha256": "CEE55F50D8467EEA39D2AEF8E2ED198641F296D5802D0679B6D25439EF2F5634"
+    },
+    {
+      "originalPath": "Tools/Chapter03Audio/reuse-manifest.json",
+      "preservedPath": "Sources/Tools/Chapter03Audio/reuse-manifest.json",
+      "sha256": "F0431C2489CCFAD5322286554677BA9760BD0F218FFDBCACF8349BEBB5791DFB"
+    },
+    {
+      "originalPath": "Tools/Chapter03Audio/stepwet-revision-20261025.json",
+      "preservedPath": "Sources/Tools/Chapter03Audio/stepwet-revision-20261025.json",
+      "sha256": "808AB72959761B05389199A38F65FD6E873DA0323410FC605CBBF2DB2BAC92B7"
+    },
+    {
+      "originalPath": "Docs/MemoryHome/StairsAudio.md",
+      "preservedPath": "Sources/Docs/MemoryHome/StairsAudio.md",
+      "sha256": "5714A767634CCD3D164885CDE5104FCDD6FE2B353A6583D27D4853EF83155410"
+    },
+    {
+      "originalPath": "Docs/MemoryHome/DoorAudio.md",
+      "preservedPath": "Sources/Docs/MemoryHome/DoorAudio.md",
+      "sha256": "940993923947BBD3881A66F4CC0A8FFE7D4E7BC8042575EC532F33525B0F6184"
+    },
+    {
+      "originalPath": "Docs/MemoryHome/AudioReview.md",
+      "preservedPath": "Sources/Docs/MemoryHome/AudioReview.md",
+      "sha256": "D7C7DA1733089B2099DF2AE5B4DCAEC90489A4B6B992130035ECE92EFE5646C5"
+    },
+    {
+      "originalPath": "Docs/Chapter02AudioList.md",
+      "preservedPath": "Sources/Docs/Chapter02AudioList.md",
+      "sha256": "4225E872CF8B7487A894FD42787FB604900A5C5763284FAA666698BD69467B21"
+    },
+    {
+      "originalPath": "Docs/Chapter03AudioList.md",
+      "preservedPath": "Sources/Docs/Chapter03AudioList.md",
+      "sha256": "54AE373F14A2A43B80AB8F8B2DA32CC02D667755B401F1D886B4886E13C5BEC2"
+    }
+  ],
+  "unresolved": [
+    "Assets/Font/文渊圆体1.000/LICENSE-zh.md contains an HTTP 429 response, not a license. Verify the actual font license before open-source publication."
+  ],
+  "pluginLicenses": "Existing plugin license files remain in their original directories."
+}

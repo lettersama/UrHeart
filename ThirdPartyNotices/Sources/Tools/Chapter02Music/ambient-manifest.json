@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "builtDate": "2026-10-15",
+  "builder": "Tools/Chapter02Music/build_ambient_audio.py",
+  "targetIntegratedLUFS": -36.0,
+  "sourceManifest": "Tools/Chapter02Music/Sources/source-manifest.json",
+  "processing": "Real CC0 recordings only; filters, excerpts, sparse real drip overlays, static gain and loop crossfade. Wet-road isolated peaks gently restrained. No dynamic loudnorm applied.",
+  "validation": "Decoded, format/count/hash/LUFS/true-peak/seam verified. No auditory or Unity runtime verification performed.",
+  "assets": [
+    {
+      "key": "Chapter02_HomeAmbient",
+      "source": "BSB_HouseRoomTone_JosephSardin.flac",
+      "startSeconds": 30,
+      "durationSeconds": 30,
+      "channels": 2,
+      "highpassHz": 65,
+      "lowpassHz": 2400,
+      "intention": "Quiet domestic room; same bed for day/night, with no added birds/insects.",
+      "output": "Assets/Audio/Ambient/Chapter02/Chapter02_HomeAmbient.wav",
+      "sampleRate": 48000,
+      "bitDepth": 16,
+      "loopCrossfadeSeconds": 1.5,
+      "loopBoundary": "Cyclic raised-cosine tail/head overlap; natural adjacent samples at file wrap.",
+      "layers": [],
+      "transientControl": null,
+      "staticGainDb": -6.23,
+      "integratedLUFS": -36.0,
+      "truePeakDbTP": -23.87,
+      "loudnessRangeLU": 0.9,
+      "samplePeakDbFS": -23.8726,
+      "seamJumpDbFS": -65.2033,
+      "normalAdjacentJumpP999DbFS": -50.9391,
+      "sha256": "1a14ceb4cb1e06821a2fd878c177a1db07144f959f4f7c659bcb9910bd57bc04",
+      "bytes": 5760044,
+      "sources": [
+        {
+          "path": "Tools/Chapter02Music/Sources/BSB_HouseRoomTone_JosephSardin.flac",
+          "sha256": "0b8a298b6d147d96953f87a630f99521c2c0fbb0a36ca1805d45b1f64693b390"
+        }
+      ]
+    },
+    {
+      "key": "Chapter02_WarehouseAmbient",
+      "source": "BSB_WindowWind_JosephSardin.wav",
+      "startSeconds": 66,
+      "durationSeconds": 36,
+      "channels": 1,
+      "highpassHz": 80,
+      "lowpassHz": 2800,
+      "intention": "Natural window wind plus four sparse real drips; no machine/electrical layer.",
+      "output": "Assets/Audio/Ambient/Chapter02/Chapter02_WarehouseAmbient.wav",
+      "sampleRate": 48000,
+      "bitDepth": 16,
+      "loopCrossfadeSeconds": 1.5,
+      "loopBoundary": "Cyclic raised-cosine tail/head overlap; natural adjacent samples at file wrap.",
+      "layers": [
+        {
+          "source": "BSB_WaterDrops_JosephSardin.flac",
+          "detectedTransientSeconds": [
+            11.64,
+            4.46,
+            17.44,
+            7.32
+          ],
+          "outputSeconds": [
+            4.8,
+            13.3,
+            22.1,
+            31.4
+          ],
+          "sliceSeconds": 0.8,
+          "fadeSeconds": 0.04,
+          "peakAboveWindRmsDb": 3,
+          "highpassHz": 130,
+          "lowpassHz": 3200
+        }
+      ],
+      "transientControl": null,
+      "staticGainDb": -7.25,
+      "integratedLUFS": -36.0,
+      "truePeakDbTP": -14.51,
+      "loudnessRangeLU": 5.3,
+      "samplePeakDbFS": -14.5073,
+      "seamJumpDbFS": -240.0,
+      "normalAdjacentJumpP999DbFS": -44.6427,
+      "sha256": "b6347ca1b3b5b26829584e1056340eb8719c843ea0d986cc7ecc5cc90081065f",
+      "bytes": 3456044,
+      "sources": [
+        {
+          "path": "Tools/Chapter02Music/Sources/BSB_WindowWind_JosephSardin.wav",
+          "sha256": "b30aa107a7503cac3b294f422405ea7dfff9fc5352d3a0891bee1aa614a3636b"
+        },
+        {
+          "path": "Tools/Chapter02Music/Sources/BSB_WaterDrops_JosephSardin.flac",
+          "sha256": "1feae2fe40458f2c0644dd1aa973e5c36bd4b7e66f74935081a5e65c448433c9"
+        }
+      ]
+    },
+    {
+      "key": "Chapter02_WetRoadAmbient",
+      "source": "BSB_RainConcrete_JosephSardin.flac",
+      "startSeconds": 48,
+      "durationSeconds": 30,
+      "channels": 1,
+      "highpassHz": 100,
+      "lowpassHz": 3000,
+      "intention": "Subdued rain hitting a hard surface; foreground cart/steps remain separate.",
+      "output": "Assets/Audio/Ambient/Chapter02/Chapter02_WetRoadAmbient.wav",
+      "sampleRate": 48000,
+      "bitDepth": 16,
+      "loopCrossfadeSeconds": 1.5,
+      "loopBoundary": "Cyclic raised-cosine tail/head overlap; natural adjacent samples at file wrap.",
+      "layers": [],
+      "transientControl": {
+        "method": "Sparse real rain transient attenuation before final static gain",
+        "peakEnvelopeSeconds": 0.02,
+        "gainSmoothSeconds": 0.01,
+        "thresholdAboveInputRmsDb": 14,
+        "affectedSamplePercent": 23.7552
+      },
+      "staticGainDb": 13.91,
+      "integratedLUFS": -36.0,
+      "truePeakDbTP": -20.81,
+      "loudnessRangeLU": 0.9,
+      "samplePeakDbFS": -21.1058,
+      "seamJumpDbFS": -57.6394,
+      "normalAdjacentJumpP999DbFS": -31.9797,
+      "sha256": "f5df890f93873248bb811f84c549f45fe6db17b19b642a897d9684efc68e7c15",
+      "bytes": 2880044,
+      "sources": [
+        {
+          "path": "Tools/Chapter02Music/Sources/BSB_RainConcrete_JosephSardin.flac",
+          "sha256": "455818f109d4787e4a2ead91029a8ff33f9f11044c90d528b5d48c967c885182"
+        }
+      ]
+    }
+  ]
+}

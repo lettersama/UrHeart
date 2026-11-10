@@ -1,0 +1,781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46455c2340b8ba4391f95cb0fff85dc, type: 3}
+  m_Name: AudioData
+  m_EditorClassIdentifier: Assembly-CSharp::AudioData_SO
+  BGM:
+  - keyid: QuietRooms_01_FirstLight_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4cb967096ee14a84b985088f26e2398b, type: 3}
+  - keyid: QuietRooms_01_FirstLight_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: a30c9ff3c494a6c4b801a576d56fc025, type: 3}
+  - keyid: QuietRooms_02_StillAir_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 2db6b2ffc7804854eb1de8b84f2c8f96, type: 3}
+  - keyid: QuietRooms_02_StillAir_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 3c7c7953b2ee9744ba08ccec85a860a2, type: 3}
+  - keyid: QuietRooms_03_TheLongHall_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 87aa3df5ef67629429a0124c5e448b02, type: 3}
+  - keyid: QuietRooms_03_TheLongHall_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 822b7db9f57313a418a2db3f9718f153, type: 3}
+  - keyid: QuietRooms_04_MachineRoom_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: af44ab669e1812145a4ca08524a8990d, type: 3}
+  - keyid: QuietRooms_04_MachineRoom_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 87c7b002fdfffb74f9ebee155c738c6d, type: 3}
+  - keyid: QuietRooms_05_Drifting_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f2eb694afad5b84479c1343daee181a3, type: 3}
+  - keyid: QuietRooms_05_Drifting_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: d484b9635889b774a98994504d84348a, type: 3}
+  - keyid: QuietRooms_06_NightShift_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 79d58cbefa70e474e8883e3184ef7aaa, type: 3}
+  - keyid: QuietRooms_06_NightShift_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ca5fad57a327430448abf6ff793249ea, type: 3}
+  - keyid: QuietRooms_07_SomethingMoved_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 2ea486249b240fb49bad50eb7c62293e, type: 3}
+  - keyid: QuietRooms_07_SomethingMoved_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 2a32261910d56bf478197e3daa5889cb, type: 3}
+  - keyid: QuietRooms_08_DeepWater_Full
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f1603cdcaa494e04fbe826d07ef16792, type: 3}
+  - keyid: QuietRooms_08_DeepWater_Loop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 61551b6b485a09b49b23144414d1d2b2, type: 3}
+  - keyid: HeartBeat
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 2c10afe85354d1e4da8abe54d4482c37, type: 3}
+  - keyid: SecretPart
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 769f0dd97cc084344a3c75f973396129, type: 3}
+  - keyid: Chapter01Dream
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5a7d24df1184e974da0b9ddb97c492da, type: 3}
+  - keyid: PaperPush
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: bd7212681809acc45b95870f5914c18c, type: 3}
+  - keyid: Chapter01Doorway
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ab9affb55fc0bc94994861e1fe9ef5f0, type: 3}
+  - keyid: Chapter02_ClawMachineMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: af6371f329e12ce4cb4ac5a88ef31cb0, type: 3}
+  - keyid: Chapter02_CursorExperimentMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 44c943f66856510418b553d1ab4b0e19, type: 3}
+  - keyid: Chapter02_MakeupMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: b1ee065546f0104428384d95894d31ad, type: 3}
+  - keyid: Chapter02_ReturnHomeMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 80bcab7c60917054cba0c70fa648b149, type: 3}
+  - keyid: Chapter02_WarehouseMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: d33b17f81197b8745ace910fac5c6a71, type: 3}
+  - keyid: Chapter02_DailyMusic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 585dcfed700a57f42a0b040d2ba137ac, type: 3}
+  - keyid: ch03_yard_search
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 04c0bf43ee9a41c49b82b45a9e336cb7, type: 3}
+  - keyid: ch03_yard_resolve
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: a528af1887eb48468dddf99ba476448a, type: 3}
+  - keyid: ch03_breakdown
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ef892c72864a41b2a1d0d74373c194c6, type: 3}
+  - keyid: ch04_theme
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ba8952efd2d797b419dac1ba4b9d5f60, type: 3}
+  - keyid: final_heal_battle
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c58107ce6b7342bcb7b34d0a1b6f926a, type: 3}
+  - keyid: final_heal_calm
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 532a226569fb449988257b201c1dec8d, type: 3}
+  SFX:
+  - keyid: fly-away-wing
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: fff410243e523c44eb810b7075925492, type: 3}
+  - keyid: ShowPaper
+    pitchmin: 1
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 5b649ff9a0b197846a242c828765bc17, type: 3}
+  - keyid: HidePaper
+    pitchmin: 0.8
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5b649ff9a0b197846a242c828765bc17, type: 3}
+  - keyid: HeartBeat00
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: d0c0ff86aa9fec74fbb784d3e7a98306, type: 3}
+  - keyid: HeartBeat01
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 5c0b59aaa212a67489d519983d66c3fd, type: 3}
+  - keyid: HeartBeat02
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: d3c87d708b6721e4eae340f118753df7, type: 3}
+  - keyid: HeartBeat03
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 51c9490129cf4f94daa6132d940fc32a, type: 3}
+  - keyid: HeartBeat04
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 1b090ad6ff33db94eb995695462d9cc7, type: 3}
+  - keyid: HeartBeat05
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 559c4b28fd3cb2b41b536cc68b0bef64, type: 3}
+  - keyid: GetItem
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: c6cf33ce0bdcad24f8342ca0aaafd829, type: 3}
+  - keyid: Event05_CrowCall
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 4923859cab100ad4784842b7a0b9b5d5, type: 3}
+  - keyid: Character_00_01
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: cf1d1d40347755f4da0b408689173e05, type: 3}
+  - keyid: Character_00_02
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c9faacb2f2bc5334f81d647e61846bdc, type: 3}
+  - keyid: Character_00_03
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f2dcdd77ecccebb478a225dbfb5d8e77, type: 3}
+  - keyid: Character_00_04
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4aa67a59c1c48da42869caed933efa6a, type: 3}
+  - keyid: Character_00_05
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 780478a21e982aa4fa80620db0fe168a, type: 3}
+  - keyid: Character_00_06
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4753a1cc0165c154aa615462383cfddb, type: 3}
+  - keyid: Character_00_07
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 20c945dd1baefed46bf0db2cb361cb34, type: 3}
+  - keyid: Character_00_08
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5f9e10e44cc83c5449789ab5853def23, type: 3}
+  - keyid: Character_01_01
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 68087043613d464409632f5bf055bbf4, type: 3}
+  - keyid: Character_01_02
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ef31d58ce712837468b3e99129e728cd, type: 3}
+  - keyid: Character_01_03
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9e8c41f664cd7cf4f8d7f6ddc15a27d4, type: 3}
+  - keyid: Character_01_04
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0953e7984c606de43b0bb74c2de08e9b, type: 3}
+  - keyid: Character_01_05
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9041693ee6a3feb42894c696fae2048f, type: 3}
+  - keyid: Character_01_06
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 793ad4f3bf23d1649af0e656c5cfd9a8, type: 3}
+  - keyid: Character_01_07
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 568ba637159dcc84e89549e724083d14, type: 3}
+  - keyid: Character_01_08
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4988e9e4f1817824090009ca751258e6, type: 3}
+  - keyid: Shut_Down
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: c0e13f2a5f625354c8c3669580eedab8, type: 3}
+  - keyid: Boot
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: b9a245fa62266d541b495a1f8f575d58, type: 3}
+  - keyid: HeartClickButton
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 1a7bdb97fb580974a89978e59b87f3a9, type: 3}
+  - keyid: HeartStartButton
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 0edd484c287df3e419afe21eb74a4695, type: 3}
+  - keyid: ECG_Beep
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 4890ac14df0e3f048b09fb61ac298bb0, type: 3}
+  - keyid: HeartBeat_ForHeal
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 2fd05936358e2484aa934bf036573b85, type: 3}
+  - keyid: HeartHealTool_End
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 03f553805a663e04a87352d33e17cd5d, type: 3}
+  - keyid: HeartHealTool_SuccessSFX
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 07b81148af9833441b4c4dbd5a71600a, type: 3}
+  - keyid: HeartHealTool_FailSFX
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 54c0dfc15be718243a20c510a1017a62, type: 3}
+  - keyid: Secret_Open
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 255fb87f0009bf546845f0ca64e4096f, type: 3}
+  - keyid: Secret_Mouse
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 39dd788d08bc4f747920d677b2022c0a, type: 3}
+  - keyid: ShutDown
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: daefb04633531894b934a0862f5a3713, type: 3}
+  - keyid: OpenLock
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 1514c3dd052d60c458a0018c48c5ca6f, type: 3}
+  - keyid: OpenUnit
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 09eca429fddafdb40bf07a4a4c437a93, type: 3}
+  - keyid: CloseUnit
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 652a4ab847ae0d848a3dc4a855042665, type: 3}
+  - keyid: SecretLive_Open
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: c6d32b305139eab46a420c27f0835b1d, type: 3}
+  - keyid: BeatClick
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: e2ad7fb13ef79ab4cad9853df5c01331, type: 3}
+  - keyid: BeatHit
+    pitchmin: 0.8
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: fd56375a747c7f044af7d8f0c9374078, type: 3}
+  - keyid: BeatLoop
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 22df69878899d6244a7068e5edd4568c, type: 3}
+  - keyid: BeatLoopEnd
+    pitchmin: 1
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 9e2e37b2fb5f51148bb753a2784b3ae7, type: 3}
+  - keyid: BeatFail
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 700d343ede37db34d9f8a3c810ff06ad, type: 3}
+  - keyid: Thunder_ForMainCore
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 53a2dd94b46459949bfc97bb8d2f4c6c, type: 3}
+  - keyid: UI_ComfrimButton
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: ab6fc43b3f6d1c8489eb2a0c6bfc99cf, type: 3}
+  - keyid: UI_CancelButton
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 04c69b47e65064c4b95ccdfe38ad681d, type: 3}
+  - keyid: Error_Check
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: aae8d94435f07814fa6c1e461bd9a463, type: 3}
+  - keyid: Gift_Get
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 8300000, guid: 1eea312f3185566468ce7afeefe04421, type: 3}
+  - keyid: SubWindow_OpenDoor
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 0}
+  - keyid: 
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 0}
+  - keyid: 
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 0}
+  - keyid: 
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 0}
+  - keyid: 
+    pitchmin: 0.8
+    pitchmax: 1.2
+    audioclip: {fileID: 0}
+  - keyid: Chapter02_BagRustle
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f8cb2f3a2fcf35d45abdad6e1250debb, type: 3}
+  - keyid: Chapter02_BeamCrack
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 1f21bbb2680c9634d8022cf3f7206cb4, type: 3}
+  - keyid: Chapter02_BugBuzz
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 1365ca03bc4c6944a8bb0a996b10b1c1, type: 3}
+  - keyid: Chapter02_BugSwat
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f023b1535d53d054492507d7e426b642, type: 3}
+  - keyid: Chapter02_CageDoor
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0dacaa6052fa952408dec38f74f77ec2, type: 3}
+  - keyid: Chapter02_CartRoll
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 997c86c426251514694478b439a17955, type: 3}
+  - keyid: Chapter02_ChoiceConfirm
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 486323b9005c6bc46a54440e24606a29, type: 3}
+  - keyid: Chapter02_ClawGrip
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 780bd6ca5df456d42ac81eb62c3c5196, type: 3}
+  - keyid: Chapter02_ClawMotor
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: bf6c418a1dde1364cb4674a3bc883421, type: 3}
+  - keyid: Chapter02_ClawTurn
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 904b3561c29727e4691f1c9a99ff33a0, type: 3}
+  - keyid: Chapter02_Cloth
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 3b432f82aa105ad4eb501fa8132c5adc, type: 3}
+  - keyid: Chapter02_CupSet
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 657e13bcbb68076498675f3ecf3b96f4, type: 3}
+  - keyid: Chapter02_CursorCapture
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: fe85bc742fbd2d94da3ec1016440cdb5, type: 3}
+  - keyid: Chapter02_CursorImpact
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c5bd48fa07d16704ba79028e9236a795, type: 3}
+  - keyid: Chapter02_CursorRelease
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9344632cd02f33e4796eff240759a0bf, type: 3}
+  - keyid: Chapter02_CursorReset
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0d53130a32109a9448043cfa38c26b29, type: 3}
+  - keyid: Chapter02_Debris
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4a76b4d4800006f49915c57634d8777a, type: 3}
+  - keyid: Chapter02_DoorScrape
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: b40f19f4b91ddfc4296185cab862ba4f, type: 3}
+  - keyid: Chapter02_Drawer
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0cfdd731c0780004d8e02a088a9ade2e, type: 3}
+  - keyid: Chapter02_DustFall
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 25604a9d4e615794aa03b66921410334, type: 3}
+  - keyid: Chapter02_Knock
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 104063c45e7db694886d51eb36fb856e, type: 3}
+  - keyid: Chapter02_LightSwitch
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: e9dca4ee2344cb04d956d486fc8ee584, type: 3}
+  - keyid: Chapter02_MetalLatch
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 46aa3213a368c9641a2aa1ce1124df35, type: 3}
+  - keyid: Chapter02_MetalScrape
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 1d979f94be541e346ae43c302d995cce, type: 3}
+  - keyid: Chapter02_MetalSnap
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 63e8bf1e37bb14d4dbaa07963d9fa8b2, type: 3}
+  - keyid: Chapter02_Packing
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 7416c46180e5b0e4791e76a2c11edc01, type: 3}
+  - keyid: Chapter02_PaperRustle
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 6ac7deca2ca15e443bca543bf5313098, type: 3}
+  - keyid: Chapter02_PaperTear
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ff2227e2f5c61554a948f6382147b33c, type: 3}
+  - keyid: Chapter02_PenCap
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c73577f4edcfed041900842fe08077d0, type: 3}
+  - keyid: Chapter02_PenWrite
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 8015772e504171740bbc5acd81acc709, type: 3}
+  - keyid: Chapter02_PencilStroke
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 039f83b91abb7ae4c9fc6b23faf8e50e, type: 3}
+  - keyid: Chapter02_PointerGlitch
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: e6da50ab495d62c4d9555e61647f8a85, type: 3}
+  - keyid: Chapter02_PowderPat
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ce9ca76b20db8714abde0b8422e93068, type: 3}
+  - keyid: Chapter02_PrizeDrop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 07386d68d8343ca4abc97b3eace27fda, type: 3}
+  - keyid: Chapter02_QuakeImpact
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 48ca16c6d8a999d4698a090a2d191a3f, type: 3}
+  - keyid: Chapter02_QuakeRumble
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 23db9ceb9b8de8c489160545bdb6e983, type: 3}
+  - keyid: Chapter02_RepairBreak
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 8c281c19af398a94385c9a960076ee94, type: 3}
+  - keyid: Chapter02_RobotJoint
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ba39294e0c6b1284b937b793e7fbae5f, type: 3}
+  - keyid: Chapter02_ShellDrop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ea2c5e426f5c1cc4394014e61aac3951, type: 3}
+  - keyid: Chapter02_Spark
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 6211e5b0d48528140ae87eac28f72801, type: 3}
+  - keyid: Chapter02_TableTap
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ef349ea9178f12e4d8b05d1a0b198c4b, type: 3}
+  - keyid: Chapter02_Tape
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5cf0eb1a00714c643909897a628276d9, type: 3}
+  - keyid: Chapter02_TetherAttach
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0fea6a5152a685746b73db492495f2c1, type: 3}
+  - keyid: Chapter02_ToolRattle
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c3686e6505a6ace4bb19e67e8839cf68, type: 3}
+  - keyid: Chapter02_WaterPour
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4586ffea350caed4b960dc18725d1446, type: 3}
+  - keyid: Chapter02_MemoryAlert
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9d2c0129b6c10d945aa6157a1fa1f44b, type: 3}
+  - keyid: MemoryHome_DoorOpen
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5453a42e048931f4aa9a03e9101a2c9b, type: 3}
+  - keyid: MemoryHome_DoorLocked
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9b35200c8bf52474db833c0692f09411, type: 3}
+  - keyid: MemoryHome_MetalPickup
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: d695a63df6f6ccd409b3d702c9fad240, type: 3}
+  - keyid: MemoryHome_Pickup
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4fc8c066c5ee9f0469c4016e648358e9, type: 3}
+  - keyid: MemoryHome_Toolbox
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 16655043fada5a141a5cdaaa5b6ccfb5, type: 3}
+  - keyid: Ch01End_ShotSwitch
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: cb46dad389ac4a638297e1d667202977, type: 3}
+  - keyid: eaglaxle-electronic-beep-1-453381
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: daefb04633531894b934a0862f5a3713, type: 3}
+  - keyid: Chapter03_BeansPour
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9b04b4a0e65e827419d00dd74f5db686, type: 3}
+  - keyid: Chapter03_BoxOpen
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 887780b251b747bb9b6cbd862fe4fd4b, type: 3}
+  - keyid: Chapter03_Cardboard
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 438f22c6bce44ab48a6e583285209d43, type: 3}
+  - keyid: Chapter03_CoffeeBrew
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 37e421f5bce15be40ad5d63476a73771, type: 3}
+  - keyid: Chapter03_EnvelopeOpen
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 296c0c3779ef42b68f01488d1ca29db6, type: 3}
+  - keyid: Chapter03_FridgeOpen
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 306c0340c45545a681315d9d7532d3d2, type: 3}
+  - keyid: Chapter03_HingeCreak
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 1187a64b3d274e4da932f981f46cfb32, type: 3}
+  - keyid: Chapter03_ItemStow
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 23a4b1fe00614cbb9524bd355f690a5d, type: 3}
+  - keyid: Chapter03_JarLid
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 47da6ee91cf94440a62b396d36abf44b, type: 3}
+  - keyid: Chapter03_KeyDrop
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 3a3d7a2fd7e8e2847b888b4016cb11bb, type: 3}
+  - keyid: Chapter03_KeypadAccept
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 612843125dce4afdac297e53aa799ea2, type: 3}
+  - keyid: Chapter03_KeypadError
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: cfbcfeb2646149df842909b1b3105e04, type: 3}
+  - keyid: Chapter03_KeypadPress_0
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 2c42f45fec2940f580022a1f22e94f89, type: 3}
+  - keyid: Chapter03_KeypadPress_1
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 1f1e5611104b40479c3de7b21d969fe6, type: 3}
+  - keyid: Chapter03_KeypadPress_2
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 5d9d2fd648d84cb5a695e00329c519b8, type: 3}
+  - keyid: Chapter03_KeyUnlock
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 7df026e629d052d4680f0cf9e2409009, type: 3}
+  - keyid: Chapter03_LabDoorOpen
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 72348872008d4394ac8bfc9bd1f10240, type: 3}
+  - keyid: Chapter03_LampFlicker
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 818662d1848f457a95443c887c54b3da, type: 3}
+  - keyid: Chapter03_LeavesRain
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c6eec4bd14fc412b92e2c3f8070b1a1f, type: 3}
+  - keyid: Chapter03_MirrorCabinet
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 254855e075ac4dec924c78f4ad90e2a8, type: 3}
+  - keyid: Chapter03_MirrorTouch
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 7162b7f30c3d412f80cb4b9734a13cd4, type: 3}
+  - keyid: Chapter03_PhoneLift
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 6ffa4de9978a438a881e8962c2d31634, type: 3}
+  - keyid: Chapter03_PhoneStatic
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: f5be5067858b490fab1a62c689a3686a, type: 3}
+  - keyid: Chapter03_PillboxRattle
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: c15a7ad1b26c4f89bb0c0fa89b615a12, type: 3}
+  - keyid: Chapter03_ScrewdriverTurn
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 838a30cf5c2c9ee4984a6e8c94524b03, type: 3}
+  - keyid: Chapter03_Step_0
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: bfd0d773061b0b04c8f45f92444cf212, type: 3}
+  - keyid: Chapter03_Step_1
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: dd9ce7bf03c22b94b9a7a3a61db5956d, type: 3}
+  - keyid: Chapter03_Step_2
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 88274875b89e19a4c9446a1d395a6ece, type: 3}
+  - keyid: Chapter03_Step_3
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 02f80a0a861c4ad4da40a0f34b45250a, type: 3}
+  - keyid: Chapter03_StepMud_0
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 74c3e3759b7b3b14c8dcd85e001e06b9, type: 3}
+  - keyid: Chapter03_StepMud_1
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 504d4b1eee4210145bf7e00b5901da49, type: 3}
+  - keyid: Chapter03_StepMud_2
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 1bc7306a9dbbfe1488bea580ae8604c8, type: 3}
+  - keyid: Chapter03_StepWet_0
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 2457b9d482c00e343938261fa90fb1f0, type: 3}
+  - keyid: Chapter03_StepWet_1
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: e12017c988fdd314484dc09f2b5baa4f, type: 3}
+  - keyid: Chapter03_StepWet_2
+    pitchmin: 0.97
+    pitchmax: 1.03
+    audioclip: {fileID: 8300000, guid: 23dafafafc11fe8449db1153cb4d1dbc, type: 3}
+  - keyid: Chapter03_Wardrobe
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 697ec84061ad4e289947e5a548ef0808, type: 3}
+  - keyid: Chapter03_Wheelchair
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 18c8a16ba4b3408cb6d33ba432fee66a, type: 3}
+  - keyid: Chapter03_Zipper
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 7983fd40254b4dfb90942fe8741fc629, type: 3}
+  AMBIENT:
+  - keyid: Rain
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: fe0760f973a1eb24592c60e23a051793, type: 3}
+  - keyid: Event05_GlitchAmbient
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: ea4e0c5f4432395449904344083a3452, type: 3}
+  - keyid: Main_Core
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 5c4f18fe946371f45bb48dfa9e1d21bb, type: 3}
+  - keyid: Chapter03_Drip
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 54c50709c4b2463db4a83cafd9dc6ae3, type: 3}
+  - keyid: Chapter03_KitchenClock
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9f27eff987ff4486a3a2962fd498f021, type: 3}
+  - keyid: Chapter03_LabHum
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 9660b102100c47da953ae0afa13e1277, type: 3}
+  - keyid: Chapter03_LampBuzz
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0e415094d9fd4f5789a7bca304c2b3fd, type: 3}
+  - keyid: Chapter03_RoomTone
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 4501b7998bf146e78bb3c24ae3a7d486, type: 3}
+  - keyid: Chapter03_TubeBuzz
+    pitchmin: 1
+    pitchmax: 1
+    audioclip: {fileID: 8300000, guid: 0e013a9a7a7f4b9fb6bd8a9ccafbcfd1, type: 3}

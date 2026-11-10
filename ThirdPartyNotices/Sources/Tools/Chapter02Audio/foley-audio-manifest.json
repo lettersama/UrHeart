@@ -1,0 +1,1509 @@
+{
+  "schemaVersion": 1,
+  "authoringDate": "2026-10-15",
+  "scope": "19 Chapter 2 reading and illustration foley cues; no minigame/Live-final edits",
+  "processing": "Cropped, filtered and layered existing recordings; selected long cues have localized offline transient gain edits, followed by static loudness gain. Short cues use static RMS gain.",
+  "verification": "FFmpeg integrated loudness/true peak, RMS/sample peak and clipping measurements. Not an auditory review or Play Mode test.",
+  "sourcePolicy": "No downloads. Per-layer source URL, attribution, license evidence and SHA-256 retained.",
+  "format": "Mono PCM16 WAV, 48000 Hz",
+  "buildScript": "Tools/Chapter02Audio/build_foley_audio.py",
+  "sharedRenderHelper": "Tools/Chapter02Audio/build_minigame_audio.py",
+  "cues": [
+    {
+      "cue": "Chapter02_PaperRustle",
+      "label": "纸张移动、折叠与地图展开",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PaperRustle.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -0.81,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-shove-1.ogg",
+            "author": "Kenney",
+            "title": "card-shove-1.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "1ea667aa6795d5f14239192116ebcbd8f3f47eb1c7faaf2ec56844b9067b8b06"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.085,
+          "trimDurationSeconds": 0.52,
+          "playbackRate": 1.0,
+          "highpassHz": 170,
+          "lowpassHz": 6500,
+          "fadeInSeconds": 0.006,
+          "fadeOutSeconds": 0.07,
+          "layerRmsDbfs": -29,
+          "staticLayerGainDb": -1.3128
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-slide-3.ogg",
+            "author": "Kenney",
+            "title": "card-slide-3.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "af2ab62656cb3df73316ce5771b8ee1111a840962b21607e3202151e7413c52c"
+          },
+          "atSeconds": 0.43,
+          "trimStartSeconds": 0.055,
+          "trimDurationSeconds": 0.18,
+          "playbackRate": 0.9,
+          "highpassHz": 220,
+          "lowpassHz": 5600,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -36,
+          "staticLayerGainDb": -13.146
+        }
+      ],
+      "measurements": {
+        "lufs": -29.99,
+        "truePeakDbtp": -8.43,
+        "durationSeconds": 0.76,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.43,
+        "rmsDbfs": -31.872,
+        "dcOffset": -9.779344525253563e-07,
+        "clippedSampleCount": 0
+      },
+      "sha256": "068cacca9319bb7ca69eb2e488a183b5b8ea1260b5f9e69c5cb9fcb5eb427988",
+      "authoringNotes": "",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 1,
+        "maximumAttenuationDb": 4.217,
+        "editedSampleFraction": 0.0124,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_PenCap",
+      "label": "笔盖扣合的单次小咔",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PenCap.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -33,
+      "peakCeilingDbfs": -13,
+      "finalStaticGainDb": -0.2159,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-double-door-lock-101210.mp3",
+            "title": "double-door-lock",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/double-door-lock-101210/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "84aef52f9741ded60fb498389cffc8d453310275a2272e4f8a9d17d2df4cd167"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.11,
+          "trimDurationSeconds": 0.12,
+          "playbackRate": 1.12,
+          "highpassHz": 400,
+          "lowpassHz": 6000,
+          "fadeInSeconds": 0.001,
+          "fadeOutSeconds": 0.035,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -1.9941
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactWood_light_001.ogg",
+            "author": "Kenney",
+            "title": "impactWood_light_001.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f"
+          },
+          "atSeconds": 0.015,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.09,
+          "playbackRate": 1.0,
+          "highpassHz": 200,
+          "lowpassHz": 2000,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -42,
+          "staticLayerGainDb": -22.9186
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -15.33,
+        "durationSeconds": 0.17,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -15.325,
+        "rmsDbfs": -33.0,
+        "dcOffset": -1.2360367120481005e-05,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -34.55,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "2a7538f8db930f271b9721c5ba4fc3b580894744939b8e00bf6847602b32db15",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_Drawer",
+      "label": "木抽屉短滑动与停住",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Drawer.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -0.57,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/drawer-98801.mp3",
+            "title": "Drawer OPEN",
+            "author": "cMilan / freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/drawer-open-98801/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "b3e5110ab6dabf7c25e9acabaf22ede2948fde430addd2c6c1557227935843e9"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.035,
+          "trimDurationSeconds": 0.93,
+          "playbackRate": 1.0,
+          "highpassHz": 75,
+          "lowpassHz": 4800,
+          "fadeInSeconds": 0.012,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": -1.8081
+        }
+      ],
+      "measurements": {
+        "lufs": -30.0,
+        "truePeakDbtp": -10.28,
+        "durationSeconds": 0.98,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -10.373,
+        "rmsDbfs": -30.798,
+        "dcOffset": -1.0964010848480017e-07,
+        "clippedSampleCount": 0
+      },
+      "sha256": "2e4c8f703bf5e0dcb07fa316a8d526d75b0ed4a49b417324ae34c185a3f40503",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_CupSet",
+      "label": "瓷杯与碟轻放",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_CupSet.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -2.35,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/dishes-88148.mp3",
+            "title": "Dishes",
+            "author": "Nomadyag / freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-dishes-88148/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "ae5198cae3b3d249f7662b9a5c3e60c02cef1ec368938d061bb200f72d18dd0d"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.105,
+          "trimDurationSeconds": 0.285,
+          "playbackRate": 1.0,
+          "highpassHz": 170,
+          "lowpassHz": 6700,
+          "fadeInSeconds": 0.003,
+          "fadeOutSeconds": 0.06,
+          "layerRmsDbfs": -29,
+          "staticLayerGainDb": -10.7963
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactWood_light_001.ogg",
+            "author": "Kenney",
+            "title": "impactWood_light_001.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f"
+          },
+          "atSeconds": 0.025,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.12,
+          "playbackRate": 1.0,
+          "highpassHz": 100,
+          "lowpassHz": 2100,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -39,
+          "staticLayerGainDb": -19.4811
+        }
+      ],
+      "measurements": {
+        "lufs": -30.05,
+        "truePeakDbtp": -13.6,
+        "durationSeconds": 0.47,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -13.598,
+        "rmsDbfs": -33.335,
+        "dcOffset": 2.923248507452349e-06,
+        "clippedSampleCount": 0
+      },
+      "sha256": "fc3f8b1b83481ae15855c8245c09257dd3d9bcc9aae3939b4d5847dbd9537c5c",
+      "authoringNotes": "One cup/saucer contact; cropped before the later dish impacts."
+    },
+    {
+      "cue": "Chapter02_TableTap",
+      "label": "指尖轻叩木桌的单次声",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_TableTap.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -32,
+      "peakCeilingDbfs": -12,
+      "finalStaticGainDb": -0.0877,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactWood_light_001.ogg",
+            "author": "Kenney",
+            "title": "impactWood_light_001.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.17,
+          "playbackRate": 1.08,
+          "highpassHz": 100,
+          "lowpassHz": 3200,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.045,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -9.8756
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -13.57,
+        "durationSeconds": 0.19,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -13.574,
+        "rmsDbfs": -32.0,
+        "dcOffset": -0.0001754325732850192,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -36.25,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "3c74f8324107d5929248d5544e459b45dcd57f9f2403b13ba63c0e5e06ac936c",
+      "authoringNotes": "Single tap. Map contacts and the two breakfast taps are timed by code."
+    },
+    {
+      "cue": "Chapter02_RobotJoint",
+      "label": "小关节卡响与短机械动作",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_RobotJoint.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 0.04,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-double-door-lock-101210.mp3",
+            "title": "double-door-lock",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/double-door-lock-101210/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "84aef52f9741ded60fb498389cffc8d453310275a2272e4f8a9d17d2df4cd167"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.04,
+          "trimDurationSeconds": 0.285,
+          "playbackRate": 0.86,
+          "highpassHz": 160,
+          "lowpassHz": 4600,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": 0.1835
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/edr-electric-fan-motor-blades-removed-13169.mp3",
+            "title": "electric fan motor blades removed",
+            "author": "edr",
+            "sourceUrl": "https://pixabay.com/sound-effects/electric-fan-motor-blades-removed-13169/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "1f8b1867a624ab9c08936c0060a141ffc41f16bb44b98441c94d7f19490a935b"
+          },
+          "atSeconds": 0.055,
+          "trimStartSeconds": 0.045,
+          "trimDurationSeconds": 0.31,
+          "playbackRate": 0.9,
+          "highpassHz": 180,
+          "lowpassHz": 1800,
+          "fadeInSeconds": 0.025,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -39,
+          "staticLayerGainDb": -9.6744
+        }
+      ],
+      "measurements": {
+        "lufs": -29.99,
+        "truePeakDbtp": -11.01,
+        "durationSeconds": 0.52,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -11.051,
+        "rmsDbfs": -32.189,
+        "dcOffset": -6.113296900040064e-09,
+        "clippedSampleCount": 0
+      },
+      "sha256": "aa926573342386b3deceb5cdb5ac2ba6abd8c499a1ddd8a202149b836f643f6f",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_Tape",
+      "label": "胶布拉出与按紧",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Tape.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -0.68,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-open-2.ogg",
+            "author": "Kenney",
+            "title": "cards-pack-open-2.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "49e02479815c69cd303e0d8f12952c0492d5b3e555838f3485cc25a09818e6fb"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.035,
+          "trimDurationSeconds": 0.37,
+          "playbackRate": 0.85,
+          "highpassHz": 550,
+          "lowpassHz": 6500,
+          "fadeInSeconds": 0.004,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": -5.9635
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+            "title": "Cloth Grab Foley",
+            "author": "Soundque",
+            "sourceUrl": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+          },
+          "atSeconds": 0.43,
+          "trimStartSeconds": 1.0,
+          "trimDurationSeconds": 0.24,
+          "playbackRate": 1.1,
+          "highpassHz": 450,
+          "lowpassHz": 5000,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.06,
+          "layerRmsDbfs": -37,
+          "staticLayerGainDb": 4.1916
+        }
+      ],
+      "measurements": {
+        "lufs": -30.02,
+        "truePeakDbtp": -8.25,
+        "durationSeconds": 0.72,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.34,
+        "rmsDbfs": -32.763,
+        "dcOffset": 2.825701678240741e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "4ef7519ed38aad2652d42a54b7979dad7167b8f0019706a6af7f10bf59e26e49",
+      "authoringNotes": "Paper-pack fibre crackle and cloth pressure; no electronic noise layer.",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 1,
+        "maximumAttenuationDb": 1.516,
+        "editedSampleFraction": 0.0114,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_BagRustle",
+      "label": "包袋翻动与收物",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_BagRustle.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -2.65,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+            "title": "Cloth Grab Foley",
+            "author": "Soundque",
+            "sourceUrl": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 2.97,
+          "trimDurationSeconds": 0.88,
+          "playbackRate": 1.0,
+          "highpassHz": 140,
+          "lowpassHz": 5500,
+          "fadeInSeconds": 0.015,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": 16.809
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-open-2.ogg",
+            "author": "Kenney",
+            "title": "cards-pack-open-2.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "49e02479815c69cd303e0d8f12952c0492d5b3e555838f3485cc25a09818e6fb"
+          },
+          "atSeconds": 0.21,
+          "trimStartSeconds": 0.055,
+          "trimDurationSeconds": 0.22,
+          "playbackRate": 1.0,
+          "highpassHz": 450,
+          "lowpassHz": 4700,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -37,
+          "staticLayerGainDb": -13.8192
+        }
+      ],
+      "measurements": {
+        "lufs": -29.99,
+        "truePeakDbtp": -8.73,
+        "durationSeconds": 0.94,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.776,
+        "rmsDbfs": -32.737,
+        "dcOffset": 1.69091190852172e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "2d97531a197a9f3e2dd5f9437ec3af4f8fc031342f88214b1c388c51d534aec2",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_ToolRattle",
+      "label": "小工具或螺丝轻碰",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_ToolRattle.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 2.3,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactMetal_light_002.ogg",
+            "author": "Kenney",
+            "title": "impactMetal_light_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.2,
+          "playbackRate": 1.05,
+          "highpassHz": 250,
+          "lowpassHz": 6000,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -13.0108
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactMetal_light_004.ogg",
+            "author": "Kenney",
+            "title": "impactMetal_light_004.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "9b1c35820fba507081261f19ab5f461f69a5e2627a7d91acdb73ca3cfc997979"
+          },
+          "atSeconds": 0.13,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.16,
+          "playbackRate": 1.12,
+          "highpassHz": 320,
+          "lowpassHz": 5200,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -35,
+          "staticLayerGainDb": -17.354
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/chips-handle-3.ogg",
+            "author": "Kenney",
+            "title": "chips-handle-3.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "7c5a86e27b2bef839ae096dd655506cf46a82494bd01cc28f51bed6ab26cc342"
+          },
+          "atSeconds": 0.29,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.21,
+          "playbackRate": 1.0,
+          "highpassHz": 500,
+          "lowpassHz": 5400,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -37,
+          "staticLayerGainDb": -7.7145
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactTin_medium_003.ogg",
+            "author": "Kenney",
+            "title": "impactTin_medium_003.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "0d18737d93ba7aa0669f751094cbc1671bbebac4fe207783922938ce75e24334"
+          },
+          "atSeconds": 0.43,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.14,
+          "playbackRate": 1.15,
+          "highpassHz": 250,
+          "lowpassHz": 3000,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -41,
+          "staticLayerGainDb": -19.5096
+        }
+      ],
+      "measurements": {
+        "lufs": -30.0,
+        "truePeakDbtp": -8.46,
+        "durationSeconds": 0.64,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.637,
+        "rmsDbfs": -31.831,
+        "dcOffset": 7.343292236328125e-06,
+        "clippedSampleCount": 0
+      },
+      "sha256": "0e67de7b525027cce5ef333b30e8735b5c31138b92218fa362895446a2c383dc",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_MetalLatch",
+      "label": "箱扣、盖子或接头单次扣合",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_MetalLatch.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -32,
+      "peakCeilingDbfs": -11,
+      "finalStaticGainDb": -0.0867,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-double-door-lock-101210.mp3",
+            "title": "double-door-lock",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/double-door-lock-101210/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "84aef52f9741ded60fb498389cffc8d453310275a2272e4f8a9d17d2df4cd167"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.038,
+          "trimDurationSeconds": 0.235,
+          "playbackRate": 1.0,
+          "highpassHz": 180,
+          "lowpassHz": 5200,
+          "fadeInSeconds": 0.0015,
+          "fadeOutSeconds": 0.04,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -0.4582
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -12.06,
+        "durationSeconds": 0.29,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -12.074,
+        "rmsDbfs": -32.0,
+        "dcOffset": -1.7319602527837645e-07,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -32.17,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "4c33f30c182a330d7409a258aa4ff44e04b37fa60d4fa4bf5662060edf3c8b14",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_MetalSnap",
+      "label": "铁架挣脱后的金属崩响",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_MetalSnap.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 7.75,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactMetal_heavy_000.ogg",
+            "author": "Kenney",
+            "title": "impactMetal_heavy_000.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.49,
+          "playbackRate": 0.88,
+          "highpassHz": 85,
+          "lowpassHz": 4700,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -29,
+          "staticLayerGainDb": -6.898
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactTin_medium_003.ogg",
+            "author": "Kenney",
+            "title": "impactTin_medium_003.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "0d18737d93ba7aa0669f751094cbc1671bbebac4fe207783922938ce75e24334"
+          },
+          "atSeconds": 0.12,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.18,
+          "playbackRate": 0.95,
+          "highpassHz": 400,
+          "lowpassHz": 6400,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -34,
+          "staticLayerGainDb": -10.9391
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactMetal_light_002.ogg",
+            "author": "Kenney",
+            "title": "impactMetal_light_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "25a96f90a9a1f88a531e824e126f0519504625e5635e65a72e4f31611428db29"
+          },
+          "atSeconds": 0.49,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.21,
+          "playbackRate": 1.0,
+          "highpassHz": 300,
+          "lowpassHz": 3500,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -40,
+          "staticLayerGainDb": -20.1941
+        }
+      ],
+      "measurements": {
+        "lufs": -30.02,
+        "truePeakDbtp": -8.46,
+        "durationSeconds": 0.87,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.47,
+        "rmsDbfs": -29.135,
+        "dcOffset": -3.019457119178041e-05,
+        "clippedSampleCount": 0
+      },
+      "sha256": "c0b9cc72e20bbd066a7837aed47d35f7e69c2544253b1aae6dff70b6b68350ae",
+      "authoringNotes": "",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 2,
+        "maximumAttenuationDb": 6.698,
+        "editedSampleFraction": 0.027,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_DustFall",
+      "label": "灰尘与细小颗粒落下",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_DustFall.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -2.79,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/sweep-456369.mp3",
+            "title": "Sweep the glass with a broom",
+            "author": "spinopel",
+            "sourceUrl": "https://pixabay.com/sound-effects/sweep-the-glass-with-a-broom-456369/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "e6b8227d4052e99be8b589ce16a1b89577000d626f0c0e23e8076a059c3a0407"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.64,
+          "trimDurationSeconds": 0.84,
+          "playbackRate": 1.0,
+          "highpassHz": 700,
+          "lowpassHz": 4700,
+          "fadeInSeconds": 0.025,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -29,
+          "staticLayerGainDb": 7.029,
+          "additionalEdit": "Short decaying granular sweep, avoiding a repeated sweeping rhythm",
+          "amplitudeEnvelopeSecondsGain": [
+            [
+              0,
+              0.2
+            ],
+            [
+              0.12,
+              1
+            ],
+            [
+              0.3,
+              0.75
+            ],
+            [
+              0.6,
+              0.3
+            ],
+            [
+              0.84,
+              0
+            ]
+          ]
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+            "title": "Cloth Grab Foley",
+            "author": "Soundque",
+            "sourceUrl": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+          },
+          "atSeconds": 0.13,
+          "trimStartSeconds": 3.23,
+          "trimDurationSeconds": 0.42,
+          "playbackRate": 1.0,
+          "highpassHz": 400,
+          "lowpassHz": 2800,
+          "fadeInSeconds": 0.025,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -39,
+          "staticLayerGainDb": 7.1083
+        }
+      ],
+      "measurements": {
+        "lufs": -30.01,
+        "truePeakDbtp": -8.68,
+        "durationSeconds": 0.93,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.7,
+        "rmsDbfs": -33.365,
+        "dcOffset": 6.768011277721774e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "019ce3e495624c6636aee818a723ef3478defa64def463d030c6abb1a34390f6",
+      "authoringNotes": "",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 1,
+        "maximumAttenuationDb": 1.121,
+        "editedSampleFraction": 0.0084,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_Cloth",
+      "label": "衣物盖上、包裹与擦拭",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Cloth.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -1.86,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+            "title": "Cloth Grab Foley",
+            "author": "Soundque",
+            "sourceUrl": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 2.93,
+          "trimDurationSeconds": 0.91,
+          "playbackRate": 1.0,
+          "highpassHz": 100,
+          "lowpassHz": 5000,
+          "fadeInSeconds": 0.018,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": 16.8318
+        }
+      ],
+      "measurements": {
+        "lufs": -30.01,
+        "truePeakDbtp": -8.75,
+        "durationSeconds": 0.95,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.75,
+        "rmsDbfs": -32.091,
+        "dcOffset": 9.235582853618421e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "9f397fb63f3fd6d783a4af3402fad9ff2993bcda9f7f53ae12e22df81c115b67",
+      "authoringNotes": "",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 1,
+        "maximumAttenuationDb": 0.584,
+        "editedSampleFraction": 0.0074,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_Packing",
+      "label": "试管和小器材的一次碰放",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Packing.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -33,
+      "peakCeilingDbfs": -12,
+      "finalStaticGainDb": 1.1501,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/dishes-88148.mp3",
+            "title": "Dishes",
+            "author": "Nomadyag / freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-dishes-88148/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "ae5198cae3b3d249f7662b9a5c3e60c02cef1ec368938d061bb200f72d18dd0d"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.105,
+          "trimDurationSeconds": 0.24,
+          "playbackRate": 1.16,
+          "highpassHz": 350,
+          "lowpassHz": 6600,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.05,
+          "layerRmsDbfs": -33,
+          "staticLayerGainDb": -14.5484
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-place-3.ogg",
+            "author": "Kenney",
+            "title": "card-place-3.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "1d988631a6e5201ed1bb0d728f2e43a3ec79401258426858793598044ac95841"
+          },
+          "atSeconds": 0.025,
+          "trimStartSeconds": 0.4,
+          "trimDurationSeconds": 0.14,
+          "playbackRate": 1.0,
+          "highpassHz": 160,
+          "lowpassHz": 4300,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -37,
+          "staticLayerGainDb": -12.0156
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactGlass_light_002.ogg",
+            "author": "Kenney",
+            "title": "impactGlass_light_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "710db7451bb7857b9140dfe6afe4621ea2188ad65eda3919c569d1bb285b933d"
+          },
+          "atSeconds": 0.13,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.19,
+          "playbackRate": 1.0,
+          "highpassHz": 650,
+          "lowpassHz": 6200,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.06,
+          "layerRmsDbfs": -40,
+          "staticLayerGainDb": -22.4883
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -12.71,
+        "durationSeconds": 0.38,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -12.832,
+        "rmsDbfs": -33.0,
+        "dcOffset": 5.822432668585526e-07,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -32.77,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "d70eb5d074b8fa17130dd9271e03a9faa8e1c7a28ee20737d414e4a3647fdb8a",
+      "authoringNotes": "One settling event, not a loop. Animator schedules two contacts per 7.71 s cycle."
+    },
+    {
+      "cue": "Chapter02_Spark",
+      "label": "电线短促滋响与火花",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Spark.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -33,
+      "peakCeilingDbfs": -12,
+      "finalStaticGainDb": 4.125,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-guitar-jack-noises-raw-26374.mp3",
+            "title": "guitar jack noises raw",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/guitar-jack-noises-raw-26374/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "67d7ddeef4c2cbb5e33e55c4baa01d55b441c2098e4249ad64e902c4f7bd8750"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.105,
+          "trimDurationSeconds": 0.05,
+          "playbackRate": 1.0,
+          "highpassHz": 1100,
+          "lowpassHz": 6200,
+          "fadeInSeconds": 0.001,
+          "fadeOutSeconds": 0.013,
+          "layerRmsDbfs": -32,
+          "staticLayerGainDb": 16.7474
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-guitar-jack-noises-raw-26374.mp3",
+            "title": "guitar jack noises raw",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/guitar-jack-noises-raw-26374/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "67d7ddeef4c2cbb5e33e55c4baa01d55b441c2098e4249ad64e902c4f7bd8750"
+          },
+          "atSeconds": 0.07,
+          "trimStartSeconds": 0.235,
+          "trimDurationSeconds": 0.045,
+          "playbackRate": 1.0,
+          "highpassHz": 1100,
+          "lowpassHz": 5800,
+          "fadeInSeconds": 0.001,
+          "fadeOutSeconds": 0.013,
+          "layerRmsDbfs": -36,
+          "staticLayerGainDb": 12.3166
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Assets/Audio/SFX/freesound_community-guitar-jack-noises-raw-26374.mp3",
+            "title": "guitar jack noises raw",
+            "author": "freesound_community",
+            "sourceUrl": "https://pixabay.com/sound-effects/guitar-jack-noises-raw-26374/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "67d7ddeef4c2cbb5e33e55c4baa01d55b441c2098e4249ad64e902c4f7bd8750"
+          },
+          "atSeconds": 0.145,
+          "trimStartSeconds": 0.34,
+          "trimDurationSeconds": 0.06,
+          "playbackRate": 1.0,
+          "highpassHz": 1200,
+          "lowpassHz": 5000,
+          "fadeInSeconds": 0.001,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -39,
+          "staticLayerGainDb": 10.8085
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -13.6,
+        "durationSeconds": 0.26,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -13.609,
+        "rmsDbfs": -33.0,
+        "dcOffset": -5.501967210036057e-07,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -37.32,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "be4a09b72a590e755ad8d19f98906298e009497e84e954e7908e75d1a6b7c1cb",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_LightSwitch",
+      "label": "台灯或手电开关",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_LightSwitch.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -33,
+      "peakCeilingDbfs": -13,
+      "finalStaticGainDb": -0.4164,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/interface-sounds/Audio/switch_002.ogg",
+            "author": "Kenney",
+            "title": "switch_002.ogg",
+            "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/interface-sounds/License.txt",
+            "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.17,
+          "playbackRate": 1.0,
+          "highpassHz": 200,
+          "lowpassHz": 5500,
+          "fadeInSeconds": 0.0015,
+          "fadeOutSeconds": 0.03,
+          "layerRmsDbfs": -32,
+          "staticLayerGainDb": -15.2033
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -13.57,
+        "durationSeconds": 0.19,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -13.622,
+        "rmsDbfs": -33.0,
+        "dcOffset": 4.2998999880071274e-05,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -37.78,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "bac5ffde1637df8d56c8375ff3171bedb71acd569920c7cec424cb2690f9fb3f",
+      "authoringNotes": ""
+    },
+    {
+      "cue": "Chapter02_PowderPat",
+      "label": "粉扑接触面部的轻拍",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PowderPat.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -34,
+      "peakCeilingDbfs": -14,
+      "finalStaticGainDb": -0.5999,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/impact-sounds/Audio/impactSoft_medium_000.ogg",
+            "author": "Kenney",
+            "title": "impactSoft_medium_000.ogg",
+            "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/impact-sounds/License.txt",
+            "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0,
+          "trimDurationSeconds": 0.1,
+          "playbackRate": 1.2,
+          "highpassHz": 400,
+          "lowpassHz": 4300,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.03,
+          "layerRmsDbfs": -34,
+          "staticLayerGainDb": -3.0582
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/cloth-445581.mp3",
+            "title": "Cloth Grab Foley",
+            "author": "Soundque",
+            "sourceUrl": "https://pixabay.com/sound-effects/household-cloth-grab-foley-soundque-foley-recording-445581/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "2b9ade50c0c7570704616f63bff3148cb6f145a3720ae66e8d7ec8fb7945db5f"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 1.015,
+          "trimDurationSeconds": 0.13,
+          "playbackRate": 1.0,
+          "highpassHz": 1000,
+          "lowpassHz": 6500,
+          "fadeInSeconds": 0.003,
+          "fadeOutSeconds": 0.045,
+          "layerRmsDbfs": -35,
+          "staticLayerGainDb": 12.2287
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -18.22,
+        "durationSeconds": 0.16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -18.229,
+        "rmsDbfs": -34.0,
+        "dcOffset": -6.269613901774088e-05,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -37.35,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "f9ae60e707c900b1523d07d62ff3fdbe00da9b7802f88b0fa7b30822715837ea",
+      "authoringNotes": "A single dry soft contact; repeated pats follow the authored hand contacts."
+    },
+    {
+      "cue": "Chapter02_Knock",
+      "label": "门板单次笃声",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_Knock.wav",
+      "loop": false,
+      "calibration": "Static RMS calibration with peak ceiling; no short-clip LUFS normalization",
+      "targetLufs": null,
+      "targetShortRmsDbfs": -31,
+      "peakCeilingDbfs": -10,
+      "finalStaticGainDb": 0.8716,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/knock-175163.mp3",
+            "title": "Door Knocking",
+            "author": "SoundReality",
+            "sourceUrl": "https://pixabay.com/sound-effects/film-special-effects-door-knocking-175163/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "0d7b197140a8e61ecffb826b114e9bada6090bf4aec0125e17edb221951a96f0"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.04,
+          "trimDurationSeconds": 0.18,
+          "playbackRate": 1.0,
+          "highpassHz": 70,
+          "lowpassHz": 4300,
+          "fadeInSeconds": 0.0015,
+          "fadeOutSeconds": 0.04,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -17.1182
+        }
+      ],
+      "measurements": {
+        "lufs": null,
+        "truePeakDbtp": -14.54,
+        "durationSeconds": 0.22,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -14.543,
+        "rmsDbfs": -31.0,
+        "dcOffset": 5.843422629616477e-06,
+        "clippedSampleCount": 0,
+        "lufsPaddedTo500ms": -38.09,
+        "lufsNote": "Actual clip is under 400 ms; padded-window LUFS is diagnostic only, gain uses RMS/peak."
+      },
+      "sha256": "aef55de4e02a48eac5c26379f07e7ba2cbad383cb4d3f8c75edea8342435acc0",
+      "authoringNotes": "Exactly the first source knock: source crop .040-.220 s; second source onset is ~.28 s. Node 6600 calls this single knock at 0 and .32 s, producing two, not four."
+    },
+    {
+      "cue": "Chapter02_PaperTear",
+      "label": "纸纤维拉裂与收尾断口",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PaperTear.wav",
+      "loop": false,
+      "calibration": "Offline local transient gain edits, followed by static integrated-loudness gain with peak ceiling",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 0.59,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/card-shuffle.ogg",
+            "author": "Kenney",
+            "title": "card-shuffle.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "96c84883a30845ede723a4cf2e8369e9837e7dd4e0d4eb0212b0a7ed21b0f544"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.13,
+          "trimDurationSeconds": 0.85,
+          "playbackRate": 1.2,
+          "highpassHz": 750,
+          "lowpassHz": 7200,
+          "fadeInSeconds": 0.004,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": 2.9058,
+          "additionalEdit": "Irregular pull envelope for interrupted fibre tearing, using recorded paper crackle",
+          "amplitudeEnvelopeSecondsGain": [
+            [
+              0,
+              0.15
+            ],
+            [
+              0.05,
+              0.55
+            ],
+            [
+              0.12,
+              0.95
+            ],
+            [
+              0.18,
+              0.4
+            ],
+            [
+              0.23,
+              0.85
+            ],
+            [
+              0.31,
+              0.48
+            ],
+            [
+              0.37,
+              1
+            ],
+            [
+              0.45,
+              0.65
+            ],
+            [
+              0.54,
+              0.95
+            ],
+            [
+              0.62,
+              0.35
+            ],
+            [
+              0.71,
+              0
+            ]
+          ]
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-open-1.ogg",
+            "author": "Kenney",
+            "title": "cards-pack-open-1.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "1214059fdfbf1c396c0702244fc833739cc346d326a71e450b731f456e54d6fb"
+          },
+          "atSeconds": 0.055,
+          "trimStartSeconds": 0.365,
+          "trimDurationSeconds": 0.085,
+          "playbackRate": 0.82,
+          "highpassHz": 650,
+          "lowpassHz": 7300,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.025,
+          "layerRmsDbfs": -35,
+          "staticLayerGainDb": -19.2274
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/PaperPush/AudioSources/casino-audio/Audio/cards-pack-open-2.ogg",
+            "author": "Kenney",
+            "title": "cards-pack-open-2.ogg",
+            "sourceUrl": "https://kenney.nl/assets/casino-audio",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/PaperPush/AudioSources/casino-audio/License.txt",
+            "sha256": "49e02479815c69cd303e0d8f12952c0492d5b3e555838f3485cc25a09818e6fb"
+          },
+          "atSeconds": 0.53,
+          "trimStartSeconds": 0.08,
+          "trimDurationSeconds": 0.16,
+          "playbackRate": 1.0,
+          "highpassHz": 850,
+          "lowpassHz": 7000,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.035,
+          "layerRmsDbfs": -34,
+          "staticLayerGainDb": -12.091
+        }
+      ],
+      "measurements": {
+        "lufs": -29.99,
+        "truePeakDbtp": -8.02,
+        "durationSeconds": 0.79,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.37,
+        "rmsDbfs": -32.942,
+        "dcOffset": -6.196871085508966e-07,
+        "clippedSampleCount": 0
+      },
+      "sha256": "2b7f9589f308f564194187b48b022eda532221d145f44265ffc169336f45443c",
+      "authoringNotes": "Layered real paper/card crackles, two fibre-break accents and an irregular tension envelope. Distinct from the smoother PaperRustle cue; auditory approval still pending.",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 2,
+        "maximumAttenuationDb": 5.046,
+        "editedSampleFraction": 0.0244,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    }
+  ]
+}

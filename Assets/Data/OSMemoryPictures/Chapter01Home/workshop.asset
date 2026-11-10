@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: workshop
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: workshop
+  titleKey: os.memory.pic.scene.workshop
+  contentPrefab: {fileID: 203525267167384604, guid: c260446f27b42304f8146273ae8da2c9, type: 3}
+  hotspots:
+  - hotspotId: robot
+    labelKey: os.memory.pic.robot
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - robot_repaired
+        noFlags: []
+        items: []
+      memoryIndex: 3540
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - robot_placed
+        items: []
+      memoryIndex: 2940
+      addFlags:
+      - robot_placed
+      removeFlags: []
+      addItems: []
+      removeItems:
+      - robot
+      targetScene: 
+      soundCue: robot_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 1
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - window_inspected
+        items: []
+      memoryIndex: 2960
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - wood_taken
+        - nails_taken
+        - hammer_taken
+        noFlags:
+        - window_fixed
+        items: []
+      memoryIndex: 3790
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - wood_taken
+        - nails_taken
+        noFlags:
+        - window_fixed
+        items: []
+      memoryIndex: 3800
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - hammer_taken
+        noFlags:
+        - window_fixed
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - window_fixed
+        items: []
+      memoryIndex: 2980
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - glass_swept
+        items: []
+      memoryIndex: 3720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3370
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: wiring
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: planks
+    labelKey: os.memory.pic.planks
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wood_taken
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags:
+        - window_inspected
+        items: []
+      memoryIndex: 3650
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_inspected
+        noFlags:
+        - wood_taken
+        items: []
+      memoryIndex: 2990
+      addFlags:
+      - wood_taken
+      - nails_taken
+      removeFlags: []
+      addItems:
+      - wood
+      - nails
+      removeItems: []
+      targetScene: 
+      soundCue: wood
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3000
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: toolbox
+    labelKey: os.memory.pic.toolbox
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags:
+        - window_inspected
+        items: []
+      memoryIndex: 3660
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_inspected
+        noFlags: []
+        items: []
+      memoryIndex: 3010
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: toolbox
+      soundCue: toolbox
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: parts
+    labelKey: os.memory.pic.parts
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3640
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.workshop
+    labelKey: os.memory.pic.back.workshop
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: upstairs
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

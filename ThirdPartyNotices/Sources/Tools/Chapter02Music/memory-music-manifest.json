@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "targetLufs": -30.0,
+  "encoding": "Stereo Ogg Vorbis quality 6; preserve each source sample rate (all 44100 Hz)",
+  "processing": "Preserve complete user-supplied loops and exact sample counts; static gain only except documented 3 ms seam corrections on Numb/Numb 2. No limiter/compressor/time stretching.",
+  "verification": "Original/archive hashes; RIFF fmt/smpl/LIST metadata; encoded-output loudness, true peak, sample count and loop seams. No auditory review or Unity verification.",
+  "dynamicRangeNote": "Numb 2 has materially wider source LRA (10.7 LU versus 5.1–5.9 LU). Static gain preserves that contrast; equal integrated LUFS does not make every passage equally loud.",
+  "tracks": [
+    {
+      "key": "Chapter02_MakeupMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/UserSelected/LOOP Just One Moment (by juanjo_sound).wav",
+        "originalPath": "C:/Users/Administrator/Desktop/Tumb/LOOP Just One Moment (by juanjo_sound).wav",
+        "sha256": "fc776d6507bac0987d018abfaec3dbd07b15628cb40cd95fdbcd85c866086e9f",
+        "originalSha256": "fc776d6507bac0987d018abfaec3dbd07b15628cb40cd95fdbcd85c866086e9f",
+        "bytes": 9200122,
+        "title": "Just One Moment",
+        "author": "juanjo_sound",
+        "origin": "User-provided Desktop/Tumb WAV",
+        "sourceUrl": null,
+        "license": "user-supplied; not independently verified",
+        "licenseUrl": null,
+        "wav": {
+          "formatTag": 1,
+          "channels": 2,
+          "sampleRate": 44100,
+          "byteRate": 176400,
+          "blockAlign": 4,
+          "bitsPerSample": 16,
+          "sampleCount": 2299985,
+          "durationSeconds": 52.15385487528345,
+          "chunks": [
+            {
+              "id": "JUNK",
+              "bytes": 28
+            },
+            {
+              "id": "fmt ",
+              "bytes": 16
+            },
+            {
+              "id": "data",
+              "bytes": 9199940
+            },
+            {
+              "id": "smpl",
+              "bytes": 60
+            },
+            {
+              "id": "LIST",
+              "bytes": 26
+            }
+          ],
+          "sampler": {
+            "manufacturer": 0,
+            "product": 0,
+            "samplePeriodNs": 22676,
+            "midiUnityNote": 60,
+            "midiPitchFraction": 0,
+            "smpteFormat": 0,
+            "smpteOffset": 0,
+            "loopCount": 1,
+            "samplerDataBytes": 0
+          },
+          "samplerLoops": [
+            {
+              "cuePointId": 131072,
+              "typeRaw": 1024,
+              "startSample": 0,
+              "endSampleInclusive": 2299984,
+              "fraction": 0,
+              "playCount": 0
+            }
+          ],
+          "infoTags": {
+            "ISFT": "FL Studio 21"
+          },
+          "markerInterpretation": "smpl start/end cover the entire file. Preserve typeRaw=1024 as supplied; do not infer standard loop direction from this value."
+        }
+      },
+      "trimStartSample": 0,
+      "trimEndSample": 2299985,
+      "trimStartSeconds": 0,
+      "trimEndSeconds": 52.15385487528345,
+      "sourceSampleRate": 44100,
+      "preservedFullLength": true,
+      "seamTreatment": {
+        "method": "none",
+        "samples": 0,
+        "requestedSeconds": 0,
+        "actualSeconds": 0.0,
+        "reason": "The source already fades to a near-silent tail for roughly its last second. Preserve this authored rest and the entire 52.153855-second phrase; do not shorten it."
+      },
+      "sourceMeasurements": {
+        "durationSeconds": 52.15385487528345,
+        "sampleCount": 2299985,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -17.61,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 5.3,
+        "rmsDbfs": -20.3464535297195,
+        "samplePeakDbfs": -3.1039485353209417,
+        "clippedSamples": 0,
+        "seamJump": [
+          3.0517578125e-05,
+          0.0001220703125
+        ],
+        "seamJumpDbfs": [
+          -90.30899869919436,
+          -78.26779887263511
+        ],
+        "adjacentJumpP99": [
+          0.023895263671875,
+          0.017822265625
+        ],
+        "adjacentJumpP999": [
+          0.037628173828125,
+          0.026885986328125
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -18.565830486536584,
+            -21.332243642680737
+          ],
+          "tail": [
+            -91.27563753999452,
+            -91.29413130031432
+          ]
+        },
+        "headOneSecondRmsDbfs": -22.34812952401292,
+        "tailOneSecondRmsDbfs": -64.77887319077357
+      },
+      "beforeGain": {
+        "durationSeconds": 52.15385487528345,
+        "sampleCount": 2299985,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -17.61,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 5.3,
+        "rmsDbfs": -20.3464535297195,
+        "samplePeakDbfs": -3.1039485353209417,
+        "clippedSamples": 0,
+        "seamJump": [
+          3.0517578125e-05,
+          0.0001220703125
+        ],
+        "seamJumpDbfs": [
+          -90.30899869919436,
+          -78.26779887263511
+        ],
+        "adjacentJumpP99": [
+          0.023895263671875,
+          0.017822265625
+        ],
+        "adjacentJumpP999": [
+          0.037628173828125,
+          0.026885986328125
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -18.565830486536584,
+            -21.332243642680737
+          ],
+          "tail": [
+            -91.27563753999452,
+            -91.29413130031432
+          ]
+        },
+        "headOneSecondRmsDbfs": -22.34812952401292,
+        "tailOneSecondRmsDbfs": -64.77887319077357
+      },
+      "staticGainDb": -12.39,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_MakeupMusic.ogg",
+      "sha256": "5d68743151a40e11593d4d929725fb3257225b3bc5dd4b985c5e3a24945a034d",
+      "bytes": 980884,
+      "measurements": {
+        "durationSeconds": 52.15385487528345,
+        "sampleCount": 2299985,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -29.96,
+        "truePeakDbtp": -15.46,
+        "loudnessRangeLu": 5.4,
+        "rmsDbfs": -32.71236740680831,
+        "samplePeakDbfs": -15.465411061526401,
+        "clippedSamples": 0,
+        "seamJump": [
+          2.1623832481054706e-05,
+          2.652155353644048e-05
+        ],
+        "seamJumpDbfs": [
+          -93.30134663515753,
+          -91.52802080252279
+        ],
+        "adjacentJumpP99": [
+          0.005757649671286339,
+          0.004297978114336718
+        ],
+        "adjacentJumpP999": [
+          0.00905789908953044,
+          0.006479251027107259
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -30.880595005996092,
+            -33.70882263203458
+          ],
+          "tail": [
+            -109.27007136938568,
+            -110.06204298076469
+          ]
+        },
+        "headOneSecondRmsDbfs": -34.701037747391354,
+        "tailOneSecondRmsDbfs": -77.21730475164213
+      },
+      "loop": true
+    },
+    {
+      "key": "Chapter02_ReturnHomeMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/UserSelected/LOOP Numb 2 (by juanjo_sound).wav",
+        "originalPath": "C:/Users/Administrator/Desktop/Tumb/LOOP Numb 2 (by juanjo_sound).wav",
+        "sha256": "4a9553d6209fc1e4387b78b2e73be26858a9426cb800c1cb938369920bbe7af4",
+        "originalSha256": "4a9553d6209fc1e4387b78b2e73be26858a9426cb800c1cb938369920bbe7af4",
+        "bytes": 14107094,
+        "title": "Numb 2",
+        "author": "juanjo_sound",
+        "origin": "User-provided Desktop/Tumb WAV",
+        "sourceUrl": null,
+        "license": "user-supplied; not independently verified",
+        "licenseUrl": null,
+        "wav": {
+          "formatTag": 1,
+          "channels": 2,
+          "sampleRate": 44100,
+          "byteRate": 176400,
+          "blockAlign": 4,
+          "bitsPerSample": 16,
+          "sampleCount": 3526728,
+          "durationSeconds": 79.97115646258503,
+          "chunks": [
+            {
+              "id": "JUNK",
+              "bytes": 28
+            },
+            {
+              "id": "fmt ",
+              "bytes": 16
+            },
+            {
+              "id": "data",
+              "bytes": 14106912
+            },
+            {
+              "id": "smpl",
+              "bytes": 60
+            },
+            {
+              "id": "LIST",
+              "bytes": 26
+            }
+          ],
+          "sampler": {
+            "manufacturer": 0,
+            "product": 0,
+            "samplePeriodNs": 22676,
+            "midiUnityNote": 60,
+            "midiPitchFraction": 0,
+            "smpteFormat": 0,
+            "smpteOffset": 0,
+            "loopCount": 1,
+            "samplerDataBytes": 0
+          },
+          "samplerLoops": [
+            {
+              "cuePointId": 131072,
+              "typeRaw": 1024,
+              "startSample": 0,
+              "endSampleInclusive": 3526727,
+              "fraction": 0,
+              "playCount": 0
+            }
+          ],
+          "infoTags": {
+            "ISFT": "FL Studio 21"
+          },
+          "markerInterpretation": "smpl start/end cover the entire file. Preserve typeRaw=1024 as supplied; do not infer standard loop direction from this value."
+        }
+      },
+      "trimStartSample": 0,
+      "trimEndSample": 3526728,
+      "trimStartSeconds": 0,
+      "trimEndSeconds": 79.97115646258503,
+      "sourceSampleRate": 44100,
+      "preservedFullLength": true,
+      "seamTreatment": {
+        "method": "3 ms raised-cosine tail fade to zero",
+        "samples": 132,
+        "requestedSeconds": 0.003,
+        "actualSeconds": 0.002993197278911565,
+        "reason": "Source left-channel wrap jump is 1.57 times its normal adjacent-sample 99.9th percentile. The first sample is already near zero. Apply only a 3 ms raised-cosine tail fade to zero, preserving total samples."
+      },
+      "sourceMeasurements": {
+        "durationSeconds": 79.97115646258503,
+        "sampleCount": 3526728,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -14.32,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 10.7,
+        "rmsDbfs": -16.36528629441075,
+        "samplePeakDbfs": -3.104327476037712,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.039520263671875,
+          0.015869140625
+        ],
+        "seamJumpDbfs": [
+          -28.063603330848945,
+          -35.98893182649837
+        ],
+        "adjacentJumpP99": [
+          0.018096923828125,
+          0.0167236328125
+        ],
+        "adjacentJumpP999": [
+          0.025115966796875,
+          0.02288818359375
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -30.285411123788677,
+            -32.90209726257832
+          ],
+          "tail": [
+            -31.9083975941518,
+            -38.44879129641528
+          ]
+        },
+        "headOneSecondRmsDbfs": -15.778760888916663,
+        "tailOneSecondRmsDbfs": -30.8004663559737
+      },
+      "beforeGain": {
+        "durationSeconds": 79.97115646258503,
+        "sampleCount": 3526728,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -14.32,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 10.7,
+        "rmsDbfs": -16.36528848840313,
+        "samplePeakDbfs": -3.104327476037712,
+        "clippedSamples": 0,
+        "seamJump": [
+          3.0517578125e-05,
+          3.0517578125e-05
+        ],
+        "seamJumpDbfs": [
+          -90.30899869919436,
+          -90.30899869919436
+        ],
+        "adjacentJumpP99": [
+          0.018096923828125,
+          0.0167236328125
+        ],
+        "adjacentJumpP999": [
+          0.025115966796875,
+          0.02288818359375
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -30.285411123788677,
+            -32.90209726257832
+          ],
+          "tail": [
+            -32.18073493350733,
+            -40.515706956184275
+          ]
+        },
+        "headOneSecondRmsDbfs": -15.778760888916663,
+        "tailOneSecondRmsDbfs": -30.805340856140155
+      },
+      "staticGainDb": -15.68,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_ReturnHomeMusic.ogg",
+      "sha256": "2eca5bc1aad20a26cb43fa52d9acd1da88506a2cab0c59d8e63fa9b4d2903a0d",
+      "bytes": 1518208,
+      "measurements": {
+        "durationSeconds": 79.97115646258503,
+        "sampleCount": 3526728,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -30.01,
+        "truePeakDbtp": -18.66,
+        "loudnessRangeLu": 10.7,
+        "rmsDbfs": -32.05438075483799,
+        "samplePeakDbfs": -18.66021663119995,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.000177142268512398,
+          0.00012532065738923848
+        ],
+        "seamJumpDbfs": [
+          -75.03355595955165,
+          -78.03954671248556
+        ],
+        "adjacentJumpP99": [
+          0.0029512546956539064,
+          0.0027334718452766507
+        ],
+        "adjacentJumpP999": [
+          0.004084026594646279,
+          0.003719858448952486
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -45.9306974065661,
+            -48.54441119782216
+          ],
+          "tail": [
+            -47.894346540920615,
+            -56.42297548034014
+          ]
+        },
+        "headOneSecondRmsDbfs": -31.44835240953183,
+        "tailOneSecondRmsDbfs": -46.505018596848196
+      },
+      "loop": true
+    },
+    {
+      "key": "Chapter02_WarehouseMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/UserSelected/LOOP Far Away (by juanjo_sound).wav",
+        "originalPath": "C:/Users/Administrator/Desktop/Tumb/LOOP Far Away (by juanjo_sound).wav",
+        "sha256": "f8b3113867193d6b621d9895db358a710eef31f98643e1f1a2f1df3bd5621ae5",
+        "originalSha256": "f8b3113867193d6b621d9895db358a710eef31f98643e1f1a2f1df3bd5621ae5",
+        "bytes": 28007074,
+        "title": "Far Away",
+        "author": "juanjo_sound",
+        "origin": "User-provided Desktop/Tumb WAV",
+        "sourceUrl": null,
+        "license": "user-supplied; not independently verified",
+        "licenseUrl": null,
+        "wav": {
+          "formatTag": 1,
+          "channels": 2,
+          "sampleRate": 44100,
+          "byteRate": 176400,
+          "blockAlign": 4,
+          "bitsPerSample": 16,
+          "sampleCount": 7001723,
+          "durationSeconds": 158.76922902494331,
+          "chunks": [
+            {
+              "id": "JUNK",
+              "bytes": 28
+            },
+            {
+              "id": "fmt ",
+              "bytes": 16
+            },
+            {
+              "id": "data",
+              "bytes": 28006892
+            },
+            {
+              "id": "smpl",
+              "bytes": 60
+            },
+            {
+              "id": "LIST",
+              "bytes": 26
+            }
+          ],
+          "sampler": {
+            "manufacturer": 0,
+            "product": 0,
+            "samplePeriodNs": 22676,
+            "midiUnityNote": 60,
+            "midiPitchFraction": 0,
+            "smpteFormat": 0,
+            "smpteOffset": 0,
+            "loopCount": 1,
+            "samplerDataBytes": 0
+          },
+          "samplerLoops": [
+            {
+              "cuePointId": 131072,
+              "typeRaw": 1024,
+              "startSample": 0,
+              "endSampleInclusive": 7001722,
+              "fraction": 0,
+              "playCount": 0
+            }
+          ],
+          "infoTags": {
+            "ISFT": "FL Studio 21"
+          },
+          "markerInterpretation": "smpl start/end cover the entire file. Preserve typeRaw=1024 as supplied; do not infer standard loop direction from this value."
+        }
+      },
+      "trimStartSample": 0,
+      "trimEndSample": 7001723,
+      "trimStartSeconds": 0,
+      "trimEndSeconds": 158.76922902494331,
+      "sourceSampleRate": 44100,
+      "preservedFullLength": true,
+      "seamTreatment": {
+        "method": "none",
+        "samples": 0,
+        "requestedSeconds": 0,
+        "actualSeconds": 0.0,
+        "reason": "Source wrap jumps fall below the normal adjacent-sample 99th percentile. Keep the complete user-provided LOOP unmodified except static gain."
+      },
+      "sourceMeasurements": {
+        "durationSeconds": 158.76922902494331,
+        "sampleCount": 7001723,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -15.99,
+        "truePeakDbtp": -3.08,
+        "loudnessRangeLu": 5.9,
+        "rmsDbfs": -18.294465324543406,
+        "samplePeakDbfs": -3.103569611135559,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.01776123046875,
+          0.017852783203125
+        ],
+        "seamJumpDbfs": [
+          -35.01053900619659,
+          -34.96588137755075
+        ],
+        "adjacentJumpP99": [
+          0.026885986328125,
+          0.0279541015625
+        ],
+        "adjacentJumpP999": [
+          0.03997802734375,
+          0.041839599609375
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -32.753226512133224,
+            -32.789070683108335
+          ],
+          "tail": [
+            -34.34023231188569,
+            -29.249795797531753
+          ]
+        },
+        "headOneSecondRmsDbfs": -26.848509118910982,
+        "tailOneSecondRmsDbfs": -30.050076689527337
+      },
+      "beforeGain": {
+        "durationSeconds": 158.76922902494331,
+        "sampleCount": 7001723,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -15.99,
+        "truePeakDbtp": -3.08,
+        "loudnessRangeLu": 5.9,
+        "rmsDbfs": -18.294465324543406,
+        "samplePeakDbfs": -3.103569611135559,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.01776123046875,
+          0.017852783203125
+        ],
+        "seamJumpDbfs": [
+          -35.01053900619659,
+          -34.96588137755075
+        ],
+        "adjacentJumpP99": [
+          0.026885986328125,
+          0.0279541015625
+        ],
+        "adjacentJumpP999": [
+          0.03997802734375,
+          0.041839599609375
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -32.753226512133224,
+            -32.789070683108335
+          ],
+          "tail": [
+            -34.34023231188569,
+            -29.249795797531753
+          ]
+        },
+        "headOneSecondRmsDbfs": -26.848509118910982,
+        "tailOneSecondRmsDbfs": -30.050076689527337
+      },
+      "staticGainDb": -14.01,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_WarehouseMusic.ogg",
+      "sha256": "21557d71118a709b7d20f3cdd7e2531ed606e667b0823fc9f7b9badf55eeed3d",
+      "bytes": 3315183,
+      "measurements": {
+        "durationSeconds": 158.76922902494331,
+        "sampleCount": 7001723,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -29.98,
+        "truePeakDbtp": -16.92,
+        "loudnessRangeLu": 5.9,
+        "rmsDbfs": -32.286246674891245,
+        "samplePeakDbfs": -16.917961667979032,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.0035505318373907357,
+          0.0033309025420749094
+        ],
+        "seamJumpDbfs": [
+          -48.99413177414152,
+          -49.54876148042007
+        ],
+        "adjacentJumpP99": [
+          0.0053424337320029745,
+          0.00555384379811585
+        ],
+        "adjacentJumpP999": [
+          0.007926959448494154,
+          0.008314873288385866
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -46.73515639362933,
+            -46.78581608584545
+          ],
+          "tail": [
+            -48.492997436326874,
+            -43.32311264803139
+          ]
+        },
+        "headOneSecondRmsDbfs": -40.844735658212514,
+        "tailOneSecondRmsDbfs": -44.06065658590145
+      },
+      "loop": true
+    },
+    {
+      "key": "Chapter02_DailyMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/UserSelected/LOOP Numb (by juanjo_sound).wav",
+        "originalPath": "C:/Users/Administrator/Desktop/Tumb/LOOP Numb (by juanjo_sound).wav",
+        "sha256": "9642e649356ec5a99bd581afd325a98ae558be231974daba1eb5eba58c233f46",
+        "originalSha256": "9642e649356ec5a99bd581afd325a98ae558be231974daba1eb5eba58c233f46",
+        "bytes": 23447814,
+        "title": "Numb",
+        "author": "juanjo_sound",
+        "origin": "User-provided Desktop/Tumb WAV",
+        "sourceUrl": null,
+        "license": "user-supplied; not independently verified",
+        "licenseUrl": null,
+        "wav": {
+          "formatTag": 1,
+          "channels": 2,
+          "sampleRate": 44100,
+          "byteRate": 176400,
+          "blockAlign": 4,
+          "bitsPerSample": 16,
+          "sampleCount": 5861908,
+          "durationSeconds": 132.92308390022677,
+          "chunks": [
+            {
+              "id": "JUNK",
+              "bytes": 28
+            },
+            {
+              "id": "fmt ",
+              "bytes": 16
+            },
+            {
+              "id": "data",
+              "bytes": 23447632
+            },
+            {
+              "id": "smpl",
+              "bytes": 60
+            },
+            {
+              "id": "LIST",
+              "bytes": 26
+            }
+          ],
+          "sampler": {
+            "manufacturer": 0,
+            "product": 0,
+            "samplePeriodNs": 22676,
+            "midiUnityNote": 60,
+            "midiPitchFraction": 0,
+            "smpteFormat": 0,
+            "smpteOffset": 0,
+            "loopCount": 1,
+            "samplerDataBytes": 0
+          },
+          "samplerLoops": [
+            {
+              "cuePointId": 131072,
+              "typeRaw": 1024,
+              "startSample": 0,
+              "endSampleInclusive": 5861907,
+              "fraction": 0,
+              "playCount": 0
+            }
+          ],
+          "infoTags": {
+            "ISFT": "FL Studio 21"
+          },
+          "markerInterpretation": "smpl start/end cover the entire file. Preserve typeRaw=1024 as supplied; do not infer standard loop direction from this value."
+        }
+      },
+      "trimStartSample": 0,
+      "trimEndSample": 5861908,
+      "trimStartSeconds": 0,
+      "trimEndSeconds": 132.92308390022677,
+      "sourceSampleRate": 44100,
+      "preservedFullLength": true,
+      "seamTreatment": {
+        "method": "3 ms raised-cosine tail fade to zero",
+        "samples": 132,
+        "requestedSeconds": 0.003,
+        "actualSeconds": 0.002993197278911565,
+        "reason": "Source right-channel wrap jump is 2.22 times its normal adjacent-sample 99.9th percentile. The first sample is already near zero. Apply only a 3 ms raised-cosine tail fade to zero, preserving total samples."
+      },
+      "sourceMeasurements": {
+        "durationSeconds": 132.92308390022677,
+        "sampleCount": 5861908,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -15.06,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 5.1,
+        "rmsDbfs": -17.061894610206412,
+        "samplePeakDbfs": -3.103569611135559,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.012939453125,
+          0.061676025390625
+        ],
+        "seamJumpDbfs": [
+          -37.76168156733971,
+          -24.19767242888828
+        ],
+        "adjacentJumpP99": [
+          0.022003173828125,
+          0.020751953125
+        ],
+        "adjacentJumpP999": [
+          0.029937744140625,
+          0.027740478515625
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -32.894656349198875,
+            -31.64768630764427
+          ],
+          "tail": [
+            -31.78380454469902,
+            -31.822624920571773
+          ]
+        },
+        "headOneSecondRmsDbfs": -20.462804810648862,
+        "tailOneSecondRmsDbfs": -29.58500809646905
+      },
+      "beforeGain": {
+        "durationSeconds": 132.92308390022677,
+        "sampleCount": 5861908,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -15.06,
+        "truePeakDbtp": -3.1,
+        "loudnessRangeLu": 5.1,
+        "rmsDbfs": -17.061896709887062,
+        "samplePeakDbfs": -3.103569611135559,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.0,
+          3.0517578125e-05
+        ],
+        "seamJumpDbfs": [
+          -240.0,
+          -90.30899869919436
+        ],
+        "adjacentJumpP99": [
+          0.022003173828125,
+          0.020751953125
+        ],
+        "adjacentJumpP999": [
+          0.029937744140625,
+          0.027740478515625
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -32.894656349198875,
+            -31.64768630764427
+          ],
+          "tail": [
+            -32.1747414996578,
+            -32.306680728735266
+          ]
+        },
+        "headOneSecondRmsDbfs": -20.462804810648862,
+        "tailOneSecondRmsDbfs": -29.5900005553532
+      },
+      "staticGainDb": -14.94,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_DailyMusic.ogg",
+      "sha256": "44ef1fa0fc2468710e4dca3db75bcaad99443416982c7bef381af138b7a142e8",
+      "bytes": 2474780,
+      "measurements": {
+        "durationSeconds": 132.92308390022677,
+        "sampleCount": 5861908,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -30.02,
+        "truePeakDbtp": -17.98,
+        "loudnessRangeLu": 5.2,
+        "rmsDbfs": -32.015694424641524,
+        "samplePeakDbfs": -17.98264601619079,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.00048134705866687,
+          8.164144310285337e-05
+        ],
+        "seamJumpDbfs": [
+          -66.35083355306026,
+          -81.76178654505101
+        ],
+        "adjacentJumpP99": [
+          0.003932154010981326,
+          0.0037057432532310516
+        ],
+        "adjacentJumpP999": [
+          0.005349421903491081,
+          0.004952915610047081
+        ],
+        "boundaryRms20msDbfs": {
+          "head": [
+            -47.82028924131902,
+            -46.53730123748897
+          ],
+          "tail": [
+            -47.08162244604215,
+            -47.31019001215496
+          ]
+        },
+        "headOneSecondRmsDbfs": -35.40228077100345,
+        "tailOneSecondRmsDbfs": -44.56740053927027
+      },
+      "loop": true
+    }
+  ]
+}

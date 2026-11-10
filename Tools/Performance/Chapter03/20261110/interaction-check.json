@@ -1,0 +1,1 @@
+{"id":"study_shelf","steps":4,"arrived":{"x":5,"y":3,"magnitude":5.83095169,"sqrMagnitude":34},"saved":{"x":5,"y":3,"magnitude":5.83095169,"sqrMagnitude":34},"walking":false,"queue":[{"type":"text","key":"interaction.study.shelf"}]}

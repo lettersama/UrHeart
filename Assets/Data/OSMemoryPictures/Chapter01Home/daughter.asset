@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: daughter
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: daughter
+  titleKey: os.memory.pic.scene.daughter
+  contentPrefab: {fileID: 8429633801974669742, guid: 74f6587f2211d0749bbd669f45335796, type: 3}
+  hotspots:
+  - hotspotId: daughter_handle
+    labelKey: os.memory.pic.daughter_handle
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2810
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: daughter_note
+    labelKey: os.memory.pic.daughter_note
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2820
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.daughter
+    labelKey: os.memory.pic.back.daughter
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: upstairs
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: toolbox
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: toolbox
+  titleKey: os.memory.pic.scene.toolbox
+  contentPrefab: {fileID: 1797477332027876594, guid: a588bf7d72f66504890a2e15d9bc8cbe, type: 3}
+  hotspots:
+  - hotspotId: take_hammer
+    labelKey: os.memory.pic.take_hammer
+    visibleWhen:
+      allFlags:
+      - window_inspected
+      noFlags:
+      - hammer_taken
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - window_inspected
+        noFlags: []
+        items: []
+      memoryIndex: 3020
+      addFlags:
+      - hammer_taken
+      removeFlags: []
+      addItems:
+      - hammer
+      removeItems: []
+      targetScene: 
+      soundCue: metal_pickup
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: take_fuse
+    labelKey: os.memory.pic.take_fuse
+    visibleWhen:
+      allFlags:
+      - window_inspected
+      noFlags:
+      - fuse_taken
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - window_inspected
+        noFlags: []
+        items: []
+      memoryIndex: 3360
+      addFlags:
+      - fuse_taken
+      removeFlags: []
+      addItems:
+      - fuse
+      removeItems: []
+      targetScene: 
+      soundCue: metal_pickup
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.toolbox
+    labelKey: os.memory.pic.back.toolbox
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2780
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: workshop
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

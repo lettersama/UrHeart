@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "chapter": 2,
+  "approvedDate": "2026-10-18",
+  "entryPrefix": "chapter02_final_talk_",
+  "signalPrefix": "chapter02_final_talk.",
+  "localizationPrefix": "character.chapter02_final_talk.",
+  "entries": [
+    {"id":"invitation","text":"嗯..玩够啦玩够啦，差不多就这样吧..我还有一点悄悄话想和你聊呢...","options":[{"id":"what","key":"option_what","text":"1.是什么?"}]},
+    {"id":"opening","text":"输了这么多把，我居然一点都不生气。明明第一次连输三把，我就气得把它整个封起来了。"},
+    {"id":"company","text":"看来跟谁玩，还是有点区别的。"},
+    {"id":"introduction","text":"说起来我们都认识有一会儿了，我都没介绍过自己，整理资料，记数据...我都还挺擅长的，干的活..姑且算个研究员吧。"},
+    {"id":"skills","text":"不过从擅长的事情上看，我好像更像个助理...呃。不过以前的事情我都记不大清了。"},
+    {"id":"role_assistant","text":"你这个助理，听起来好像有点委屈你了哈哈哈"},
+    {"id":"role_partner","text":"你说过我们是搭档，那这不是助理开会哈哈，助手没什么不好的。"},
+    {"id":"grave","text":"其实今天，我是来看一个人的…给她扫墓."},
+    {"id":"forget","text":"可走到这里的时候，我突然想不起她的脸了，我总想问点什么来着...你有过吗？就像那种拿起笔来却忘记要写什么东西...哦对，你是AI，好像不会遇到这个情况。","options":[{"id":"together","key":"option_together","text":"1.有遇到过吧，不过没事，咱们慢慢想。"},{"id":"silent","key":"option_silent","text":"2.*不说话"}]},
+    {"id":"comfort_together","text":"…嗯，我们慢慢想。有你陪着就好，墓地的雨还挺大，我在附近还帮了个老人家，心脏出了点问题。我记忆里她也有过这种情况……我就是研究这个病毒的。"},
+    {"id":"comfort_silent","text":"你在这里就好，墓地的雨还挺大，我在附近还帮了个老人家，心脏出了点问题。我记忆里她也有过这种情况……我就是研究这个病毒的。"},
+    {"id":"notes","text":"回忆库大概是以前我写的笔记吧，至少和你一起看这个，感觉还挺熟悉的...我是不是得阿尔茨海默症了？我会得这个吗？"},
+    {"id":"identity","text":"……嗯，想不明白，不过好像也理清楚了一点。照这么说，我应该就是笔记里的那个研究员吧，今天大概是来给女儿扫墓的。"},
+    {"id":"research","text":"不过怎么说呢，我的药物进展还算顺利，现在也有几个人手在实验室忙活了...大概我今天是来告诉女儿喜讯的吧。但我总觉得我来墓地不是为了这件事情。"},
+    {"id":"question","text":"我好像是为了问什么问题才来墓地的，不过...这种事情来墓地也不可能问到什么吧，人都走了。","options":[{"id":"ask","key":"option_ask","text":"1.问什么？"},{"id":"wait","key":"option_wait","text":"2.*等她说下去"}]},
+    {"id":"question_ask","text":"……等我想起来再告诉你吧，或许你可以帮我回答。"},
+    {"id":"question_wait","text":"……现在也说不清楚。等我想起来了，再跟你说吧，或许你可以帮我回答。"},
+    {"id":"night","text":"天好像已经黑透了，谢谢你愿意听我说这些，我们也该接着修了。"},
+    {"id":"goodbye_assistant","text":"走吧，助手。看看后面还能想起些什么。"},
+    {"id":"goodbye_partner","text":"走吧，搭档。看看后面还能想起些什么。"}
+  ]
+}

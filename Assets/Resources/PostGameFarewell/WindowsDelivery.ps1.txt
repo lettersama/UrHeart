@@ -1,0 +1,407 @@
+param(
+    [Parameter(Mandatory = $true)][string]$RequestPath,
+    [switch]$TestMode,
+    [switch]$LaunchDetached
+)
+
+# Windows PowerShell 5.1-compatible, dependency-free, one-shot delivery helper.
+# No network access, startup registration, scheduled task, or retry daemon.
+# Only the short launcher is a game child. WMI owns the waiting worker.
+Set-StrictMode -Version 2.0
+$ErrorActionPreference = 'Stop'
+$utf8 = New-Object System.Text.UTF8Encoding($true)
+
+function Write-NewAtomicJson([string]$Path, $Value) {
+    $temporary = $Path + '.' + [Guid]::NewGuid().ToString('N') + '.tmp'
+    try {
+        $json = ConvertTo-Json -InputObject $Value -Depth 12
+        $stream = [IO.File]::Open($temporary, [IO.FileMode]::CreateNew, [IO.FileAccess]::Write, [IO.FileShare]::None)
+        try {
+            $preamble = $utf8.GetPreamble()
+            $bytes = $utf8.GetBytes($json)
+            $stream.Write($preamble, 0, $preamble.Length)
+            $stream.Write($bytes, 0, $bytes.Length)
+            $stream.Flush($true)
+        } finally { $stream.Dispose() }
+        [IO.File]::Move($temporary, $Path)
+    } finally { if ([IO.File]::Exists($temporary)) { [IO.File]::Delete($temporary) } }
+}
+
+function Is-Within([string]$Child, [string]$Parent) {
+    $prefix = [IO.Path]::GetFullPath($Parent).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    return [IO.Path]::GetFullPath($Child).StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)
+}
+
+function Is-GuidToken([string]$Value) {
+    $parsed = [Guid]::Empty
+    return [Guid]::TryParseExact($Value, 'N', [ref]$parsed)
+}
+
+function Safe-FileName([string]$Value) {
+    $name = $Value.Trim()
+    foreach ($badChar in [IO.Path]::GetInvalidFileNameChars()) { $name = $name.Replace($badChar, [char]'_') }
+    $name = $name.TrimEnd(' ', '.')
+    if ($name.EndsWith('.txt', [StringComparison]::OrdinalIgnoreCase)) { $name = $name.Substring(0, $name.Length - 4) }
+    if ($name.Length -gt 80) {
+        $name = $name.Substring(0, 80)
+        if ([char]::IsHighSurrogate($name[$name.Length - 1])) { $name = $name.Substring(0, $name.Length - 1) }
+    }
+    $name = $name.TrimEnd(' ', '.')
+    if ($name.Length -eq 0) { $name = 'Live - Letter' }
+    if ($name.Split('.')[0] -match '^(CON|PRN|AUX|NUL|COM[0-9]|LPT[0-9])$') { $name = 'Live - ' + $name }
+    return $name + '.txt'
+}
+
+function Clip-Text([string]$Value, [int]$Maximum) {
+    if ($Value.Length -le $Maximum) { return $Value }
+    $clipped = $Value.Substring(0, $Maximum)
+    if ([char]::IsHighSurrogate($clipped[$clipped.Length - 1])) { $clipped = $clipped.Substring(0, $clipped.Length - 1) }
+    return $clipped
+}
+
+function Wait-OriginalParent($Request, $Report) {
+    $parentProcess = $null
+    try {
+        try { $parentProcess = [Diagnostics.Process]::GetProcessById([int]$Request.parentPid) }
+        catch [ArgumentException] { $Report.parentExitStatus = 'already_exited'; return }
+        try { $actualTicks = $parentProcess.StartTime.ToUniversalTime().Ticks.ToString([Globalization.CultureInfo]::InvariantCulture) }
+        catch {
+            if ($parentProcess.HasExited) { $Report.parentExitStatus = 'exited_before_identity_read'; return }
+            throw
+        }
+        if ($actualTicks -cne [string]$Request.parentStartTimeUtcTicks) {
+            $Report.parentExitStatus = 'pid_reused_original_already_exited'
+            return
+        }
+        if ($parentProcess.Id -eq $PID) { throw 'A helper cannot wait for itself.' }
+        $Report.parentMatched = $true
+        $parentProcess.WaitForExit() # Intentionally no timeout while the original game is alive.
+        $Report.parentExitStatus = 'waited_for_original_exit'
+    } finally { if ($null -ne $parentProcess) { $parentProcess.Dispose() } }
+}
+
+function Show-NativeNotification($Notification) {
+    Add-Type -AssemblyName System.Windows.Forms
+    Add-Type -AssemblyName System.Drawing
+    $icon = New-Object System.Windows.Forms.NotifyIcon
+    $script:farewellBalloonShown = $false
+    $script:farewellBalloonClosed = $false
+    $shownHandler = [EventHandler]{ $script:farewellBalloonShown = $true }
+    $closedHandler = [EventHandler]{ $script:farewellBalloonClosed = $true }
+    $title = Clip-Text ([string]$Notification.title) 63
+    $body = Clip-Text ([string]$Notification.body) 255
+    try {
+        $icon.Icon = [Drawing.SystemIcons]::Information
+        $icon.Text = 'Live'
+        $icon.add_BalloonTipShown($shownHandler)
+        $icon.add_BalloonTipClosed($closedHandler)
+        $icon.Visible = $true
+        $icon.ShowBalloonTip(10000, $title, $body, [Windows.Forms.ToolTipIcon]::Info)
+        $watch = [Diagnostics.Stopwatch]::StartNew()
+        while ($watch.Elapsed.TotalSeconds -lt 30 -and -not $script:farewellBalloonClosed) {
+            [Windows.Forms.Application]::DoEvents()
+            [Threading.Thread]::Sleep(100)
+        }
+        return [ordered]@{
+            status = $(if ($script:farewellBalloonShown) { 'shown_event_received' } else { 'submitted_not_observed' })
+            api = 'System.Windows.Forms.NotifyIcon.ShowBalloonTip'
+            title = $title; body = $body
+            titleTruncated = ($title -cne [string]$Notification.title)
+            bodyTruncated = ($body -cne [string]$Notification.body)
+        }
+    } finally {
+        $icon.Visible = $false
+        $icon.remove_BalloonTipShown($shownHandler)
+        $icon.remove_BalloonTipClosed($closedHandler)
+        $icon.Dispose()
+    }
+}
+
+function Read-OwnedRecord([string]$Path, $Request) {
+    $record = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText($Path, $utf8))
+    if ([string]$record.requestId -cne [string]$Request.requestId -or
+        [string]$record.installationToken -cne [string]$Request.installationToken) {
+        throw 'Delivery record does not belong to this request.'
+    }
+    return $record
+}
+
+function Quote-FileArgument([string]$Value) {
+    # These are validated Windows file paths, never PowerShell source text.
+    if ($Value.Contains('"') -or $Value.Contains("`r") -or $Value.Contains("`n")) { throw 'Invalid file argument.' }
+    return '"' + $Value + '"'
+}
+
+function Invoke-DetachedLaunch {
+    $directory = $null
+    $launchLock = $null
+    $report = [ordered]@{ schemaVersion = 2; transport = 'local-wmi'; launcherPid = $PID;
+        workerPid = 0; status = 'starting'; error = ''; startedUtc = [DateTime]::UtcNow.ToString('O') }
+    try {
+        $fullRequest = [IO.Path]::GetFullPath($RequestPath)
+        $directory = [IO.Path]::GetDirectoryName($fullRequest)
+        if ([IO.Path]::GetFileName($fullRequest) -cne 'request.json') { throw 'Expected request.json.' }
+        $request = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText($fullRequest, $utf8))
+        if (-not (Is-GuidToken ([string]$request.requestId)) -or
+            -not (Is-GuidToken ([string]$request.installationToken))) { throw 'Invalid request identity.' }
+        if (($request.mode -ceq 'test') -ne [bool]$TestMode) { throw 'Delivery test mode mismatch.' }
+        $report.requestId = [string]$request.requestId
+        try {
+            $launchLock = [IO.File]::Open([IO.Path]::Combine($directory, 'launch.lock'),
+                [IO.FileMode]::OpenOrCreate, [IO.FileAccess]::ReadWrite, [IO.FileShare]::None)
+        } catch [IO.IOException] { $report.status = 'launcher_already_running'; return $report }
+        if ([IO.File]::Exists([IO.Path]::Combine($directory, 'receipt.json'))) {
+            $report.status = 'already_processed'; return $report
+        }
+        # Do not spawn another worker while either the old or new helper owns this lock.
+        try {
+            $probe = [IO.File]::Open([IO.Path]::Combine($directory, 'delivery.lock'),
+                [IO.FileMode]::OpenOrCreate, [IO.FileAccess]::ReadWrite, [IO.FileShare]::None)
+            $probe.Dispose()
+        } catch [IO.IOException] { $report.status = 'worker_already_running'; return $report }
+
+        $powershell = [IO.Path]::Combine([Environment]::GetFolderPath('System'), 'WindowsPowerShell\v1.0\powershell.exe')
+        $command = (Quote-FileArgument $powershell) + ' -NoLogo -NoProfile -NonInteractive -Sta -ExecutionPolicy RemoteSigned -WindowStyle Hidden -File ' +
+            (Quote-FileArgument $PSCommandPath) + ' -RequestPath ' + (Quote-FileArgument $fullRequest)
+        if ($TestMode) { $command += ' -TestMode' }
+        $cleanEnvironment = [string[]]@(Get-ChildItem Env: | Where-Object { $_.Name -notmatch '^(Steam|GAMEOVERLAY)' } |
+            ForEach-Object { $_.Name + '=' + $_.Value })
+        $startup = New-CimInstance -ClassName Win32_ProcessStartup -ClientOnly -Property @{
+            ShowWindow = [uint16]0; CreateFlags = [uint32]0x09000000 # NO_WINDOW | BREAKAWAY_FROM_JOB
+            WinstationDesktop = 'WinSta0\Default'; EnvironmentVariables = $cleanEnvironment
+        }
+        # A local WMI call runs as this user, in this user's session. No elevation,
+        # credentials, remote host, persistent task, or Steam child waits for delivery.
+        $created = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -OperationTimeoutSec 10 -Arguments @{
+            CommandLine = $command; CurrentDirectory = $directory; ProcessStartupInformation = $startup
+        }
+        if ([uint32]$created.ReturnValue -ne 0) { throw ('Windows could not start delivery: ' + $created.ReturnValue) }
+        $report.workerPid = [int]$created.ProcessId
+        $report.status = 'worker_started'
+        return $report
+    } catch {
+        $report.status = 'failed'; $report.error = $_.Exception.ToString(); return $report
+    } finally {
+        $report.finishedUtc = [DateTime]::UtcNow.ToString('O')
+        if ($null -ne $directory -and [IO.Directory]::Exists($directory)) {
+            try { Write-NewAtomicJson ([IO.Path]::Combine($directory, 'launch-' + [Guid]::NewGuid().ToString('N') + '.json')) $report }
+            catch { [Console]::Error.WriteLine($_.Exception.Message) }
+        }
+        if ($null -ne $launchLock) { $launchLock.Dispose() }
+    }
+}
+
+function Invoke-Delivery {
+    $stateDirectory = $null
+    $deliveryLock = $null
+    $letterTemporary = $null
+    $publicationPath = $null
+    $report = [ordered]@{
+        schemaVersion = 2; helperPid = $PID; startedUtc = [DateTime]::UtcNow.ToString('O')
+        sessionId = [Diagnostics.Process]::GetCurrentProcess().SessionId
+        steamEnvironmentKeys = @(Get-ChildItem Env: | Where-Object { $_.Name -match '^(Steam|GAMEOVERLAY)' } | ForEach-Object { $_.Name })
+        status = 'starting'; requestId = ''; installationToken = ''; mode = ''
+        parentMatched = $false; parentExitStatus = ''; parentExitObservedUtc = ''
+        delaySeconds = 0; delayElapsedSeconds = 0.0; actualLetterPath = ''; deliveredUtc = ''
+        notification = [ordered]@{ status = 'not_attempted' }; error = ''; finishedUtc = ''; reportPath = ''
+    }
+    try {
+        if ([Environment]::OSVersion.Platform -ne [PlatformID]::Win32NT) { throw 'Windows is required.' }
+        $fullRequestPath = [IO.Path]::GetFullPath($RequestPath)
+        $stateDirectory = [IO.Path]::GetDirectoryName($fullRequestPath)
+        if ([IO.Path]::GetFileName($fullRequestPath) -cne 'request.json') { throw 'Expected the persistent request.json filename.' }
+        $request = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText($fullRequestPath, $utf8))
+        if ([int]$request.schemaVersion -notin @(1, 2)) { throw 'Unsupported request schema.' }
+        if (-not (Is-GuidToken ([string]$request.installationToken)) -or -not (Is-GuidToken ([string]$request.requestId))) {
+            throw 'Invalid installation or request token.'
+        }
+        $report.requestId = [string]$request.requestId
+        $report.installationToken = [string]$request.installationToken
+        $report.mode = [string]$request.mode
+        if ([int]$request.parentPid -le 0 -or [long]::Parse([string]$request.parentStartTimeUtcTicks) -le 0) {
+            throw 'Invalid parent process identity.'
+        }
+        if ([string]$request.delaySeconds -notmatch '^\d+$') { throw 'Delay must be an integer number of seconds.' }
+        $delay = [int]$request.delaySeconds
+        $report.delaySeconds = $delay
+        if ([string]::IsNullOrWhiteSpace([string]$request.letterText)) { throw 'Letter text is empty.' }
+        if ($null -eq $request.notification -or [string]::IsNullOrWhiteSpace([string]$request.notification.title) -or
+            [string]::IsNullOrWhiteSpace([string]$request.notification.body)) { throw 'Localized notification text is missing.' }
+
+        $realDesktop = [Environment]::GetFolderPath([Environment+SpecialFolder]::DesktopDirectory)
+        if ($request.mode -ceq 'test') {
+            if (-not $TestMode -or $request.disableToast -ne $true -or $delay -lt 0 -or $delay -gt 10) {
+                throw 'Test requests require -TestMode, disableToast=true, and a delay from 0 to 10 seconds.'
+            }
+            $marker = [IO.Path]::Combine($stateDirectory, '.postgame-farewell-test')
+            if (-not [IO.File]::Exists($marker) -or -not (Is-GuidToken ([string]$request.testIsolationToken)) -or
+            [IO.File]::ReadAllText($marker, $utf8).Trim() -cne [string]$request.testIsolationToken) {
+                throw 'Explicit test isolation marker is missing or mismatched.'
+            }
+            $desktop = [IO.Path]::GetFullPath([string]$request.testDesktopDirectory)
+            if (-not (Is-Within $desktop $stateDirectory)) { throw 'Test desktop must be inside its isolated request directory.' }
+            if (-not [string]::IsNullOrWhiteSpace($realDesktop) -and
+            ($desktop.Equals([IO.Path]::GetFullPath($realDesktop), [StringComparison]::OrdinalIgnoreCase) -or
+            (Is-Within $desktop $realDesktop) -or (Is-Within $stateDirectory $realDesktop))) {
+                throw 'Test requests cannot use the real desktop or any directory beneath it.'
+            }
+        } elseif ($request.mode -ceq 'production') {
+            if ($TestMode -or $delay -ne 300 -or $request.disableToast -ne $false -or
+            -not [string]::IsNullOrEmpty([string]$request.testDesktopDirectory) -or
+            -not [string]::IsNullOrEmpty([string]$request.testIsolationToken)) {
+                throw 'Production requests require the real desktop, notifications, and exactly 300 seconds.'
+            }
+            if ([string]::IsNullOrWhiteSpace($realDesktop)) { throw 'Windows did not provide a DesktopDirectory.' }
+            $desktop = [IO.Path]::GetFullPath($realDesktop)
+        } else { throw 'Unknown delivery mode.' }
+
+        try {
+            $deliveryLock = [IO.File]::Open([IO.Path]::Combine($stateDirectory, 'delivery.lock'),
+                [IO.FileMode]::OpenOrCreate, [IO.FileAccess]::ReadWrite, [IO.FileShare]::None)
+        } catch [IO.IOException] {
+            $report.status = 'duplicate_helper_running'
+            return $report
+        }
+        $receiptPath = [IO.Path]::Combine($stateDirectory, 'receipt.json')
+        $claimPath = [IO.Path]::Combine($stateDirectory, 'claim.json')
+        if ([IO.File]::Exists($receiptPath)) {
+            [void](Read-OwnedRecord $receiptPath $request)
+            $report.status = 'already_processed'; return $report
+        }
+        if ([IO.File]::Exists($claimPath)) {
+            # The exclusive lock proves that the previous worker has gone. A claim
+            # records starting, not delivery: old Steam Stop requests may resume.
+            [void](Read-OwnedRecord $claimPath $request)
+        } else {
+            Write-NewAtomicJson $claimPath ([ordered]@{
+                schemaVersion = 2; installationToken = $request.installationToken; requestId = $request.requestId
+                helperPid = $PID; claimedUtc = [DateTime]::UtcNow.ToString('O')
+            })
+        }
+        Write-NewAtomicJson ([IO.Path]::Combine($stateDirectory, 'worker-' + $PID + '-' + [Guid]::NewGuid().ToString('N') + '.json')) ([ordered]@{
+            schemaVersion = 2; requestId = $request.requestId; installationToken = $request.installationToken
+            helperPid = $PID; sessionId = $report.sessionId; startedUtc = $report.startedUtc
+        })
+        $parentExitPath = [IO.Path]::Combine($stateDirectory, 'parent-exit.json')
+        if ([IO.File]::Exists($parentExitPath)) {
+            $observed = Read-OwnedRecord $parentExitPath $request
+            $exitUtc = [DateTime]::Parse([string]$observed.utc, [Globalization.CultureInfo]::InvariantCulture,
+                [Globalization.DateTimeStyles]::RoundtripKind).ToUniversalTime()
+            $report.parentExitStatus = 'resumed_after_original_exit'
+        } else {
+            Wait-OriginalParent $request $report
+            $exitUtc = [DateTime]::UtcNow
+            Write-NewAtomicJson $parentExitPath ([ordered]@{
+                schemaVersion = 2; requestId = $request.requestId; installationToken = $request.installationToken
+                utc = $exitUtc.ToString('O')
+            })
+        }
+        $report.parentExitObservedUtc = $exitUtc.ToString('O')
+        $remainingDelay = [Math]::Min($delay, [Math]::Max(0, $delay - ([DateTime]::UtcNow - $exitUtc).TotalSeconds))
+        $timer = [Diagnostics.Stopwatch]::StartNew()
+        while ($timer.Elapsed.TotalSeconds -lt $remainingDelay) {
+            $remainingMilliseconds = [Math]::Ceiling(($remainingDelay - $timer.Elapsed.TotalSeconds) * 1000)
+            [Threading.Thread]::Sleep([int][Math]::Min(1000, [Math]::Max(1, $remainingMilliseconds)))
+        }
+        $report.delayElapsedSeconds = $timer.Elapsed.TotalSeconds
+
+        [void][IO.Directory]::CreateDirectory($desktop)
+        $fileName = Safe-FileName ([string]$request.suggestedFileName)
+        $candidate = [IO.Path]::Combine($desktop, $fileName)
+        $publicationPath = [IO.Path]::Combine($stateDirectory, 'publication.json')
+        if ([IO.File]::Exists($publicationPath)) {
+            $publication = Read-OwnedRecord $publicationPath $request
+            $letterTemporary = [IO.Path]::GetFullPath([string]$publication.temporaryPath)
+            if ([string]$publication.targetPath -cne $candidate -or -not (Is-Within $letterTemporary $desktop) -or
+                [IO.Path]::GetFileName($letterTemporary) -notlike ('.Live-' + $request.requestId + '-*.tmp')) {
+                throw 'Invalid pending publication paths.'
+            }
+            # The atomic move consumed the prepared file. Even if the player has
+            # since removed the TXT, never recreate it after a crash before receipt.
+            if (-not [IO.File]::Exists($letterTemporary)) {
+                $report.status = 'already_published_no_retry'
+            }
+        } elseif (-not [IO.File]::Exists($candidate)) {
+            $letterTemporary = [IO.Path]::Combine($desktop, '.Live-' + $request.requestId + '-' + [Guid]::NewGuid().ToString('N') + '.tmp')
+            $letterStream = [IO.File]::Open($letterTemporary, [IO.FileMode]::CreateNew, [IO.FileAccess]::Write, [IO.FileShare]::None)
+            try {
+                $preamble = $utf8.GetPreamble()
+                $letterBytes = $utf8.GetBytes([string]$request.letterText)
+                $letterStream.Write($preamble, 0, $preamble.Length)
+                $letterStream.Write($letterBytes, 0, $letterBytes.Length)
+                $letterStream.Flush($true)
+            } finally { $letterStream.Dispose() }
+            # Persist the prepared file's identity before the atomic move. Recovery
+            # can finish this exact move without creating a second desktop letter.
+            Write-NewAtomicJson $publicationPath ([ordered]@{
+                schemaVersion = 2; requestId = $request.requestId; installationToken = $request.installationToken
+                temporaryPath = $letterTemporary; targetPath = $candidate
+            })
+        }
+        if ([IO.File]::Exists($candidate)) {
+            $report.status = 'skipped_existing'
+            $report.notification = [ordered]@{ status = 'suppressed_existing' }
+        } elseif ($report.status -ne 'already_published_no_retry') { try {
+            # Publish only the intended name. The atomic move also handles another
+            # save's helper (or the player) creating that name during this attempt.
+            [IO.File]::Move($letterTemporary, $candidate)
+            $letterTemporary = $null
+            $report.status = 'delivered'
+            $report.deliveredUtc = [DateTime]::UtcNow.ToString('O')
+        } catch [IO.IOException] {
+            if (-not [IO.File]::Exists($candidate)) { throw }
+            # Keep the existing file byte-for-byte, consume this save's request,
+            # and never publish a numbered copy or send another notification.
+            $report.status = 'skipped_existing'
+            $report.notification = [ordered]@{ status = 'suppressed_existing' }
+        } }
+        $report.actualLetterPath = $candidate
+        Write-NewAtomicJson $receiptPath ([ordered]@{
+            schemaVersion = 1; installationToken = $request.installationToken; requestId = $request.requestId
+            status = $report.status; completedUtc = [DateTime]::UtcNow.ToString('O')
+            actualLetterPath = $report.actualLetterPath; parentExitObservedUtc = $report.parentExitObservedUtc
+            deliveredUtc = $report.deliveredUtc; delaySeconds = $delay; mode = $request.mode
+        })
+        if ($report.status -eq 'skipped_existing' -or $report.status -eq 'already_published_no_retry') { return $report }
+        if ($request.mode -ceq 'test') {
+            $report.notification = [ordered]@{
+                status = 'suppressed_test'; title = [string]$request.notification.title; body = [string]$request.notification.body
+            }
+        } else {
+            try { $report.notification = Show-NativeNotification $request.notification }
+            catch {
+                $report.notification = [ordered]@{ status = 'failed'; error = $_.Exception.ToString() }
+                $report.status = 'delivered_notification_failed'
+            }
+        }
+        return $report
+    } catch {
+        $report.status = 'failed'
+        $report.error = $_.Exception.ToString()
+        return $report
+    } finally {
+        if ($null -ne $letterTemporary -and [IO.File]::Exists($letterTemporary) -and
+            ($report.status -ne 'failed' -or $null -eq $publicationPath -or -not [IO.File]::Exists($publicationPath))) {
+            try { [IO.File]::Delete($letterTemporary) } catch { }
+        }
+        $report.finishedUtc = [DateTime]::UtcNow.ToString('O')
+        if ($null -ne $stateDirectory -and [IO.Directory]::Exists($stateDirectory)) {
+            try {
+                $reportPath = [IO.Path]::Combine($stateDirectory, 'report.json')
+                if ($report.status -like 'duplicate*' -or $report.status -like 'already*' -or [IO.File]::Exists($reportPath)) {
+                    $reportPath = [IO.Path]::Combine($stateDirectory, 'report-' + [Guid]::NewGuid().ToString('N') + '.json')
+                }
+                $report.reportPath = $reportPath
+                Write-NewAtomicJson $reportPath $report
+            } catch {
+                # Failure to write a report cannot justify another desktop delivery.
+                [Console]::Error.WriteLine('Farewell report failure: ' + $_.Exception.Message)
+            }
+        }
+        if ($null -ne $deliveryLock) { $deliveryLock.Dispose() }
+    }
+}
+
+$deliveryResult = if ($LaunchDetached) { Invoke-DetachedLaunch } else { Invoke-Delivery }
+if ($deliveryResult.status -eq 'failed') { exit 1 }
+exit 0

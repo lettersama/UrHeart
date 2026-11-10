@@ -1,0 +1,87 @@
+{
+  "revision": "StepWet_20261025",
+  "reason": "Replace isolated drop and carpet composite with three distinct real puddle footfalls at original speed",
+  "backupDirectory": "Tools/Chapter03Audio/Revisions/StepWet_Before_20261025",
+  "rebuildCommand": "python Tools/Chapter03Audio/build_audio.py --only-step-wet",
+  "sourceUrl": "https://freesound.org/people/launemax/sounds/249911/",
+  "author": "launemax",
+  "license": "CC0 1.0",
+  "changes": [
+    {
+      "cue": "Chapter03_StepWet_0",
+      "oldSha256": "a48059ebb4c454ccf5dd4375ca51d7bb3003eb0f9bc77c78f75b97b67c975737",
+      "newSha256": "e875536238f25cfbab0824bbca4cb773d30515c3197fa5df6c40397ba2943e65",
+      "sourceStartSeconds": 3.1150113,
+      "sourceEndSeconds": 3.3850113,
+      "playbackRate": 1.0,
+      "timeStretch": false,
+      "measurements": {
+        "durationSeconds": 0.27,
+        "sampleRate": 44100,
+        "channels": 1,
+        "bitsPerSample": 16,
+        "rmsDbfs": -33.5,
+        "peakDbfs": -12.154,
+        "dcOffset": -1.4065715020576132e-05,
+        "clippedSampleCount": 0,
+        "leadingBelow70DbMs": 0.93,
+        "trailingBelow70DbMs": 7.596,
+        "leadingBelow75DbMs": 0.884,
+        "trailingBelow75DbMs": 6.735
+      }
+    },
+    {
+      "cue": "Chapter03_StepWet_1",
+      "oldSha256": "4c6fc8b886b03822649ee0f226b6260569ca781d880bf811b312beea04a54e52",
+      "newSha256": "9906b215b908ba35ce5248de7c348d3b767d72f546302bb52244828fd884b208",
+      "sourceStartSeconds": 3.8649887,
+      "sourceEndSeconds": 4.1149887,
+      "playbackRate": 1.0,
+      "timeStretch": false,
+      "measurements": {
+        "durationSeconds": 0.25,
+        "sampleRate": 44100,
+        "channels": 1,
+        "bitsPerSample": 16,
+        "rmsDbfs": -33.5,
+        "peakDbfs": -12.163,
+        "dcOffset": -4.1921879428854873e-05,
+        "clippedSampleCount": 0,
+        "leadingBelow70DbMs": 0.454,
+        "trailingBelow70DbMs": 8.209,
+        "leadingBelow75DbMs": 0.431,
+        "trailingBelow75DbMs": 6.349
+      }
+    },
+    {
+      "cue": "Chapter03_StepWet_2",
+      "oldSha256": "94ab60f9dc06a4fe2e925ff6db57a805d59745a187fdcc2d8cfe4ebbadd1686d",
+      "newSha256": "da1462e184361efd34d0194094c65054a8ab7238aebbf3c1bb2879440f58ea71",
+      "sourceStartSeconds": 4.59,
+      "sourceEndSeconds": 4.87,
+      "playbackRate": 1.0,
+      "timeStretch": false,
+      "measurements": {
+        "durationSeconds": 0.28,
+        "sampleRate": 44100,
+        "channels": 1,
+        "bitsPerSample": 16,
+        "rmsDbfs": -33.5,
+        "peakDbfs": -12.178,
+        "dcOffset": -1.7740134093071753e-05,
+        "clippedSampleCount": 0,
+        "leadingBelow70DbMs": 0.907,
+        "trailingBelow70DbMs": 7.755,
+        "leadingBelow75DbMs": 0.612,
+        "trailingBelow75DbMs": 7.143
+      }
+    }
+  ],
+  "preserved": {
+    "otherWavCount": 41,
+    "wetGuidCount": 3,
+    "runtimeCodeAndGainAndPitch": "unchanged"
+  },
+  "auditionCacheKey": "WAV SHA256 appended as ?v= to individual audio elements and randomized footstep URLs",
+  "verification": "Format, durations, output/source/process hashes and unchanged 41 WAV/3 GUID files verified; audible character awaits pancake review"
+}

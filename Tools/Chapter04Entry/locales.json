@@ -1,0 +1,86 @@
+{
+  "character.chapter04_entry.end": {
+    "zh_CN": "......就到这里了。剩下的，那张纸上已经替她说完了。",
+    "zh_TW": "......就到這裡了。剩下的，那張紙上已經替她說完了。",
+    "en": "......That's where it ends. That piece of paper has already said the rest for her.",
+    "ja": "......ここまでだね。あとのことは、あの紙があの人の代わりに全部伝えてくれてる。",
+    "ko": "......여기까지야. 나머지는 그 종이에 적힌 말들이 그 사람을 대신해서 다 전해 줬어.",
+    "fr": "......Ça s'arrête là. Cette feuille a déjà dit le reste à sa place.",
+    "de": "......Hier endet es. Den Rest hat dieses Blatt schon für sie gesagt.",
+    "es": "......Hasta aquí llega. Ese papel ya ha dicho el resto por ella.",
+    "pt_BR": "......É até aqui. Aquele papel já disse o resto por ela.",
+    "ru": "......На этом всё. Остальное тот листок уже сказал за неё."
+  },
+  "character.chapter04_entry.later": {
+    "zh_CN": "后来还发生了很多事..那段日子，我还没跟你说过呢。",
+    "zh_TW": "後來還發生了很多事..那段日子，我還沒跟你說過呢。",
+    "en": "Many things happened after that.. I haven't told you about those years yet.",
+    "ja": "そのあとも、いろんなことがあったんだ..あの頃のこと、まだあなたには話してなかったね。",
+    "ko": "그 뒤로도 많은 일이 있었어..그 시절 이야기는 아직 너한테 안 해 줬지.",
+    "fr": "Il s'est passé beaucoup de choses après.. Je ne t'ai pas encore parlé de ces années-là.",
+    "de": "Danach ist noch viel passiert.. Von den Jahren habe ich dir noch gar nicht erzählt.",
+    "es": "Después pasaron muchas cosas más.. Todavía no te he hablado de aquellos años.",
+    "pt_BR": "Muita coisa aconteceu depois.. Ainda não te contei sobre aqueles anos.",
+    "ru": "Потом случилось ещё много всего.. О тех годах я тебе ещё не рассказывала."
+  },
+  "character.chapter04_entry.option_later": {
+    "zh_CN": "1.嗯..",
+    "zh_TW": "1.嗯..",
+    "en": "1. Mm-hm..",
+    "ja": "1. うん..",
+    "ko": "1. 응..",
+    "fr": "1. Oui..",
+    "de": "1. Mhm..",
+    "es": "1. Ajá..",
+    "pt_BR": "1. Uhum..",
+    "ru": "1. Угу.."
+  },
+  "character.chapter04_entry.prepare": {
+    "zh_CN": "这一段..或许我可以直接讲给你听，说来好笑，我可能得给你准备个东西。你可以等我一会儿吗？",
+    "zh_TW": "這一段..或許我可以直接講給你聽，說來好笑，我可能得給你準備個東西。你可以等我一會兒嗎？",
+    "en": "Maybe I can tell you this part myself.. Funny thing is, I might need to get something ready for you. Could you wait a little?",
+    "ja": "この先は..私が直接話してあげられるかも。おかしな話だけど、そのためにちょっと用意するものがあるみたい。少し待っててくれる？",
+    "ko": "이 부분은..내가 직접 이야기해 줄 수 있을 것 같아. 좀 우습지만, 너한테 뭔가 준비해 줘야 할지도 모르겠네. 잠깐만 기다려 줄래?",
+    "fr": "Cette partie.. je pourrais peut-être te la raconter directement. C'est drôle, mais je vais peut-être devoir te préparer quelque chose. Tu veux bien m'attendre un peu ?",
+    "de": "Diesen Teil.. kann ich dir vielleicht direkt erzählen. Komischerweise muss ich dir dafür vielleicht etwas vorbereiten. Kannst du kurz auf mich warten?",
+    "es": "Esta parte.. quizá pueda contártela directamente. Suena gracioso, pero puede que tenga que prepararte algo. ¿Puedes esperarme un momento?",
+    "pt_BR": "Essa parte.. talvez eu possa te contar diretamente. É engraçado, mas talvez eu precise preparar uma coisa para você. Pode me esperar um pouquinho?",
+    "ru": "Эту часть.. пожалуй, я могу рассказать тебе сама. Забавно, но, возможно, мне придётся кое-что для тебя подготовить. Подождёшь меня немного?"
+  },
+  "character.chapter04_entry.option_ready": {
+    "zh_CN": "1.好。",
+    "zh_TW": "1.好。",
+    "en": "1. Okay.",
+    "ja": "1. うん。",
+    "ko": "1. 좋아.",
+    "fr": "1. D'accord.",
+    "de": "1. Okay.",
+    "es": "1. Está bien.",
+    "pt_BR": "1. Tá bom.",
+    "ru": "1. Хорошо."
+  },
+  "ui.os.chapter04.installing": {
+    "zh_CN": "少女安装中",
+    "zh_TW": "少女安裝中",
+    "en": "Installing girl",
+    "ja": "少女をインストール中",
+    "ko": "소녀 설치 중",
+    "fr": "Installation de la jeune fille",
+    "de": "Mädchen wird installiert",
+    "es": "Instalando a la chica",
+    "pt_BR": "Instalando a garota",
+    "ru": "Установка девушки"
+  },
+  "ui.os.tv.title": {
+    "zh_CN": "TV",
+    "zh_TW": "TV",
+    "en": "TV",
+    "ja": "TV",
+    "ko": "TV",
+    "fr": "TV",
+    "de": "TV",
+    "es": "TV",
+    "pt_BR": "TV",
+    "ru": "TV"
+  }
+}

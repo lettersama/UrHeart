@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: kitchen
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: kitchen
+  titleKey: os.memory.pic.scene.kitchen
+  contentPrefab: {fileID: 3311543953161592079, guid: a6789cb7604844a49a8f75ba07196ecb, type: 3}
+  hotspots:
+  - hotspotId: to_sink
+    labelKey: os.memory.pic.to_sink
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3140
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: sink
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: take_broom
+    labelKey: os.memory.pic.take_broom
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - broom_taken
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3200
+      addFlags:
+      - broom_taken
+      removeFlags: []
+      addItems:
+      - broom
+      removeItems: []
+      targetScene: 
+      soundCue: pickup
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: cupboard
+    labelKey: os.memory.pic.cupboard
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3210
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: cup
+    labelKey: os.memory.pic.cup
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3220
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.kitchen
+    labelKey: os.memory.pic.back.kitchen
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: hall
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

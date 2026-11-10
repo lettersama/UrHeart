@@ -1,0 +1,127 @@
+[
+  {
+    "source": "PreLateUpdate.ScriptRunBehaviourLateUpdate > Assembly-CSharp.dll!::OSHomeView.LateUpdate() [Invoke]",
+    "bytesPerFrame": 972732,
+    "allocsPerFrame": 27105.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter03StoryDirector.Update() [Invoke]",
+    "bytesPerFrame": 194703,
+    "allocsPerFrame": 3641.04
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSMemoryWindowController.Update() [Invoke]",
+    "bytesPerFrame": 79162,
+    "allocsPerFrame": 1473.0
+  },
+  {
+    "source": "PreLateUpdate.ScriptRunBehaviourLateUpdate > Assembly-CSharp.dll!::OS_Handle.LateUpdate() [Invoke]",
+    "bytesPerFrame": 67328,
+    "allocsPerFrame": 1234.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSGramophonePlayer.Update() [Invoke]",
+    "bytesPerFrame": 31928,
+    "allocsPerFrame": 598.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSCursorExperimentStoryDirector.Update() [Invoke]",
+    "bytesPerFrame": 25788,
+    "allocsPerFrame": 483.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter04EntryDirector.Update() [Invoke]",
+    "bytesPerFrame": 17272,
+    "allocsPerFrame": 324.0
+  },
+  {
+    "source": "PreLateUpdate.ScriptRunBehaviourLateUpdate > Assembly-CSharp.dll!::OSChapter02NightfallPresentation.LateUpdate() [Invoke]",
+    "bytesPerFrame": 16109,
+    "allocsPerFrame": 301.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter03EntryDirector.Update() [Invoke]",
+    "bytesPerFrame": 14776,
+    "allocsPerFrame": 277.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSPaperPushStoryDirector.Update() [Invoke]",
+    "bytesPerFrame": 13508,
+    "allocsPerFrame": 253.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSPaperPushWindowController.Update() [Invoke]",
+    "bytesPerFrame": 11130,
+    "allocsPerFrame": 208.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSCursorReleaseDirector.Update() [Invoke]",
+    "bytesPerFrame": 7368,
+    "allocsPerFrame": 138.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSCursorHeartTalkDirector.Update() [Invoke]",
+    "bytesPerFrame": 7368,
+    "allocsPerFrame": 138.0
+  },
+  {
+    "source": "PreLateUpdate.ScriptRunBehaviourLateUpdate > Assembly-CSharp.dll!::OSMemoryTextUnit.LateUpdate() [Invoke]",
+    "bytesPerFrame": 7368,
+    "allocsPerFrame": 138.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter02PaperPushDirector.Update() [Invoke]",
+    "bytesPerFrame": 6140,
+    "allocsPerFrame": 115.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter01EndingDirector.Update() [Invoke]",
+    "bytesPerFrame": 4944,
+    "allocsPerFrame": 93.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter02FinalTalkDirector.Update() [Invoke]",
+    "bytesPerFrame": 4912,
+    "allocsPerFrame": 92.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter04StoryDirector.Update() [Invoke]",
+    "bytesPerFrame": 4562,
+    "allocsPerFrame": 72.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter02FinaleDirector.Update() [Invoke]",
+    "bytesPerFrame": 3684,
+    "allocsPerFrame": 69.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSChapter02ActivityMusic.Update() [Invoke]",
+    "bytesPerFrame": 3684,
+    "allocsPerFrame": 69.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSCursorExperimentFocusPresentation.Update() [Invoke]",
+    "bytesPerFrame": 2456,
+    "allocsPerFrame": 46.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::GameDataManager.Update() [Invoke]",
+    "bytesPerFrame": 2456,
+    "allocsPerFrame": 46.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSClawMachineStoryDirector.Update() [Invoke]",
+    "bytesPerFrame": 2456,
+    "allocsPerFrame": 46.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSCursorExperimentAmbientGlitch.Update() [Invoke]",
+    "bytesPerFrame": 2456,
+    "allocsPerFrame": 46.0
+  },
+  {
+    "source": "Assembly-CSharp.dll!::OSMemoryQuakePresentation.Update() [Invoke]",
+    "bytesPerFrame": 1228,
+    "allocsPerFrame": 23.0
+  }
+]

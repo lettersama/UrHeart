@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "chapter": 2,
+  "sourceVersion": "2.1",
+  "sourceMemoryIndex": 7460,
+  "beats": [
+    {
+      "id": 1,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_01"
+    },
+    {
+      "id": 2,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_02"
+    },
+    {
+      "id": 3,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_03"
+    },
+    {
+      "id": 4,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_04"
+    },
+    {
+      "id": 5,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_05"
+    },
+    {
+      "id": 6,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_06"
+    },
+    {
+      "id": 7,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_07"
+    },
+    {
+      "id": 8,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_08"
+    },
+    {
+      "id": 9,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_09"
+    },
+    {
+      "id": 10,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_10"
+    },
+    {
+      "id": 11,
+      "kind": "sound",
+      "sound": "table_knock"
+    },
+    {
+      "id": 12,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_12"
+    },
+    {
+      "id": 13,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_13"
+    },
+    {
+      "id": 14,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_14"
+    },
+    {
+      "id": 15,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_15"
+    },
+    {
+      "id": 16,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_16"
+    },
+    {
+      "id": 17,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_17"
+    },
+    {
+      "id": 18,
+      "kind": "sound",
+      "sound": "paper_fall"
+    },
+    {
+      "id": 19,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_19"
+    },
+    {
+      "id": 20,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_20"
+    },
+    {
+      "id": 21,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_21"
+    },
+    {
+      "id": 22,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_22"
+    },
+    {
+      "id": 23,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_girl",
+      "localizationKey": "ui.os.finale_ch02.hidden_23"
+    },
+    {
+      "id": 24,
+      "kind": "text",
+      "speakerKey": "ui.os.finale_ch02.speaker_woman",
+      "localizationKey": "ui.os.finale_ch02.hidden_24"
+    }
+  ]
+}

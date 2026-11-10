@@ -1,0 +1,175 @@
+{
+  "hall": {
+    "layers": {
+      "pot_soil": {
+        "no": "pot_up"
+      },
+      "pot_body_down": {
+        "no": "pot_up"
+      },
+      "pot_body_up": {
+        "need": "pot_up"
+      },
+      "picture_fix_patch": {
+        "need": "picture_fixed"
+      }
+    }
+  },
+  "upstairs": {
+    "hotspots": {
+      "to_workshop": {
+        "rect": [
+          66,
+          40,
+          62,
+          181
+        ]
+      },
+      "to_bedroom": {
+        "rect": [
+          350,
+          38,
+          51,
+          181
+        ]
+      }
+    }
+  },
+  "workshop": {
+    "layers": {
+      "bench": {
+        "no": "robot_placed"
+      }
+    },
+    "hotspots": {
+      "robot": {
+        "rect": [
+          170,
+          105,
+          211,
+          91
+        ]
+      }
+    }
+  },
+  "kitchen": {
+    "hotspots": {
+      "to_sink": {
+        "rect": [
+          145,
+          85,
+          133,
+          35
+        ]
+      }
+    }
+  },
+  "living": {
+    "hotspots": {
+      "window": {
+        "rect": [
+          312,
+          70,
+          92,
+          94
+        ]
+      },
+      "to_table": {
+        "rect": [
+          150,
+          191,
+          183,
+          48
+        ]
+      },
+      "sweep_glass": {
+        "rect": [
+          315,
+          224,
+          70,
+          49
+        ]
+      }
+    }
+  },
+  "window": {
+    "hotspots": {
+      "place_board": {
+        "rect": [
+          97,
+          106,
+          252,
+          115
+        ]
+      },
+      "nail_0": {
+        "rect": [
+          108,
+          110,
+          22,
+          23
+        ]
+      },
+      "nail_1": {
+        "rect": [
+          322,
+          125,
+          22,
+          23
+        ]
+      },
+      "nail_2": {
+        "rect": [
+          108,
+          141,
+          22,
+          23
+        ]
+      },
+      "nail_3": {
+        "rect": [
+          322,
+          162,
+          22,
+          23
+        ]
+      },
+      "nail_4": {
+        "rect": [
+          108,
+          170,
+          22,
+          23
+        ]
+      },
+      "nail_5": {
+        "rect": [
+          322,
+          192,
+          22,
+          23
+        ]
+      }
+    }
+  },
+  "wiring": {
+    "hotspots": {
+      "power": {
+        "rect": [
+          252,
+          197,
+          52,
+          49
+        ]
+      },
+      "test_power": {
+        "rect": [
+          252,
+          197,
+          52,
+          49
+        ]
+      }
+    }
+  }
+}

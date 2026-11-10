@@ -1,0 +1,162 @@
+[
+  {
+    "source": "Assets/VolFx",
+    "destination": "Assets/ThirdParty/VolFx"
+  },
+  {
+    "source": "Assets/com.rlabrecque.steamworks.net",
+    "destination": "Assets/ThirdParty/Steamworks.NET"
+  },
+  {
+    "source": "Assets/Scripts",
+    "destination": "Assets/Script/Integrations"
+  },
+  {
+    "source": "Assets/Materials/UI",
+    "destination": "Assets/Material/UI"
+  },
+  {
+    "source": "Assets/Prefabs/UI",
+    "destination": "Assets/Prefab/UI"
+  },
+  {
+    "source": "Assets/MasterMix.mixer",
+    "destination": "Assets/Audio/Mixers/MasterMix.mixer"
+  },
+  {
+    "source": "Assets/InputSystem_Actions.inputactions",
+    "destination": "Assets/Settings/Input/InputSystem_Actions.inputactions"
+  },
+  {
+    "source": "Assets/DefaultVolumeProfile.asset",
+    "destination": "Assets/Settings/Volumes/DefaultVolumeProfile.asset"
+  },
+  {
+    "source": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+    "destination": "Assets/Settings/Rendering/UniversalRenderPipelineGlobalSettings.asset"
+  },
+  {
+    "source": "Assets/Settings/Renderer2D.asset",
+    "destination": "Assets/Settings/Rendering/Renderer2D.asset"
+  },
+  {
+    "source": "Assets/Settings/Renderer2D_OS.asset",
+    "destination": "Assets/Settings/Rendering/Renderer2D_OS.asset"
+  },
+  {
+    "source": "Assets/Settings/UniversalRP.asset",
+    "destination": "Assets/Settings/Rendering/UniversalRP.asset"
+  },
+  {
+    "source": "Assets/Shaders/UI/Chapter01EndingFilmGlitch.shader",
+    "destination": "Assets/Shader/UI/Chapter01EndingFilmGlitch.shader"
+  },
+  {
+    "source": "Assets/Shaders/UI/Chapter01EndingFreeze.shader",
+    "destination": "Assets/Shader/UI/Chapter01EndingFreeze.shader"
+  },
+  {
+    "source": "Assets/Shaders/UI/Chapter01EndingSlide.shader",
+    "destination": "Assets/Shader/UI/Chapter01EndingSlide.shader"
+  },
+  {
+    "source": "Assets/Shaders/UI/ClawOutletReveal.shader",
+    "destination": "Assets/Shader/UI/ClawOutletReveal.shader"
+  },
+  {
+    "source": "Assets/Shader/Scene/MrTGame_Scene_BackgroundFogFlow 1.mat",
+    "destination": "Assets/Material/Scene/MrTGame_Scene_BackgroundFogFlow 1.mat"
+  },
+  {
+    "source": "Assets/Shader/Scene/MrTGame_Scene_BackgroundFogFlow.mat",
+    "destination": "Assets/Material/Scene/MrTGame_Scene_BackgroundFogFlow.mat"
+  },
+  {
+    "source": "Assets/Shader/Shader Graphs_PixelFog.mat",
+    "destination": "Assets/Material/Scene/Shader Graphs_PixelFog.mat"
+  },
+  {
+    "source": "Assets/Shader/Shader Graphs_PixelFog_BG00.mat",
+    "destination": "Assets/Material/Scene/Shader Graphs_PixelFog_BG00.mat"
+  },
+  {
+    "source": "Assets/Shader/Shader Graphs_PixelFog_BG01.mat",
+    "destination": "Assets/Material/Scene/Shader Graphs_PixelFog_BG01.mat"
+  },
+  {
+    "source": "Assets/Shader/Shader Graphs_PixelFog_BG02.mat",
+    "destination": "Assets/Material/Scene/Shader Graphs_PixelFog_BG02.mat"
+  },
+  {
+    "source": "Assets/Shader/Shader Graphs_PixelFog_FG00.mat",
+    "destination": "Assets/Material/Scene/Shader Graphs_PixelFog_FG00.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_LoadHeartbeatUI.mat",
+    "destination": "Assets/Material/UI/M_LoadHeartbeatUI.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_MainMenuLampDust.mat",
+    "destination": "Assets/Material/UI/M_MainMenuLampDust.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_MainMenuOptionBlur.mat",
+    "destination": "Assets/Material/UI/M_MainMenuOptionBlur.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_MainMenuRainDistant.mat",
+    "destination": "Assets/Material/UI/M_MainMenuRainDistant.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_MainMenuRainWindow.mat",
+    "destination": "Assets/Material/UI/M_MainMenuRainWindow.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_MainMenuThunderFlash.mat",
+    "destination": "Assets/Material/UI/M_MainMenuThunderFlash.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSCenterImplode.mat",
+    "destination": "Assets/Material/UI/M_OSCenterImplode.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSChapterRecord.mat",
+    "destination": "Assets/Material/UI/M_OSChapterRecord.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSCloseTV.mat",
+    "destination": "Assets/Material/UI/M_OSCloseTV.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSGiftLandingDust.mat",
+    "destination": "Assets/Material/UI/M_OSGiftLandingDust.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSGiftLikeBurst.mat",
+    "destination": "Assets/Material/UI/M_OSGiftLikeBurst.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSProcessBlocks.mat",
+    "destination": "Assets/Material/UI/M_OSProcessBlocks.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSTextRedaction.mat",
+    "destination": "Assets/Material/UI/M_OSTextRedaction.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_OSToolRebuild.mat",
+    "destination": "Assets/Material/UI/M_OSToolRebuild.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_PixelHeartbeatUI.mat",
+    "destination": "Assets/Material/UI/M_PixelHeartbeatUI.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_StateCheckCharge.mat",
+    "destination": "Assets/Material/UI/M_StateCheckCharge.mat"
+  },
+  {
+    "source": "Assets/Shader/UI/M_StateCheckErrorBlocks.mat",
+    "destination": "Assets/Material/UI/M_StateCheckErrorBlocks.mat"
+  }
+]

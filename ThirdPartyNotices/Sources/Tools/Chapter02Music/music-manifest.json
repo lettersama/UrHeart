@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "targetLufs": -30,
+  "encoding": "Stereo 44100 Hz Ogg Vorbis quality 6",
+  "processing": "Phrase trim and static gain; optional tail-to-pre-roll seam blend preserves exact phrase length",
+  "verification": "Encoded-output loudness, peaks, loop boundaries and hashes; no auditory review or PlayMode assertion",
+  "tracks": [
+    {
+      "key": "Chapter02_ClawMachineMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/OGA_MusicBoxTracks_AureolusOmicron/musicbox2_cute_tune.ogg",
+        "sha256": "97d15ea36eec88637a991766ea41c7abe5748fc2750525de9e834a70158e1eaa",
+        "title": "musicbox2_cute_tune",
+        "author": "Aureolus_Omicron",
+        "sourceUrl": "https://opengameart.org/node/136996",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseEvidence": "Tools/Chapter02Music/Sources/OGA_MusicBoxTracks_AureolusOmicron.page.html",
+        "loopEvidence": "Original Vorbis tags LOOPSTART=3023981; LOOPLENGTH=3023981"
+      },
+      "trimStartSample": 3023981,
+      "trimEndSample": 6047962,
+      "sourceSampleRate": 44100,
+      "trimStartSeconds": 68.5709977324263,
+      "trimEndSeconds": 137.1419954648526,
+      "tailToPrerollBlendSeconds": 0,
+      "staticGainDb": -14.91,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_ClawMachineMusic.ogg",
+      "sha256": "b0a312e62042506b61afd8ff228e6923d9a082babc27618da4712e023f9594d6",
+      "beforeGain": {
+        "durationSeconds": 68.5709977324263,
+        "sampleCount": 3023981,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -15.09,
+        "truePeakDbtp": -1.53,
+        "loudnessRangeLu": 2.9,
+        "rmsDbfs": -18.006394531539005,
+        "samplePeakDbfs": -1.532470277044773,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.007476812228560448,
+          0.03440646920353174
+        ],
+        "adjacentJumpP99": [
+          0.0626275460422039,
+          0.06607836320996284
+        ]
+      },
+      "measurements": {
+        "durationSeconds": 68.5709977324263,
+        "sampleCount": 3023981,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -29.96,
+        "truePeakDbtp": -16.53,
+        "loudnessRangeLu": 3.0,
+        "rmsDbfs": -32.87738969979911,
+        "samplePeakDbfs": -16.533951056695987,
+        "clippedSamples": 0,
+        "seamJump": [
+          0.001400643028318882,
+          0.006134055787697434
+        ],
+        "adjacentJumpP99": [
+          0.011253555882722135,
+          0.011873296964913604
+        ]
+      },
+      "loop": true
+    },
+    {
+      "key": "Chapter02_CursorExperimentMusic",
+      "source": {
+        "path": "Tools/Chapter02Music/Sources/Pixabay_CuriousCircuits_Sonican_412358.mp3",
+        "sha256": "a1e42cd90e1049544ced50cbef89886293b723c9b4141513d1f241956f913012",
+        "title": "Curious Circuits - Playful Electronic Music Loop",
+        "author": "Sonican",
+        "sourceUrl": "https://pixabay.com/music/video-games-curious-circuits-playful-electronic-music-loop-412358/",
+        "downloadUrl": "https://cdn.pixabay.com/audio/2025/09/29/audio_a04f376c21.mp3",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "licenseEvidence": "Tools/Chapter02Music/Sources/Pixabay_CuriousCircuits_source.json",
+        "contentIdRegistered": true,
+        "loopEvidence": "Tools/Chapter02Music/curious-loop-analysis.json"
+      },
+      "trimStartSample": 183078,
+      "trimEndSample": 2372871,
+      "sourceSampleRate": 44100,
+      "trimStartSeconds": 4.151428571428571,
+      "trimEndSeconds": 53.806598639455785,
+      "tailToPrerollBlendSeconds": 0.012,
+      "staticGainDb": -21.66,
+      "outputPath": "Assets/Audio/Music/Chapter02/Chapter02_CursorExperimentMusic.ogg",
+      "sha256": "af98e79473d72cd6d3b3d85fb6394f8f7637de12ea2f79f14fe0a25a61ad55d6",
+      "beforeGain": {
+        "durationSeconds": 49.65517006802721,
+        "sampleCount": 2189793,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -8.34,
+        "truePeakDbtp": 0.72,
+        "loudnessRangeLu": 2.4,
+        "rmsDbfs": -10.413355744084678,
+        "samplePeakDbfs": 0.5052151764101219,
+        "clippedSamples": 201,
+        "seamJump": [
+          0.004522435367107391,
+          0.008205309510231018
+        ],
+        "adjacentJumpP99": [
+          0.16150617286562913,
+          0.1561613399535415
+        ]
+      },
+      "measurements": {
+        "durationSeconds": 49.65517006802721,
+        "sampleCount": 2189793,
+        "channels": 2,
+        "sampleRate": 44100,
+        "lufs": -29.99,
+        "truePeakDbtp": -20.47,
+        "loudnessRangeLu": 2.4,
+        "rmsDbfs": -32.05716292449547,
+        "samplePeakDbfs": -20.754467886473243,
+        "clippedSamples": 0,
+        "seamJump": [
+          1.8543563783168793e-05,
+          0.0007663844153285027
+        ],
+        "adjacentJumpP99": [
+          0.013071321395400353,
+          0.012652151612564892
+        ]
+      },
+      "loop": true
+    }
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "name": "Chapter02ClawMachine",
+  "recordFrames": 150,
+  "requestedAnalysisFrames": 120,
+  "frames": 120,
+  "meanPlayerMs": 2.6283516656781405,
+  "p95PlayerMs": 3.2073998549312819,
+  "maxPlayerMs": 3.7947000529238721,
+  "gcBytesPerFrame": 2061,
+  "allocationsPerFrame": 31.016666666666666,
+  "collections": 0,
+  "chapter": 2,
+  "memoryNode": null,
+  "homeRoom": null,
+  "activeWindows": [
+    "WindowUnit_ClawMachineGame",
+    "WindowUnit_Character",
+    "WindowUnit_LinkMessage"
+  ],
+  "allocationOwners": [
+    {
+      "source": "unattributed",
+      "bytesPerFrame": 812
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OS_Handle.LateUpdate() [Invoke]",
+      "bytesPerFrame": 690
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSGramophonePlayer.Update() [Invoke]",
+      "bytesPerFrame": 152
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter02ActivityMusic.Update() [Invoke]",
+      "bytesPerFrame": 152
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSPaperPushWindowController.Update() [Invoke]",
+      "bytesPerFrame": 78
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter03EntryDirector.Update() [Invoke]",
+      "bytesPerFrame": 40
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter04EntryDirector.Update() [Invoke]",
+      "bytesPerFrame": 40
+    },
+    {
+      "source": "Assembly-CSharp.dll!::PostGameFarewellService.Update() [Invoke]",
+      "bytesPerFrame": 32
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter01EndingDirector.Update() [Invoke]",
+      "bytesPerFrame": 32
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSLinkMessageWindowLayout.LateUpdate() [Invoke]",
+      "bytesPerFrame": 32
+    },
+    {
+      "source": "Assembly-CSharp.dll!::HeartbeatWaveformUI.Update() [Invoke]",
+      "bytesPerFrame": 1
+    }
+  ],
+  "cpuOwners": [
+    {
+      "source": "Assembly-CSharp.dll!::OS_Handle.LateUpdate() [Invoke]",
+      "msPerFrame": 0.28583833202719688
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSUICableGraphic.LateUpdate() [Invoke]",
+      "msPerFrame": 0.12937249926229319
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSWindowActivityDimming.LateUpdate() [Invoke]",
+      "msPerFrame": 0.082694999532153216
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter01EndingDirector.Update() [Invoke]",
+      "msPerFrame": 0.058604999786863725
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSGramophonePlayer.Update() [Invoke]",
+      "msPerFrame": 0.054209166361639895
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSCursorExperimentStoryDirector.Update() [Invoke]",
+      "msPerFrame": 0.051401666303475695
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSLinkMessageController.Update() [Invoke]",
+      "msPerFrame": 0.050307499834646781
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter02FinalTalkDirector.Update() [Invoke]",
+      "msPerFrame": 0.044495833168427153
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter03EntryDirector.Update() [Invoke]",
+      "msPerFrame": 0.034563333075493571
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSCursorExperimentFocusPresentation.Update() [Invoke]",
+      "msPerFrame": 0.031599999809016781
+    },
+    {
+      "source": "Assembly-CSharp.dll!MrTGame.Visual::RainHeightKill.LateUpdate() [Invoke]",
+      "msPerFrame": 0.028989999900416782
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter02FinaleDirector.Update() [Invoke]",
+      "msPerFrame": 0.02739416677504778
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSLinkMessageController.LateUpdate() [Invoke]",
+      "msPerFrame": 0.026812499885757766
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSChapter02PaperPushDirector.Update() [Invoke]",
+      "msPerFrame": 0.025729999551549552
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSClawMachineGameWindowController.Update() [Invoke]",
+      "msPerFrame": 0.023129166585082808
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSPaperPushWindowController.Update() [Invoke]",
+      "msPerFrame": 0.022888333195199569
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSClawMachineStoryDirector.Update() [Invoke]",
+      "msPerFrame": 0.022884999789918464
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSCursorExperimentAmbientGlitch.Update() [Invoke]",
+      "msPerFrame": 0.021530000260099769
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSCursorHeartTalkDirector.Update() [Invoke]",
+      "msPerFrame": 0.021039999679972728
+    },
+    {
+      "source": "Assembly-CSharp.dll!::OSPaperPushStoryDirector.Update() [Invoke]",
+      "msPerFrame": 0.0206583334133029
+    }
+  ],
+  "samples": [
+    {
+      "frame": 10820,
+      "playerMs": 3.219600048250868,
+      "mainThreadMs": 5.687,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10821,
+      "playerMs": 3.2034001018473646,
+      "mainThreadMs": 5.4336,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10822,
+      "playerMs": 3.0506000352834235,
+      "mainThreadMs": 4.8331,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10823,
+      "playerMs": 2.5278000499674818,
+      "mainThreadMs": 4.4107,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10824,
+      "playerMs": 2.7594000795215834,
+      "mainThreadMs": 4.7628,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10825,
+      "playerMs": 2.5381999875971815,
+      "mainThreadMs": 4.4264,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10826,
+      "playerMs": 2.3755000331730116,
+      "mainThreadMs": 4.1735,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10827,
+      "playerMs": 2.4256999756762525,
+      "mainThreadMs": 4.2556,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10828,
+      "playerMs": 2.371099915690138,
+      "mainThreadMs": 4.2528,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10829,
+      "playerMs": 2.515399942669319,
+      "mainThreadMs": 4.3576,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10830,
+      "playerMs": 2.4494999745220412,
+      "mainThreadMs": 4.2779,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10831,
+      "playerMs": 2.374599976632453,
+      "mainThreadMs": 4.2985,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10832,
+      "playerMs": 2.3823999860615004,
+      "mainThreadMs": 4.3709,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10833,
+      "playerMs": 2.4478999474376906,
+      "mainThreadMs": 4.3622,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10834,
+      "playerMs": 2.5357000163930934,
+      "mainThreadMs": 4.5224,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10835,
+      "playerMs": 2.6046000221103895,
+      "mainThreadMs": 4.5614,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10836,
+      "playerMs": 2.3698999979824293,
+      "mainThreadMs": 4.3609,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10837,
+      "playerMs": 2.3772999742359389,
+      "mainThreadMs": 4.33619976,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10838,
+      "playerMs": 2.5480000044772169,
+      "mainThreadMs": 4.4792,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10839,
+      "playerMs": 2.4713000157207716,
+      "mainThreadMs": 4.8631,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10840,
+      "playerMs": 2.7242000797123183,
+      "mainThreadMs": 4.8257,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10841,
+      "playerMs": 2.4648999767960049,
+      "mainThreadMs": 4.4377,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10842,
+      "playerMs": 2.9562000134319533,
+      "mainThreadMs": 5.0099,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10843,
+      "playerMs": 2.5903998545545619,
+      "mainThreadMs": 4.6696,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10844,
+      "playerMs": 2.5623999600647949,
+      "mainThreadMs": 4.7426,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10845,
+      "playerMs": 2.6560001041361829,
+      "mainThreadMs": 4.6943,
+      "gcBytes": 2212
+    },
+    {
+      "frame": 10846,
+      "playerMs": 2.4623999693722,
+      "mainThreadMs": 4.3822,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10847,
+      "playerMs": 2.4522000053257216,
+      "mainThreadMs": 4.3108,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10848,
+      "playerMs": 2.5017999938863795,
+      "mainThreadMs": 4.7522,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10849,
+      "playerMs": 3.1899001100391615,
+      "mainThreadMs": 5.1787,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10850,
+      "playerMs": 2.935300061973976,
+      "mainThreadMs": 5.3707,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10851,
+      "playerMs": 3.2845000292727491,
+      "mainThreadMs": 5.8469,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10852,
+      "playerMs": 3.263300071033882,
+      "mainThreadMs": 5.4736,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10853,
+      "playerMs": 2.7447999979922315,
+      "mainThreadMs": 4.6922,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10854,
+      "playerMs": 2.8327999809116591,
+      "mainThreadMs": 4.7468,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10855,
+      "playerMs": 2.6049000718921889,
+      "mainThreadMs": 4.5367,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10856,
+      "playerMs": 3.0098001028964063,
+      "mainThreadMs": 5.366,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10857,
+      "playerMs": 2.7581999566027662,
+      "mainThreadMs": 4.7935,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10858,
+      "playerMs": 2.7581998969981214,
+      "mainThreadMs": 4.8485,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10859,
+      "playerMs": 2.7064000466198195,
+      "mainThreadMs": 5.0085,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10860,
+      "playerMs": 2.69739992407267,
+      "mainThreadMs": 4.6285,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10861,
+      "playerMs": 3.0402000810572645,
+      "mainThreadMs": 4.7427,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10862,
+      "playerMs": 2.347399976439192,
+      "mainThreadMs": 4.0863,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10863,
+      "playerMs": 2.5391999581188429,
+      "mainThreadMs": 4.24279976,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10864,
+      "playerMs": 2.45119995859568,
+      "mainThreadMs": 4.4644,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10865,
+      "playerMs": 2.7044001055692206,
+      "mainThreadMs": 4.3103,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10866,
+      "playerMs": 2.4553000164960395,
+      "mainThreadMs": 4.0682,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10867,
+      "playerMs": 2.3215000297495862,
+      "mainThreadMs": 3.9303,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10868,
+      "playerMs": 2.4355000521609327,
+      "mainThreadMs": 4.0518,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10869,
+      "playerMs": 2.3943000103899976,
+      "mainThreadMs": 4.3268,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10870,
+      "playerMs": 3.0026001002261182,
+      "mainThreadMs": 4.8795,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10871,
+      "playerMs": 2.56229999322386,
+      "mainThreadMs": 4.4729,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10872,
+      "playerMs": 2.8405000235507032,
+      "mainThreadMs": 4.7565,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10873,
+      "playerMs": 2.5803000164960395,
+      "mainThreadMs": 4.3434,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10874,
+      "playerMs": 2.8789998821157496,
+      "mainThreadMs": 5.3199,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10875,
+      "playerMs": 2.7818000580737134,
+      "mainThreadMs": 4.9022,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10876,
+      "playerMs": 2.6416000225872267,
+      "mainThreadMs": 4.5115,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10877,
+      "playerMs": 2.5305999615520705,
+      "mainThreadMs": 4.3844,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10878,
+      "playerMs": 2.5948000052303541,
+      "mainThreadMs": 4.4555,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10879,
+      "playerMs": 2.4116999937032233,
+      "mainThreadMs": 4.2332,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10880,
+      "playerMs": 2.4417999816869269,
+      "mainThreadMs": 4.3011,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10881,
+      "playerMs": 2.4147000576922437,
+      "mainThreadMs": 4.2161,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10882,
+      "playerMs": 2.3916000225872267,
+      "mainThreadMs": 4.38359976,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10883,
+      "playerMs": 2.5633000399539014,
+      "mainThreadMs": 4.4789,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10884,
+      "playerMs": 2.4797000221151393,
+      "mainThreadMs": 4.2968,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10885,
+      "playerMs": 2.35030000723782,
+      "mainThreadMs": 4.2715,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10886,
+      "playerMs": 2.4825999404856702,
+      "mainThreadMs": 4.3643,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10887,
+      "playerMs": 2.34759995987406,
+      "mainThreadMs": 4.4141,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10888,
+      "playerMs": 2.4665999676653882,
+      "mainThreadMs": 4.3552,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10889,
+      "playerMs": 2.5641000368923414,
+      "mainThreadMs": 4.4818,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10890,
+      "playerMs": 2.4509000280231703,
+      "mainThreadMs": 4.2858,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10891,
+      "playerMs": 2.3210000063845655,
+      "mainThreadMs": 4.0858,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10892,
+      "playerMs": 2.32099998978083,
+      "mainThreadMs": 4.1374,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10893,
+      "playerMs": 2.7336000302166212,
+      "mainThreadMs": 4.5486,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10894,
+      "playerMs": 2.6627000238368055,
+      "mainThreadMs": 4.6048,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10895,
+      "playerMs": 2.4440000155300368,
+      "mainThreadMs": 4.3967,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10896,
+      "playerMs": 2.3984000780910719,
+      "mainThreadMs": 4.0844,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10897,
+      "playerMs": 2.2832000353664625,
+      "mainThreadMs": 3.9878,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10898,
+      "playerMs": 2.6363998915621778,
+      "mainThreadMs": 4.4184,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10899,
+      "playerMs": 2.3855999806255568,
+      "mainThreadMs": 4.1695,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10900,
+      "playerMs": 2.3448999788233778,
+      "mainThreadMs": 4.0351,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10901,
+      "playerMs": 2.5515998866030714,
+      "mainThreadMs": 4.6402,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10902,
+      "playerMs": 2.393300049676327,
+      "mainThreadMs": 4.1628,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10903,
+      "playerMs": 2.323799977573799,
+      "mainThreadMs": 4.2908,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10904,
+      "playerMs": 2.4402999844023725,
+      "mainThreadMs": 4.05599976,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10905,
+      "playerMs": 2.2636999751994153,
+      "mainThreadMs": 3.6995,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10906,
+      "playerMs": 2.7633999684185255,
+      "mainThreadMs": 4.5735,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10907,
+      "playerMs": 2.6362000205845106,
+      "mainThreadMs": 4.3103,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10908,
+      "playerMs": 2.43400002506678,
+      "mainThreadMs": 4.0811,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10909,
+      "playerMs": 2.8307999470562208,
+      "mainThreadMs": 5.0329,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10910,
+      "playerMs": 2.8410999276966322,
+      "mainThreadMs": 4.7918,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10911,
+      "playerMs": 2.6394999721378554,
+      "mainThreadMs": 4.9715,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10912,
+      "playerMs": 2.7983998588460963,
+      "mainThreadMs": 5.156,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10913,
+      "playerMs": 3.0728000666567823,
+      "mainThreadMs": 5.8194,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10914,
+      "playerMs": 3.6829000907600857,
+      "mainThreadMs": 6.3577,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10915,
+      "playerMs": 3.4604000547260512,
+      "mainThreadMs": 5.8507,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10916,
+      "playerMs": 2.9486000635952223,
+      "mainThreadMs": 5.0224,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10917,
+      "playerMs": 2.8371999957889784,
+      "mainThreadMs": 5.0245,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10918,
+      "playerMs": 3.2073998549312819,
+      "mainThreadMs": 6.0702,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10919,
+      "playerMs": 3.7947000529238721,
+      "mainThreadMs": 6.5557,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10920,
+      "playerMs": 2.8497000004717847,
+      "mainThreadMs": 5.0209,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10921,
+      "playerMs": 2.7441000606486341,
+      "mainThreadMs": 4.8256,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10922,
+      "playerMs": 2.5362999537319411,
+      "mainThreadMs": 4.7185,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10923,
+      "playerMs": 2.6485999324650038,
+      "mainThreadMs": 4.8506,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10924,
+      "playerMs": 2.660400016400672,
+      "mainThreadMs": 4.6743,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10925,
+      "playerMs": 2.9169000319379847,
+      "mainThreadMs": 5.1475,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10926,
+      "playerMs": 2.9954999783367384,
+      "mainThreadMs": 5.6958,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10927,
+      "playerMs": 2.6911999251315137,
+      "mainThreadMs": 4.8065,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10928,
+      "playerMs": 2.8235999013850233,
+      "mainThreadMs": 4.8863,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10929,
+      "playerMs": 2.5263999202579726,
+      "mainThreadMs": 4.5015,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10930,
+      "playerMs": 2.4446000124880811,
+      "mainThreadMs": 4.2932,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10931,
+      "playerMs": 2.3284999694296857,
+      "mainThreadMs": 4.1674,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10932,
+      "playerMs": 2.3273000087210676,
+      "mainThreadMs": 4.0909,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10933,
+      "playerMs": 2.4124999906489393,
+      "mainThreadMs": 4.1943,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10934,
+      "playerMs": 2.4898999431461561,
+      "mainThreadMs": 4.3167,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10935,
+      "playerMs": 2.3192999759048689,
+      "mainThreadMs": 4.053,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10936,
+      "playerMs": 2.2954999770590803,
+      "mainThreadMs": 3.9867,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10937,
+      "playerMs": 2.3071999383901129,
+      "mainThreadMs": 4.0096,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10938,
+      "playerMs": 2.266399946398451,
+      "mainThreadMs": 3.9071,
+      "gcBytes": 2060
+    },
+    {
+      "frame": 10939,
+      "playerMs": 2.1960999931761762,
+      "mainThreadMs": 3.8281,
+      "gcBytes": 2060
+    }
+  ]
+}

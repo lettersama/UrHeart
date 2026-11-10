@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: hall
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: hall
+  titleKey: os.memory.pic.scene.hall
+  contentPrefab: {fileID: 5060140094815232463, guid: a0266ed8cc1ef5f46bd0c51a5ae27de7, type: 3}
+  hotspots:
+  - hotspotId: hall_drawer
+    labelKey: os.memory.pic.hall_drawer
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2870
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: drawer
+      soundCue: drawer
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: hall_picture
+    labelKey: os.memory.pic.hall_picture
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - picture_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3780
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hall_picture_inspect
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2910
+      addFlags:
+      - picture_fixed
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: wood
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: hall_letters
+    labelKey: os.memory.pic.hall_letters
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2880
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: shoe
+    labelKey: os.memory.pic.shoe
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2930
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: to_kitchen
+    labelKey: os.memory.pic.to_kitchen
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags:
+        - robot_placed
+        items: []
+      memoryIndex: 2720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 1
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - robot_placed
+        noFlags:
+        - window_inspected
+        items: []
+      memoryIndex: 3630
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 1
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: kitchen
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: to_living
+    labelKey: os.memory.pic.to_living
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags:
+        - robot_placed
+        items: []
+      memoryIndex: 2720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 1
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_fixed
+        - glass_swept
+        noFlags: []
+        items: []
+      memoryIndex: 3730
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2770
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: walk
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: upstairs
+    labelKey: os.memory.pic.upstairs
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - window_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3740
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: upstairs
+      soundCue: stairs_up
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2730
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: upstairs
+      soundCue: stairs_up
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aec77e1c5abc80439abc2c87dbe2b61, type: 3}
+  m_Name: T0_Test
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.StoryChapter
+  chapterId: T0
+  title: "\u6D4B\u8BD5\u7AE0"
+  startNodeId: t0_010
+  nodes:
+  - id: t0_010
+    type: 0
+    body: "\u3010\u56DE\u5FC6\u7CFB\u7EDF v0.9\u3011\n\u2026\u2026\u91CD\u542F\u5B8C\u6210\u3002\n\u68C0\u6D4B\u5230\u6838\u5FC3\u8BB0\u5FC6\u533A\u5757\u53D7\u635F:{
+      \u6211\u4E3A\u4EC0\u4E48\u8981\u6765\u5893\u524D? }\n\u5F00\u59CB\u68C0\u7D22\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: t0_020
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_020
+    type: 1
+    body: "\u9009\u62E9\u68C0\u7D22\u65B9\u5F0F:"
+    illustration: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "\u8C03\u53D6\u6700\u8FD1\u7684\u5F71\u50CF\u8BB0\u5F55"
+      nextNodeId: t0_030
+      effects:
+      - type: 1
+        amount: -10
+      setFlag: 
+    - text: "\u5F3A\u884C\u8BFB\u53D6\u53D7\u635F\u6247\u533A"
+      nextNodeId: t0_030
+      effects:
+      - type: 2
+        amount: 15
+      setFlag: 
+    - text: "\u6682\u7F13\u68C0\u7D22,\u5148\u81EA\u68C0"
+      nextNodeId: t0_025
+      effects:
+      - type: 0
+        amount: -5
+      setFlag: 
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_025
+    type: 0
+    body: "\u81EA\u68C0\u5B8C\u6210\u3002\u5FC3\u53E3\u7684\u95F7\u54CD\u6CA1\u6709\u6D88\u5931\u3002\n\u2014\u2014\u68C0\u7D22\u4ECD\u9700\u7EE7\u7EED\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: t0_030
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_030
+    type: 0
+    body: "\u53D6\u56DE\u4E00\u6BB5\u6A21\u7CCA\u5F71\u50CF:\n\u96E8\u3002\u5893\u7891\u3002\u4E00\u675F\u65E7\u82B1\u3002\n\u5F71\u50CF\u672B\u5C3E\u6709\u4E00\u884C\u53D7\u635F\u7684\u6807\u7B7E:\u300E\u7ED9____\u300F"
+    illustration: {fileID: 4966732595609684114, guid: 01cbea9f0742dab4abfa96e010f58d39, type: 3}
+    nextNodeId: t0_040
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_040
+    type: 1
+    body: "\u63A5\u6536\u5230\u5916\u90E8\u4F20\u8F93\u8BF7\u6C42:REPAIR.exe(\u6765\u6E90\u672A\u77E5)"
+    illustration: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "\u63A5\u6536\u4F20\u8F93"
+      nextNodeId: t0_045
+      effects: []
+      setFlag: 
+    - text: "\u62D2\u7EDD"
+      nextNodeId: t0_050
+      effects:
+      - type: 2
+        amount: 5
+      setFlag: 
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_045
+    type: 0
+    body: "\u4F20\u8F93\u5B8C\u6210\u3002\u7A0B\u5E8F\u575E\u65B0\u589E:\u4FEE\u590D\u7A0B\u5E8F\u3002\n(\u7070\u76D2:\u70B9\u51FB\u9876\u90E8\u56FE\u6807\u53EF\u5207\u6362\u7A0B\u5E8F\u7A97\u53E3)"
+    illustration: {fileID: 0}
+    nextNodeId: t0_050
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: repair
+    payloadId: 
+  - id: t0_050
+    type: 0
+    body: "\u7CFB\u7EDF\u72B6\u6001\u66F4\u65B0\u5B8C\u6BD5\u3002\n\u7EE7\u7EED\u68C0\u7D22\u53D7\u635F\u533A\u5757\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: t0_055
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_055
+    type: 3
+    body: "\u53D7\u635F\u533A\u5757\u8981\u6C42\u5BC6\u94A5\u6821\u9A8C\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: t0_060
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: t0.pass
+  - id: t0_060
+    type: 1
+    body: "\u53D7\u635F\u533A\u5757\u7684\u9632\u5199\u4FDD\u62A4\u4ECD\u5728\u3002\u5982\u4F55\u5904\u7406?\n(\u7070\u76D2\u538B\u529B\u6D4B\u8BD5:\u6545\u969C\u226580
+      \u4F1A Game Over \u5E76\u56DE\u5230\u68C0\u67E5\u70B9)"
+    illustration: {fileID: 0}
+    nextNodeId: 
+    choices:
+    - text: "\u9AD8\u5371\u8BFB\u53D6:\u5F3A\u884C\u6DF1\u6316"
+      nextNodeId: t0_065
+      effects:
+      - type: 2
+        amount: 30
+      setFlag: 
+    - text: "\u89C1\u597D\u5C31\u6536,\u5C01\u5B58\u68C0\u7D22\u7ED3\u679C"
+      nextNodeId: t0_090
+      effects: []
+      setFlag: 
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 
+  - id: t0_065
+    type: 4
+    body: "\u2026\u2026\u6392\u5F02\u53CD\u5E94!\u753B\u9762\u5F00\u59CB\u6495\u88C2\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: t0_060
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 6:2
+  - id: t0_090
+    type: 5
+    body: "\u3010T0 \u6D4B\u8BD5\u7AE0\u5B8C\u6210\u3011\n\u5DF2\u9A8C\u8BC1:\u8D44\u6E90\u6D88\u8017\u9009\u9879
+      / \u7A0B\u5E8F\u4F20\u8F93\u89E3\u9501 / \u6545\u969C\u98CE\u9669\u4E0E\u5931\u8D25\u56DE\u9000\u3002"
+    illustration: {fileID: 0}
+    nextNodeId: 
+    choices: []
+    effects: []
+    setFlag: 
+    unlockProgramId: 
+    payloadId: 

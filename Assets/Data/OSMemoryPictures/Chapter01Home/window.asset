@@ -1,0 +1,912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: window
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: window
+  titleKey: os.memory.pic.scene.window
+  contentPrefab: {fileID: 8318829340614103921, guid: 40cd74bdb751a7c41983dc1734865992, type: 3}
+  hotspots:
+  - hotspotId: place_board
+    labelKey: os.memory.pic.place_board
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - boards_placed
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - board_1
+        noFlags: []
+        items:
+        - wood
+      memoryIndex: 3050
+      addFlags:
+      - board_2
+      - boards_placed
+      removeFlags: []
+      addItems: []
+      removeItems:
+      - wood
+      targetScene: 
+      soundCue: wood
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - board_0
+        noFlags: []
+        items:
+        - wood
+      memoryIndex: 3680
+      addFlags:
+      - board_1
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: wood
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - wood
+      memoryIndex: 3040
+      addFlags:
+      - board_0
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: wood
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2980
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_0
+    labelKey: os.memory.pic.nail_0
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_0_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_0_hit
+        - nail_1_done
+        - nail_2_done
+        - nail_3_done
+        - nail_4_done
+        - nail_5_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_0_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_0_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_0_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_0_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_0_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_0_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_1
+    labelKey: os.memory.pic.nail_1
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_1_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_1_hit
+        - nail_0_done
+        - nail_2_done
+        - nail_3_done
+        - nail_4_done
+        - nail_5_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_1_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_1_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_1_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_1_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_1_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_1_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_2
+    labelKey: os.memory.pic.nail_2
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_2_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_2_hit
+        - nail_0_done
+        - nail_1_done
+        - nail_3_done
+        - nail_4_done
+        - nail_5_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_2_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_2_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_2_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_2_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_2_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_2_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_3
+    labelKey: os.memory.pic.nail_3
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_3_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_3_hit
+        - nail_0_done
+        - nail_1_done
+        - nail_2_done
+        - nail_4_done
+        - nail_5_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_3_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_3_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_3_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_3_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_3_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_3_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_4
+    labelKey: os.memory.pic.nail_4
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_4_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_4_hit
+        - nail_0_done
+        - nail_1_done
+        - nail_2_done
+        - nail_3_done
+        - nail_5_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_4_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_4_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_4_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_4_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_4_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_4_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: nail_5
+    labelKey: os.memory.pic.nail_5
+    visibleWhen:
+      allFlags:
+      - boards_placed
+      noFlags:
+      - nail_5_done
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - nail_5_hit
+        - nail_0_done
+        - nail_1_done
+        - nail_2_done
+        - nail_3_done
+        - nail_4_done
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3710
+      addFlags:
+      - nail_5_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_5_hit
+        noFlags: []
+        items:
+        - hammer
+      memoryIndex: 3080
+      addFlags:
+      - nail_5_done
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: hammer
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nail_5_hit
+        noFlags: []
+        items: []
+      memoryIndex: 3750
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.hammer_nail
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - nails_started
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3700
+      addFlags:
+      - nail_5_hit
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - nails
+      memoryIndex: 3070
+      addFlags:
+      - nail_5_hit
+      - nails_started
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: nail_place
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3760
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.window
+    labelKey: os.memory.pic.back.window
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - window_fixed
+        - glass_swept
+        noFlags: []
+        items: []
+      memoryIndex: 3730
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2770
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

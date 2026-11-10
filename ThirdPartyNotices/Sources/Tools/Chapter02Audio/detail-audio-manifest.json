@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "authoringDate": "2026-10-15",
+  "buildScript": "Tools/Chapter02Audio/build_detail_audio.py",
+  "format": "Mono PCM16 WAV, 48000 Hz",
+  "verification": "Measured loudness, peak, RMS, clipping, source and output hashes. Not an auditory review.",
+  "cues": [
+    {
+      "cue": "Chapter02_WaterPour",
+      "label": "把水倒进杯中",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_WaterPour.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -4.34,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/BSB_GlassWaterFilling1_JosephSardin/1242.wav",
+            "title": "1242.wav",
+            "collection": "Glass of water, filling #1",
+            "author": "Joseph SARDIN",
+            "sourceUrl": "https://bigsoundbank.com/glass-of-water-filling-1-s1242.html",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/Chapter02Audio/Sources/BSB_GlassWaterFilling1_JosephSardin.page.html",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "caf1b64bf28a5411fdcfbec30b5ad1154094b596b4b424b01c73a0a3ea3f877b"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.31,
+          "trimDurationSeconds": 2.55,
+          "playbackRate": 1,
+          "highpassHz": 100,
+          "lowpassHz": 6800,
+          "fadeInSeconds": 0.018,
+          "fadeOutSeconds": 0.13,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": -5.6119
+        }
+      ],
+      "measurements": {
+        "lufs": -30.03,
+        "truePeakDbtp": -9.4,
+        "durationSeconds": 2.55,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -9.421,
+        "rmsDbfs": -34.34,
+        "dcOffset": -1.121969784007353e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "13605dfc55b2b8d161b00f520930653150bc6b2e23bf01215bcf8f78448f6058",
+      "authoringNotes": "One real glass-filling action; removed pre-roll and long room tail. No synthetic water."
+    },
+    {
+      "cue": "Chapter02_PenWrite",
+      "label": "短句书写",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PenWrite.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -0.33,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_PencilSounds_AntumDeluge/flac/pencil_write.flac",
+            "title": "pencil_write.flac",
+            "collection": "Pencil Sounds",
+            "author": "AntumDeluge (remix/normalization); NachtmahrTV (pencil writing); damsur (pencil erasing)",
+            "sourceUrl": "https://opengameart.org/content/pencil-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/Chapter02Audio/Sources/OGA_PencilSounds_AntumDeluge/README.txt",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "aa835e94c7bafed9e096684a709f20de806083da5511e284d802bd16e244c025"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.015,
+          "trimDurationSeconds": 1.265,
+          "playbackRate": 1,
+          "highpassHz": 250,
+          "lowpassHz": 6000,
+          "fadeInSeconds": 0.012,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -30,
+          "staticLayerGainDb": -1.9955
+        }
+      ],
+      "measurements": {
+        "lufs": -29.98,
+        "truePeakDbtp": -8.59,
+        "durationSeconds": 1.27,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -8.741,
+        "rmsDbfs": -30.407,
+        "dcOffset": -9.812082205544619e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "e95508d568c64f40556bcbbdaec5bb39ca915b2965dcc320eaabe7079ca6e398",
+      "authoringNotes": "Natural sequence of small writing strokes; sustained action for nodes 4690/6500.",
+      "transientControl": {
+        "method": "Offline shared peak gain envelope; 5 ms lookahead window, 1 ms Gaussian edge smoothing",
+        "editPasses": 1,
+        "maximumAttenuationDb": 0.51,
+        "editedSampleFraction": 0.0097,
+        "purpose": "Retain recorded material and contact timing while meeting loudness and peak limits"
+      }
+    },
+    {
+      "cue": "Chapter02_PencilStroke",
+      "label": "画眉与脸上画图的一小笔",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_PencilStroke.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 0.35,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_PencilSounds_AntumDeluge/flac/pencil_write.flac",
+            "title": "pencil_write.flac",
+            "collection": "Pencil Sounds",
+            "author": "AntumDeluge (remix/normalization); NachtmahrTV (pencil writing); damsur (pencil erasing)",
+            "sourceUrl": "https://opengameart.org/content/pencil-sounds",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/Chapter02Audio/Sources/OGA_PencilSounds_AntumDeluge/README.txt",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "aa835e94c7bafed9e096684a709f20de806083da5511e284d802bd16e244c025"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.36,
+          "trimDurationSeconds": 0.41,
+          "playbackRate": 1,
+          "highpassHz": 500,
+          "lowpassHz": 6200,
+          "fadeInSeconds": 0.015,
+          "fadeOutSeconds": 0.055,
+          "layerRmsDbfs": -32,
+          "staticLayerGainDb": 1.4889
+        }
+      ],
+      "measurements": {
+        "lufs": -30.05,
+        "truePeakDbtp": -14.8,
+        "durationSeconds": 0.43,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -14.801,
+        "rmsDbfs": -31.857,
+        "dcOffset": -2.9571296632751938e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "ae4fef83317ff10eea0f01387a6426b5672be03fec4afde06b08911d77795bc1",
+      "authoringNotes": "A short pencil texture, leaving space between separately timed left/right eyebrow strokes."
+    },
+    {
+      "cue": "Chapter02_DoorScrape",
+      "label": "仓库门受阻后推开",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_DoorScrape.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": 0.28,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/scrape-2.wav",
+            "title": "scrape-2.wav",
+            "collection": "Scrapes",
+            "author": "AntumDeluge",
+            "sourceUrl": "https://opengameart.org/content/scrapes",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/LICENSE.txt",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "9b93f353f0155ffa391b1074a1595dd00321e8c604efe0ca9c1192a5f86129a0"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.035,
+          "trimDurationSeconds": 1.22,
+          "playbackRate": 0.72,
+          "highpassHz": 110,
+          "lowpassHz": 5200,
+          "fadeInSeconds": 0.035,
+          "fadeOutSeconds": 0.12,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": -9.7547
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/MemoryHome/AudioSources/dragon-studio-door-opening-454242.mp3",
+            "title": "Door Opening",
+            "author": "DRAGON-STUDIO",
+            "sourceUrl": "https://pixabay.com/sound-effects/door-opening-454242/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "licenseEvidence": "Tools/MemoryHome/audio-manifest.json",
+            "sha256": "e9a297f166050ed7f98bb93aee0215235d67483ec9e43ae86ac372aea6ea63eb"
+          },
+          "atSeconds": 0.06,
+          "trimStartSeconds": 0.08,
+          "trimDurationSeconds": 1.15,
+          "playbackRate": 0.85,
+          "highpassHz": 100,
+          "lowpassHz": 2400,
+          "fadeInSeconds": 0.03,
+          "fadeOutSeconds": 0.1,
+          "layerRmsDbfs": -38,
+          "staticLayerGainDb": -19.6254
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_MetalInteractions_qubodup/metal_interactions/metal_interaction1.wav",
+            "title": "metal_interaction1.wav",
+            "collection": "Metal interactions",
+            "author": "qubodup",
+            "sourceUrl": "https://opengameart.org/content/metal-interactions",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "https://opengameart.org/content/metal-interactions",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "3a377d30dc270d63e4663261e86ab24fcd178138f561455fae026ab2314fa46f"
+          },
+          "atSeconds": 1.48,
+          "trimStartSeconds": 0.015,
+          "trimDurationSeconds": 0.35,
+          "playbackRate": 0.95,
+          "highpassHz": 150,
+          "lowpassHz": 3500,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.07,
+          "layerRmsDbfs": -40,
+          "staticLayerGainDb": -9.6726
+        }
+      ],
+      "measurements": {
+        "lufs": -30.01,
+        "truePeakDbtp": -13.3,
+        "durationSeconds": 1.85,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -13.332,
+        "rmsDbfs": -30.422,
+        "dcOffset": -2.989897856841216e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "d676b948ae5aa9f2514adeb38fedb8ee57c00f80a7f9ad808cca615f5bfb4a73",
+      "authoringNotes": "Recorded hard-object friction with a low door texture and light terminal rattle; finishes before dust at 3.5 s."
+    },
+    {
+      "cue": "Chapter02_MetalScrape",
+      "label": "金属卡件摩擦和受力",
+      "outputPath": "Assets/Audio/SFX/Chapter02/Chapter02_MetalScrape.wav",
+      "loop": false,
+      "calibration": "Static integrated-loudness gain with peak ceiling; no compressor/limiter",
+      "targetLufs": -30,
+      "targetShortRmsDbfs": null,
+      "peakCeilingDbfs": -8.3,
+      "finalStaticGainDb": -1.41,
+      "layers": [
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/scrape-3.wav",
+            "title": "scrape-3.wav",
+            "collection": "Scrapes",
+            "author": "AntumDeluge",
+            "sourceUrl": "https://opengameart.org/content/scrapes",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "Tools/Chapter02Audio/Sources/OGA_Scrapes_AntumDeluge/LICENSE.txt",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "5586c252106affc44e71fcc5781bafb7c6d6d49c301b92f69a210f0d7435d508"
+          },
+          "atSeconds": 0,
+          "trimStartSeconds": 0.1,
+          "trimDurationSeconds": 0.94,
+          "playbackRate": 0.94,
+          "highpassHz": 280,
+          "lowpassHz": 5500,
+          "fadeInSeconds": 0.018,
+          "fadeOutSeconds": 0.09,
+          "layerRmsDbfs": -31,
+          "staticLayerGainDb": 0.9837
+        },
+        {
+          "kind": "recorded",
+          "source": {
+            "path": "Tools/Chapter02Audio/Sources/OGA_MetalInteractions_qubodup/metal_interactions/metal_interaction2.wav",
+            "title": "metal_interaction2.wav",
+            "collection": "Metal interactions",
+            "author": "qubodup",
+            "sourceUrl": "https://opengameart.org/content/metal-interactions",
+            "license": "CC0 1.0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licenseEvidence": "https://opengameart.org/content/metal-interactions",
+            "sourceManifest": "Tools/Chapter02Audio/Sources/source-manifest.json",
+            "sha256": "f133cafa39a058f8741b53c66b15af505c0c67344e05af4ef9ed4a28f0b9688f"
+          },
+          "atSeconds": 0.04,
+          "trimStartSeconds": 0.018,
+          "trimDurationSeconds": 0.31,
+          "playbackRate": 0.83,
+          "highpassHz": 250,
+          "lowpassHz": 4800,
+          "fadeInSeconds": 0.002,
+          "fadeOutSeconds": 0.07,
+          "layerRmsDbfs": -38,
+          "staticLayerGainDb": -16.6298
+        }
+      ],
+      "measurements": {
+        "lufs": -30.02,
+        "truePeakDbtp": -10.55,
+        "durationSeconds": 1.12,
+        "sampleRate": 48000,
+        "channels": 1,
+        "peakDbfs": -10.551,
+        "rmsDbfs": -32.56,
+        "dcOffset": -5.1657358805338543e-08,
+        "clippedSampleCount": 0
+      },
+      "sha256": "f1a14c33a743b0eb217fa73fb6f0849333098a7ad603cfdc80e643694bd23292",
+      "authoringNotes": "Hard-surface friction and recorded metal contact; distinct from the later break/snap."
+    }
+  ]
+}

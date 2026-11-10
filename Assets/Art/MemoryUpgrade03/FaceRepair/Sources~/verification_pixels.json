@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "sourceUnchangedSha256": "49a3d4a996b2e960072c4702561a75289a3eb2d248d1ee0907823dc4cc5465e5",
+  "versions": [
+    {
+      "folder": "Native216",
+      "states": 10,
+      "actions": 9,
+      "verifiedFrames": 361,
+      "status": "PASS",
+      "paletteAndAlpha": "exact",
+      "idleAndActionPatchComposition": "PASS",
+      "gifTimelineAndLoopMetadata": "PASS",
+      "endpointPixelDifferences": 0,
+      "cosmeticPatchesStayWithinFace": "PASS",
+      "tableClothUnchangedEveryActionFrame": "PASS"
+    }
+  ]
+}

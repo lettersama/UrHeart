@@ -1,0 +1,2109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1101 &-9066202816427024353
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-8715997464879476706
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_LowBatteryLowHeart01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: eb7a93e2a7f8b8b46b891c6d358f46c8, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-8011556296441385543
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-7913675409035364619
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_HighGlitch00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: a34e085450f35564b9be3d173f5f1298, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-7616412622408176587
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-6837965760638494144
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-6700683153792388990
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1107 &-6658167698920643651
+AnimatorStateMachine:
+  serializedVersion: 7
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base Layer
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: -94667499181188514}
+    m_Position: {x: -10, y: 160, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6212762718166571037}
+    m_Position: {x: 460, y: 410, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5237915834780231184}
+    m_Position: {x: 540, y: 490, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6683580656879520584}
+    m_Position: {x: 430, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2816133145005232267}
+    m_Position: {x: 540, y: -230, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4124104349390802430}
+    m_Position: {x: 540, y: -150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -7913675409035364619}
+    m_Position: {x: 490, y: -70, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8715997464879476706}
+    m_Position: {x: 490, y: 550, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8086381138491982811}
+    m_Position: {x: -340, y: 300, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5391407138967650286}
+    m_Position: {x: -340, y: 385, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 851736620372727643}
+    m_Position: {x: -340, y: 470, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5404038163995219846}
+    m_Position: {x: -340, y: 555, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 106711480728317218}
+    m_Position: {x: -340, y: 640, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4520824355835193970}
+    m_Position: {x: -340, y: 725, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1340903156548902131}
+    m_Position: {x: -340, y: 810, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2142939224590866746}
+    m_Position: {x: -340, y: 895, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 133813910147657113}
+    m_Position: {x: -340, y: 980, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2222437536315677395}
+    m_Position: {x: -340, y: 1065, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3431917620859718051}
+    m_Position: {x: -340, y: 1150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -2908970907936466259}
+    m_Position: {x: -340, y: 1235, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4147336684578481790}
+    m_Position: {x: -340, y: 1320, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions:
+  - {fileID: 2826328400046947997}
+  - {fileID: 6272637313884540117}
+  - {fileID: -721120661114043526}
+  - {fileID: -3741037972715601700}
+  - {fileID: 8215007854586150842}
+  - {fileID: -5092368578945748534}
+  - {fileID: 7567741958896389173}
+  - {fileID: 6911809459555785843}
+  - {fileID: 3592884567751995185}
+  - {fileID: -1793635386140886625}
+  - {fileID: 2430478174473852822}
+  - {fileID: -887443555678241441}
+  - {fileID: 4571187820057429652}
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: -230, y: 60, z: 0}
+  m_EntryPosition: {x: -230, y: 160, z: 0}
+  m_ExitPosition: {x: 860, y: 160, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: -94667499181188514}
+--- !u!1101 &-6486944872910317084
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-6212762718166571037
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_LowHeart00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: dc4712681058b8e4c9e7f9982f050908, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-5404038163995219846
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_OpenLive
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -1150149556348261248}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0af77248d08b4b54dae14d551eafe4a8, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-5391407138967650286
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Expend01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 6900650088070734706}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ba35c727420e3ca4e95418b43e35d7e5, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-5092368578945748534
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Sad
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -4520824355835193970}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-4520824355835193970
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Sad
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -8011556296441385543}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 94711b8a4ede3394b88ac6b37bcef224, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-4147336684578481790
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_MagnifyingGlass01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 3366282874692458871}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ff8c9a007da7a4a48a277b086b0f9795, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-4124104349390802430
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_HighGlitch01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 7ff7bb64c94ae334aa7b626852b7d8ac, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-4056891074709234318
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-3741037972715601700
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_OpenLive
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -5404038163995219846}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-3431917620859718051
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Angry01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 7223620487353284183}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 51e26c9a4a8d25945a9d35e8f2672e2a, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-2908970907936466259
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_MagnifyingGlass00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -2170135008221594095}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: b103b91285ab8d14ca3937691ca84a1b, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &-2702720834515696480
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-2170135008221594095
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-1793635386140886625
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Angry00
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 2222437536315677395}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-1150149556348261248
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-887443555678241441
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_MagnifyingGlass00
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -2908970907936466259}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-721120661114043526
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Expend02
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 851736620372727643}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &-94667499181188514
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Normal
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 1d441fb3b30050644b35794028af43df, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!91 &9100000
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_Controller
+  serializedVersion: 6
+  m_AnimatorParameters:
+  - m_Name: Expend00
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Expend01
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Expend02
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: OpenLive
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Nervous
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Sad
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Breakdown00
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Breakdown01
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Breakdown02
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Angry00
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Angry01
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: MagnifyingGlass00
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: MagnifyingGlass01
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base Layer
+    m_StateMachine: {fileID: -6658167698920643651}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+  m_EvaluateTransitionsOnStart: 1
+--- !u!1102 &106711480728317218
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Nervous
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -9066202816427024353}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: bbf4f2f6f302d784db798d2cd27e7128, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &133813910147657113
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Breakdown02
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -2702720834515696480}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ee192646efe166f4cbd91917e575cd58, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &851736620372727643
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Expend02
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -6837965760638494144}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 57a9656604013fa4fa2ca9101fd652e8, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &1340903156548902131
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Breakdown00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -6700683153792388990}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 608bb173fb53386458fb4b7159a132ae, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &2142939224590866746
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Breakdown01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -4056891074709234318}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 9ec05b07b939776498b15d5eef0dc00c, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &2222437536315677395
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Angry00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -7616412622408176587}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 3ae6c1226b0dec54ca7edc3683219062, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &2430478174473852822
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Angry01
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -3431917620859718051}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &2816133145005232267
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_LowBatteryLowHeart00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 20396fc1f9557c2479808c3767be13f2, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &2826328400046947997
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Expend00
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8086381138491982811}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &3366282874692458871
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &3592884567751995185
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Breakdown02
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 133813910147657113}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &4571187820057429652
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_MagnifyingGlass01
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -4147336684578481790}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &5237915834780231184
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_LowHeart01
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 69205fca5d28bc14baf319b055f31d45, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &6272637313884540117
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Expend01
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -5391407138967650286}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &6683580656879520584
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_LowBattery00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 470472bc675e6064c94191dd89571943, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &6900650088070734706
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &6911809459555785843
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Breakdown01
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 2142939224590866746}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &7223620487353284183
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Release
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Breakdown02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Angry01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: MagnifyingGlass01
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -94667499181188514}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &7567741958896389173
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Breakdown00
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Breakdown00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Sad
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 1340903156548902131}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1102 &8086381138491982811
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_UI_State_Expend00
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -6486944872910317084}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 199efe36a91f3b544ab74d3e51453077, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1101 &8215007854586150842
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Extended_Nervous
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Nervous
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend00
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend01
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Expend02
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenLive
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 106711480728317218}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0

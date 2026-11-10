@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8862dcf2f07aa6c409b1042469a21807, type: 3}
+  m_Name: Chapter01Ending
+  m_EditorClassIdentifier: Assembly-CSharp::OSChapter01EndingData
+  slides:
+  - image: {fileID: 21300000, guid: be81301311c379e43a9174472e1268de, type: 3}
+    frames: []
+    framePlaybackFraction: 0.65
+    holdSeconds: 2.8
+    fadeInSeconds: 0.16
+    fadeOutSeconds: 0
+    exposure: 1.08
+    exposurePulse: 0
+    lightStrength: 0.18
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 02
+    osdClockSeconds: 8021
+    osdNightVision: 0
+    osdTrack:
+      serializedVersion: 2
+      x: 212
+      y: 77
+      width: 56
+      height: 131
+  - image: {fileID: 21300000, guid: d7bd5d0019972ac48a004585b3e746cb, type: 3}
+    frames: []
+    framePlaybackFraction: 0.65
+    holdSeconds: 1.8
+    fadeInSeconds: 0
+    fadeOutSeconds: 0
+    exposure: 1.08
+    exposurePulse: 0
+    lightStrength: 0.12
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 02
+    osdClockSeconds: 8045
+    osdNightVision: 0
+    osdTrack:
+      serializedVersion: 2
+      x: 212
+      y: 61
+      width: 47
+      height: 150
+  - image: {fileID: 21300000, guid: 6e573c1cd4d844b4592f94533935552e, type: 3}
+    frames: []
+    framePlaybackFraction: 0.65
+    holdSeconds: 1.25
+    fadeInSeconds: 0
+    fadeOutSeconds: 0
+    exposure: 1.08
+    exposurePulse: 0
+    lightStrength: 0.08
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 02
+    osdClockSeconds: 8048
+    osdNightVision: 0
+    osdTrack:
+      serializedVersion: 2
+      x: 112
+      y: 163
+      width: 93
+      height: 137
+  - image: {fileID: 21300000, guid: b77cb78b1ca487943af87420b0b70543, type: 3}
+    frames: []
+    framePlaybackFraction: 0.65
+    holdSeconds: 2.2
+    fadeInSeconds: 0
+    fadeOutSeconds: 0
+    exposure: 1.08
+    exposurePulse: 0
+    lightStrength: 0.16
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 02
+    osdClockSeconds: 8055
+    osdNightVision: 0
+    osdTrack:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  - image: {fileID: 21300000, guid: f9232ef52d66d4e48b7253e065b3a582, type: 3}
+    frames: []
+    framePlaybackFraction: 0.65
+    holdSeconds: 2.05
+    fadeInSeconds: 0.1
+    fadeOutSeconds: 0
+    exposure: 18
+    exposurePulse: 4
+    lightStrength: 0
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 03
+    osdClockSeconds: 8063
+    osdNightVision: 1
+    osdTrack:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  - image: {fileID: -2385318176530958190, guid: df6d7111637abe34c804197335c2f5ff, type: 3}
+    frames:
+    - {fileID: -2385318176530958190, guid: df6d7111637abe34c804197335c2f5ff, type: 3}
+    - {fileID: -239773289, guid: df6d7111637abe34c804197335c2f5ff, type: 3}
+    - {fileID: -899485323, guid: df6d7111637abe34c804197335c2f5ff, type: 3}
+    - {fileID: -1853992901, guid: df6d7111637abe34c804197335c2f5ff, type: 3}
+    framePlaybackFraction: 0.7
+    holdSeconds: 5.2
+    fadeInSeconds: 0.12
+    fadeOutSeconds: 0
+    exposure: 1.08
+    exposurePulse: 0
+    lightStrength: 0
+    lightCenter: {x: 0.73, y: 0.61}
+    lightRadius: 0.29
+    ambience: 0
+    sounds: []
+    placeholderShot: 0
+    placeholderCaptionKey: 
+    osdCamera: CAM 01
+    osdClockSeconds: 8070
+    osdNightVision: 0
+    osdTrack:
+      serializedVersion: 2
+      x: 166
+      y: 110
+      width: 105
+      height: 190
+  slideShader: {fileID: 4800000, guid: 65b6e838acff83a40abf0f6c34c020c9, type: 3}
+  slideAmbience: {fileID: 0}
+  slideAmbienceVolume: 0
+  doorImage: {fileID: 21300000, guid: f7284147ca675324b86025e0566e2486, type: 3}
+  doorNormalizedRect:
+    serializedVersion: 2
+    x: 0.594
+    y: 0.194
+    width: 0.244
+    height: 0.694
+  animationVideo: {fileID: 0}
+  animationFrames:
+  - {fileID: 5807175876799246910, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -8704553953011477182, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -2297625405128633638, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -5059719723946732628, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 676998339738219660, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -4588158573854625898, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 5316109065887065360, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 2031816138082090699, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 2407684947746863466, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 4121724144662227338, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -2998608340332734920, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 3850522359802286514, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -9025845293109895316, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 414110806264992621, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -7955794193903644470, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 1114872894319797092, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -7353936623298727699, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 6400343824017639121, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 5224411938864469568, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 2246900449544513373, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -3104620584397514703, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 2238582733160252207, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -708004568375249235, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 7448046347935851040, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 7901333491020854512, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 1830378927792531297, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 839499521808059957, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 6202576852628034741, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 6411301184422588193, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -7727846049960495696, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -5539733341749454655, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: -1080679061860391758, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  - {fileID: 8581023110786398781, guid: 6424c15a87e903c448ab9a1e5530dbad, type: 3}
+  animationFramesPerSecond: 8.333333
+  animationFrameSeconds:
+  - 0.12
+  - 0.12
+  - 0.12000002
+  - 0.119999975
+  - 0.120000035
+  - 0.120000005
+  - 0.119999945
+  - 0.120000005
+  - 0.120000064
+  - 0.120000005
+  - 0.120000005
+  - 0.120000005
+  - 0.119999886
+  - 0.120000005
+  - 0.120000005
+  - 0.120000005
+  - 0.120000005
+  - 0.120000124
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.120000124
+  - 0.119999886
+  - 0.119999886
+  animationPlaceholderSeconds: 4
+  animationGlitchShader: {fileID: 4800000, guid: 6a90a89d967a4844987958d7333eb79a, type: 3}
+  animationLoops: 1
+  animationGlitchTicksPerSecond: 12
+  animationStickSeconds: 0.45
+  initialBlackSeconds: 0.45
+  doorPopupSeconds: 0.42
+  doorKnockSeconds: 1.4
+  demoWipeSeconds: 0.9
+  doorTransitionSeconds: 0.45
+  frozenSeconds: 0.65
+  glitchSeconds: 1.3
+  fadeOutSeconds: 1.1
+  doorSound: {fileID: 8300000, guid: 58961dc51dc7abc4f82b12dcae24798f, type: 3}
+  crashSound: {fileID: 0}
+  recoveryFreezeSeconds: 1.5
+  recoverySwatSeconds: 6
+  slideHiss: {fileID: 8300000, guid: 6533b38d610d40deac163b93d84c426b, type: 3}
+  slideFan: {fileID: 8300000, guid: 3618ab0ad4c949dd83ffbb2102544de3, type: 3}
+  slideShotSwitch: {fileID: 8300000, guid: cb46dad389ac4a638297e1d667202977, type: 3}
+  animationMusicBox: {fileID: 8300000, guid: e631f556788d4585a03665c3737606f5, type: 3}
+  animationGlitchClips:
+  - {fileID: 8300000, guid: 97d591ddde494978840abfc3a876f166, type: 3}
+  - {fileID: 8300000, guid: 221387c7d3614fe7bf548a6292456959, type: 3}
+  - {fileID: 8300000, guid: 7f3d4725272a458d8de86171025fc214, type: 3}
+  - {fileID: 8300000, guid: 59090de74ac34fd0924835ca628332f3, type: 3}
+  - {fileID: 8300000, guid: 3e0a9d6916e14b7cb65760ad944f04f7, type: 3}
+  - {fileID: 8300000, guid: 401340dcb28349de9e2b10ad9d95540b, type: 3}
+  animationStuckHum: {fileID: 8300000, guid: dc787328a2ef4b5cab136caea75a86b2, type: 3}
+  slideHissVolume: 0.8
+  slideFanVolume: 0.9
+  animationMusicVolume: 0.85
+  animationGlitchVolume: 0.7
+  animationStuckVolume: 0.6
+  chapter02MemoryIndex: -1

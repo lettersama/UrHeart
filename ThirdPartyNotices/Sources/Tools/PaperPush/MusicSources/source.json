@@ -1,0 +1,22 @@
+{
+  "title": "Techno_Chiptale",
+  "author": "Centurion_of_war",
+  "license": "CC0-1.0",
+  "sourcePage": "https://opengameart.org/content/technochiptale",
+  "downloadUrl": "https://opengameart.org/sites/default/files/techno_chiptale_v0.6_0.ogg",
+  "downloaded": "2026-09-21",
+  "gainDb": -9.69,
+  "measuredLUFS": "-30.00",
+  "truePeak": "-13.99",
+  "loudnessRangeLU": 2.3,
+  "bpmFromAuthor": 90,
+  "durationSeconds": 64.0,
+  "sampleRate": 44100,
+  "channels": 2,
+  "sourceSha256": "88096b843855c27c7ec4f81185469b3463d06b081f2bc0f5e982a294562a11d7",
+  "outputSha256": "db7b215cb0bb14ee2728bb6a85787210fb987f6cdd70d098e402ba8a6119ae2e",
+  "outputPath": "Assets/Audio/Music/PaperPush/TechnoChiptale.ogg",
+  "preservedGuid": "bd7212681809acc45b95870f5914c18c",
+  "processing": "Complete source; static gain only; timestamps reset from sample count; original sample rate and stereo; Vorbis quality 7",
+  "selectionReason": "Replace overly cheerful Flowerbed Fields; author describes this 90 BPM track as steady, laid back, and suitable for mysterious adventure settings. Mood selection is based on the author's description, not an auditory evaluation."
+}

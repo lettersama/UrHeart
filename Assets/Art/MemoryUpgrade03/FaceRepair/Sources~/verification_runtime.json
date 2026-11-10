@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "pngCount": 398,
+  "canvas": [
+    216,
+    162
+  ],
+  "pngBytesUnchanged": true,
+  "manifestPathsExist": true,
+  "spriteImportMetadata": "Single / Point / uncompressed / no mipmap / PPU 20",
+  "artistSourceSha256": "73df3263189f7d57ab1551936585743372392cd889714bb0ee8f3d2286bbef6e",
+  "protectedAuthorSourcesUnchanged": true,
+  "unityEditorLogImportedPngCount": 398
+}

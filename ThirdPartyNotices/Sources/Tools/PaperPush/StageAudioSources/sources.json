@@ -1,0 +1,34 @@
+[
+  {
+    "name": "rain-bed",
+    "url": "https://bigsoundbank.com/rain-and-storm-s0124.html",
+    "download": "https://bigsoundbank.com/UPLOAD/mp3/0124.mp3",
+    "author": "Joseph SARDIN",
+    "license": "CC0 1.0",
+    "sha256": "102f5ef7cf5a8b15d2f4bcd806291b5aeafbe1409109f1a35410f319d1238fdf"
+  },
+  {
+    "name": "thunder",
+    "url": "https://bigsoundbank.com/thunder-s2718.html",
+    "download": "https://bigsoundbank.com/UPLOAD/mp3/2718.mp3",
+    "author": "Joseph SARDIN",
+    "license": "CC0 1.0",
+    "sha256": "3716987e4152483cf595c202ee1e8962a9689b32f6b62a730526e3f5b1acd7db"
+  },
+  {
+    "name": "cheer",
+    "url": "https://bigsoundbank.com/applause-1-s2363.html",
+    "download": "https://bigsoundbank.com/UPLOAD/mp3/2363.mp3",
+    "author": "Joseph SARDIN",
+    "license": "CC0 1.0",
+    "sha256": "1e282390be352a2d0c5c0f0bb6c921af41ddb84654d7da16f3376106cea657ca"
+  },
+  {
+    "name": "boo",
+    "url": "https://freesound.org/people/NeoSpica/sounds/504621/",
+    "author": "NeoSpica",
+    "download": "https://cdn.freesound.org/previews/504/504621_7704891-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "f50512b9c3ab549220bf3fcf68033a617befbd2e86296ab08c473bc91606a2e7"
+  }
+]

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a5cf2397a103f4cb3aaeb0041b353d, type: 3}
+  m_Name: Subwindows_000
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemorySubwindowSequence
+  sequenceId: 000
+  referenceSize: {x: 640, y: 360}
+  requiredToolProgram: memory-repair-1
+  shots:
+  - contentPrefab: {fileID: 8050723124080905891, guid: 9f14a35855881be4da2ffd34523612e4, type: 3}
+    position: {x: 77.69998, y: 69.99999}
+    size: {x: 130, y: 100}
+    delayAfterPreviousOpen: 0
+    openedSfxKey: SubWindow_OpenDoor
+    floatCaption: 1
+    captionDuration: 0.8
+    captionFadeIn: 0.15
+    captionFadeOut: 0.3
+    captionRise: 12
+  - contentPrefab: {fileID: 4879873121852019519, guid: c9b7ed2e4682ad14fad993843f859f99, type: 3}
+    position: {x: 99.1, y: 14.499998}
+    size: {x: 114.2, y: 88.4}
+    delayAfterPreviousOpen: 1.377
+    openedSfxKey: 
+    floatCaption: 0
+    captionDuration: 0.8
+    captionFadeIn: 0.15
+    captionFadeOut: 0.3
+    captionRise: 12
+  - contentPrefab: {fileID: 8578309551387838160, guid: ad9b86f0d34ba9e4bae184496c2afc3d, type: 3}
+    position: {x: 183.89996, y: 54.3}
+    size: {x: 143.7, y: 103.1}
+    delayAfterPreviousOpen: 1.224
+    openedSfxKey: 
+    floatCaption: 0
+    captionDuration: 0.8
+    captionFadeIn: 0.15
+    captionFadeOut: 0.3
+    captionRise: 12
+  lastWindowHold: 3.5
+  closeInterval: 0.3
+  closeDuration: 0.32
+  continueAtProgress: 0.5
+  autoAdvance: 1

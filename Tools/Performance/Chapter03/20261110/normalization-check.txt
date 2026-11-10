@@ -1,0 +1,1 @@
+PASS: duplicate/blank trimming, receipt intersection, consumed pending cleanup, same-instance list mutation, track collection, JSON restoration and unchanged serialized fields.

@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: wiring
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: wiring
+  titleKey: os.memory.pic.scene.wiring
+  contentPrefab: {fileID: 5832458945361100525, guid: 3f27d2c4da9e23446b9a59f355662058, type: 3}
+  hotspots:
+  - hotspotId: power
+    labelKey: os.memory.pic.power
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - power_off
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - robot_repaired
+        noFlags: []
+        items: []
+      memoryIndex: 3540
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: os.memory.pic.test_power
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3380
+      addFlags:
+      - power_off
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: power_off
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: plug_0
+    labelKey: os.memory.pic.plug_0
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_0
+      items: []
+    outcomes: []
+    kind: 1
+    socketIndex: 0
+  - hotspotId: socket_0
+    labelKey: os.memory.pic.socket_0
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_2
+      items: []
+    outcomes: []
+    kind: 2
+    socketIndex: 2
+  - hotspotId: plug_1
+    labelKey: os.memory.pic.plug_1
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_1
+      items: []
+    outcomes: []
+    kind: 1
+    socketIndex: 1
+  - hotspotId: socket_1
+    labelKey: os.memory.pic.socket_1
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_0
+      items: []
+    outcomes: []
+    kind: 2
+    socketIndex: 0
+  - hotspotId: plug_2
+    labelKey: os.memory.pic.plug_2
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_2
+      items: []
+    outcomes: []
+    kind: 1
+    socketIndex: 2
+  - hotspotId: socket_2
+    labelKey: os.memory.pic.socket_2
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_3
+      items: []
+    outcomes: []
+    kind: 2
+    socketIndex: 3
+  - hotspotId: plug_3
+    labelKey: os.memory.pic.plug_3
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_3
+      items: []
+    outcomes: []
+    kind: 1
+    socketIndex: 3
+  - hotspotId: socket_3
+    labelKey: os.memory.pic.socket_3
+    visibleWhen:
+      allFlags: []
+      noFlags:
+      - wire_1
+      items: []
+    outcomes: []
+    kind: 2
+    socketIndex: 1
+  - hotspotId: replace_fuse
+    labelKey: os.memory.pic.replace_fuse
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags:
+        - power_off
+        items: []
+      memoryIndex: 3390
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - fuse_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3470
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items:
+        - fuse
+      memoryIndex: 3460
+      addFlags:
+      - fuse_fixed
+      removeFlags: []
+      addItems: []
+      removeItems:
+      - fuse
+      targetScene: 
+      soundCue: fuse
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3450
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: test_power
+    labelKey: os.memory.pic.test_power
+    visibleWhen:
+      allFlags:
+      - power_off
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - robot_repaired
+        noFlags: []
+        items: []
+      memoryIndex: 3540
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - wires_connected
+        items: []
+      memoryIndex: 3500
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags:
+        - fuse_fixed
+        items: []
+      memoryIndex: 3450
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3520
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: power_on
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 1
+      energyCost: 5
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.wiring
+    labelKey: os.memory.pic.back.wiring
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - robot_repaired
+        noFlags: []
+        items: []
+      memoryIndex: 3770
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: workshop
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2780
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: workshop
+      soundCue: 
+      tooltipLabelKey: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      energyCost: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

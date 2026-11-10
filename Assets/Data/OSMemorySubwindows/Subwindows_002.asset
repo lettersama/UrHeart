@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a5cf2397a103f4cb3aaeb0041b353d, type: 3}
+  m_Name: Subwindows_002
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemorySubwindowSequence
+  sequenceId: 002
+  referenceSize: {x: 640, y: 360}
+  requiredToolProgram: memory-repair-1
+  shots:
+  - contentPrefab: {fileID: 4526159475426245340, guid: 077fc443171c7dd498ca5b575ac7c131, type: 3}
+    position: {x: 147.79999, y: 25.999996}
+    size: {x: 130, y: 180}
+    delayAfterPreviousOpen: 0
+    openedSfxKey: 
+    floatCaption: 0
+    captionDuration: 0
+    captionFadeIn: 0
+    captionFadeOut: 0
+    captionRise: 0
+  lastWindowHold: 6
+  closeInterval: 0.25
+  closeDuration: 0.32
+  continueAtProgress: 0.5
+  autoAdvance: 1

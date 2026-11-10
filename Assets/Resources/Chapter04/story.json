@@ -1,0 +1,1375 @@
+{
+  "version": 1,
+  "firstEntryId": "chapter04_story_01",
+  "dateLocalizationKey": "",
+  "dateFallback": "",
+  "heartWeightBudget": 17,
+  "faultWeightBudget": 19,
+  "resumeRoutes": [
+    {
+      "oldEntryId": "chapter04_story_45",
+      "nextEntryId": "chapter04_story_grave_04",
+      "theatreState": "FlowerWalkRain",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_46",
+      "nextEntryId": "chapter04_story_grave_06",
+      "theatreState": "Grave",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_47",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_48",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_49",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_50",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_50a",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_50b",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_51",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_52",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    },
+    {
+      "oldEntryId": "chapter04_story_53",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreState": "GravePlaceFlowers",
+      "heartWeightBefore": 3,
+      "faultWeightBefore": 3
+    }
+  ],
+  "beats": [
+    {
+      "entryId": "chapter04_story_01",
+      "signalId": "chapter04_story.01",
+      "nextEntryId": "chapter04_story_02",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 3.8,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_02",
+      "signalId": "chapter04_story.02",
+      "nextEntryId": "chapter04_story_03",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 7.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_03",
+      "signalId": "chapter04_story.03",
+      "nextEntryId": "chapter04_story_04",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 8.3,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_04",
+      "signalId": "chapter04_story.04",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "silence",
+          "nextEntryId": "chapter04_story_05"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_05",
+      "signalId": "chapter04_story.05",
+      "nextEntryId": "chapter04_story_06",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 6.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_06",
+      "signalId": "chapter04_story.06",
+      "nextEntryId": "chapter04_story_07",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_07",
+      "signalId": "chapter04_story.07",
+      "nextEntryId": "chapter04_story_08",
+      "theatreStateAfterText": "CityArrive",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 7.2,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_08",
+      "signalId": "chapter04_story.08",
+      "nextEntryId": "chapter04_story_09",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 6.3,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_09",
+      "signalId": "chapter04_story.09",
+      "nextEntryId": "",
+      "theatreStateAfterText": "EnterDoor",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "alone",
+          "nextEntryId": "chapter04_story_10"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_10",
+      "signalId": "chapter04_story.10",
+      "nextEntryId": "chapter04_story_11",
+      "theatreStateAfterText": "LabTidy",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 6.8,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_11",
+      "signalId": "chapter04_story.11",
+      "nextEntryId": "chapter04_story_12",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_12",
+      "signalId": "chapter04_story.12",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "hard",
+          "nextEntryId": "chapter04_story_13"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_13",
+      "signalId": "chapter04_story.13",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "explain",
+          "nextEntryId": "chapter04_story_13a"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_13a",
+      "signalId": "chapter04_story.13a",
+      "nextEntryId": "chapter04_story_13b",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 8.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_13b",
+      "signalId": "chapter04_story.13b",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "unfamiliar",
+          "nextEntryId": "chapter04_story_13c"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_13c",
+      "signalId": "chapter04_story.13c",
+      "nextEntryId": "chapter04_story_13d",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_13d",
+      "signalId": "chapter04_story.13d",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "intruder",
+          "nextEntryId": "chapter04_story_14"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_14",
+      "signalId": "chapter04_story.14",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "care",
+          "nextEntryId": "chapter04_story_15"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_15",
+      "signalId": "chapter04_story.15",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 1,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "memories",
+          "nextEntryId": "chapter04_story_17"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_16",
+      "signalId": "chapter04_story.16",
+      "nextEntryId": "",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "memories",
+          "nextEntryId": "chapter04_story_17"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_17",
+      "signalId": "chapter04_story.17",
+      "nextEntryId": "chapter04_story_18",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 4.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_18",
+      "signalId": "chapter04_story.18",
+      "nextEntryId": "chapter04_story_19",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 1,
+      "endAction": "",
+      "autoAdvanceDelay": 8.5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_19",
+      "signalId": "chapter04_story.19",
+      "nextEntryId": "chapter04_story_20",
+      "theatreStateAfterText": "MedicineReady",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 9,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_20",
+      "signalId": "chapter04_story.20",
+      "nextEntryId": "chapter04_story_21",
+      "theatreStateAfterText": "WastelandWalk",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 8,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_21",
+      "signalId": "chapter04_story.21",
+      "nextEntryId": "chapter04_story_22",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_22",
+      "signalId": "chapter04_story.22",
+      "nextEntryId": "",
+      "theatreStateAfterText": "SettlementWait",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "later",
+          "nextEntryId": "chapter04_story_22a"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_22a",
+      "signalId": "chapter04_story.22a",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "efficacy",
+          "nextEntryId": "chapter04_story_23"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_23",
+      "signalId": "chapter04_story.23",
+      "nextEntryId": "chapter04_story_23a",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_23a",
+      "signalId": "chapter04_story.23a",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "unseen",
+          "nextEntryId": "chapter04_story_23b"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_23b",
+      "signalId": "chapter04_story.23b",
+      "nextEntryId": "chapter04_story_23c",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_23c",
+      "signalId": "chapter04_story.23c",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "later",
+          "nextEntryId": "chapter04_story_24"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_24",
+      "signalId": "chapter04_story.24",
+      "nextEntryId": "chapter04_story_24a",
+      "theatreStateAfterText": "TentCare",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_24a",
+      "signalId": "chapter04_story.24a",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "reassure",
+          "nextEntryId": "chapter04_story_25"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_25",
+      "signalId": "chapter04_story.25",
+      "nextEntryId": "chapter04_story_25a",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_25a",
+      "signalId": "chapter04_story.25a",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "protect",
+          "nextEntryId": "chapter04_story_25b"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_25b",
+      "signalId": "chapter04_story.25b",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "story",
+          "nextEntryId": "chapter04_story_25c"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_25c",
+      "signalId": "chapter04_story.25c",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "hacker",
+          "nextEntryId": "chapter04_story_25d"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_25d",
+      "signalId": "chapter04_story.25d",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "decline",
+          "nextEntryId": "chapter04_story_25e"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_25e",
+      "signalId": "chapter04_story.25e",
+      "nextEntryId": "chapter04_story_26",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 9,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_26",
+      "signalId": "chapter04_story.26",
+      "nextEntryId": "",
+      "theatreStateAfterText": "WastelandWalk",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "leave",
+          "nextEntryId": "chapter04_story_27"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_27",
+      "signalId": "chapter04_story.27",
+      "nextEntryId": "chapter04_story_28",
+      "theatreStateAfterText": "NorthSettlement",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_28",
+      "signalId": "chapter04_story.28",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "think",
+          "nextEntryId": "chapter04_story_29"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_29",
+      "signalId": "chapter04_story.29",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "understand",
+          "nextEntryId": "chapter04_story_31"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_30",
+      "signalId": "chapter04_story.30",
+      "nextEntryId": "chapter04_story_31",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 7.8,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_31",
+      "signalId": "chapter04_story.31",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 1,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "proud",
+          "nextEntryId": "chapter04_story_32"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_32",
+      "signalId": "chapter04_story.32",
+      "nextEntryId": "chapter04_story_34",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 3,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_33",
+      "signalId": "chapter04_story.33",
+      "nextEntryId": "",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "answer",
+          "nextEntryId": "chapter04_story_34"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_34",
+      "signalId": "chapter04_story.34",
+      "nextEntryId": "chapter04_story_35",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 9,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_35",
+      "signalId": "chapter04_story.35",
+      "nextEntryId": "chapter04_story_36",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 1,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_36",
+      "signalId": "chapter04_story.36",
+      "nextEntryId": "",
+      "theatreStateAfterText": "LabNight",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "rapport",
+          "nextEntryId": "chapter04_story_37"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_37",
+      "signalId": "chapter04_story.37",
+      "nextEntryId": "chapter04_story_38",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_38",
+      "signalId": "chapter04_story.38",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "question",
+          "nextEntryId": "chapter04_story_39"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_39",
+      "signalId": "chapter04_story.39",
+      "nextEntryId": "chapter04_story_40",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 1,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_40",
+      "signalId": "chapter04_story.40",
+      "nextEntryId": "chapter04_story_40a",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_40a",
+      "signalId": "chapter04_story.40a",
+      "nextEntryId": "chapter04_story_41",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_41",
+      "signalId": "chapter04_story.41",
+      "nextEntryId": "chapter04_story_43",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 1,
+      "endAction": "",
+      "autoAdvanceDelay": 10,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_42",
+      "signalId": "chapter04_story.42",
+      "nextEntryId": "chapter04_story_43",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5.3,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_43",
+      "signalId": "chapter04_story.43",
+      "nextEntryId": "chapter04_story_grave_01",
+      "theatreStateAfterText": "FlowerWalk",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_44",
+      "signalId": "chapter04_story.44",
+      "nextEntryId": "chapter04_story_grave_01",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5.6,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_45",
+      "signalId": "chapter04_story.45",
+      "nextEntryId": "chapter04_story_grave_04",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 4.2,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_46",
+      "signalId": "chapter04_story.46",
+      "nextEntryId": "chapter04_story_grave_06",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 5.6,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_47",
+      "signalId": "chapter04_story.47",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 7.2,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_48",
+      "signalId": "chapter04_story.48",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 3.8,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_49",
+      "signalId": "chapter04_story.49",
+      "nextEntryId": "",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": -1,
+      "options": [
+        {
+          "optionId": "yes",
+          "nextEntryId": "chapter04_story_grave_07"
+        },
+        {
+          "optionId": "no",
+          "nextEntryId": "chapter04_story_grave_07"
+        }
+      ]
+    },
+    {
+      "entryId": "chapter04_story_50a",
+      "signalId": "chapter04_story.50a",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 2.6,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_50b",
+      "signalId": "chapter04_story.50b",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 3.4,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_51",
+      "signalId": "chapter04_story.51",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 2.9,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_52",
+      "signalId": "chapter04_story.52",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 4.4,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_53",
+      "signalId": "chapter04_story.53",
+      "nextEntryId": "chapter04_story_grave_07",
+      "legacyResumeOnly": true,
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "autoAdvanceDelay": 4,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_01",
+      "signalId": "chapter04_story.grave_01",
+      "nextEntryId": "chapter04_story_grave_02",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_02",
+      "signalId": "chapter04_story.grave_02",
+      "nextEntryId": "chapter04_story_grave_03",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_03",
+      "signalId": "chapter04_story.grave_03",
+      "nextEntryId": "chapter04_story_grave_04",
+      "theatreStateAfterText": "FlowerWalkRain",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_04",
+      "signalId": "chapter04_story.grave_04",
+      "nextEntryId": "chapter04_story_grave_05",
+      "theatreStateAfterText": "Grave",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_05",
+      "signalId": "chapter04_story.grave_05",
+      "nextEntryId": "chapter04_story_grave_06",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_06",
+      "signalId": "chapter04_story.grave_06",
+      "nextEntryId": "chapter04_story_grave_07",
+      "theatreStateAfterText": "GravePlaceFlowers",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 0,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_07",
+      "signalId": "chapter04_story.grave_07",
+      "nextEntryId": "chapter04_story_grave_08",
+      "theatreStateAfterText": "GraveBreakdown",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 1,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 1,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_08",
+      "signalId": "chapter04_story.grave_08",
+      "nextEntryId": "chapter04_story_grave_09",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 1,
+      "endAction": "",
+      "griefTier": 1,
+      "griefLineStep": 1,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_09",
+      "signalId": "chapter04_story.grave_09",
+      "nextEntryId": "chapter04_story_grave_10",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 2,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 1,
+      "griefLineStep": 2,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_10",
+      "signalId": "chapter04_story.grave_10",
+      "nextEntryId": "chapter04_story_grave_11",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 1,
+      "faultWeight": 1,
+      "endAction": "",
+      "griefTier": 2,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_11",
+      "signalId": "chapter04_story.grave_11",
+      "nextEntryId": "chapter04_story_grave_12",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 2,
+      "faultWeight": 0,
+      "endAction": "",
+      "griefTier": 2,
+      "griefLineStep": 1,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_12",
+      "signalId": "chapter04_story.grave_12",
+      "nextEntryId": "chapter04_story_grave_13",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 2,
+      "faultWeight": 2,
+      "endAction": "",
+      "griefTier": 2,
+      "griefLineStep": 2,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_13",
+      "signalId": "chapter04_story.grave_13",
+      "nextEntryId": "chapter04_story_grave_14",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 3,
+      "faultWeight": 2,
+      "endAction": "",
+      "griefTier": 3,
+      "griefLineStep": 0,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_14",
+      "signalId": "chapter04_story.grave_14",
+      "nextEntryId": "chapter04_story_grave_15",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 3,
+      "faultWeight": 3,
+      "endAction": "",
+      "griefTier": 3,
+      "griefLineStep": 1,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_15",
+      "signalId": "chapter04_story.grave_15",
+      "nextEntryId": "chapter04_story_grave_16",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 3,
+      "endAction": "",
+      "griefTier": 3,
+      "griefLineStep": 2,
+      "autoAdvanceDelay": -1,
+      "options": []
+    },
+    {
+      "entryId": "chapter04_story_grave_16",
+      "signalId": "chapter04_story.grave_16",
+      "nextEntryId": "",
+      "theatreStateAfterText": "",
+      "dateLocalizationKey": "",
+      "dateFallback": "",
+      "heartWeight": 0,
+      "faultWeight": 4,
+      "endAction": "failureWarning",
+      "griefTier": 3,
+      "griefLineStep": 3,
+      "autoAdvanceDelay": -1,
+      "options": []
+    }
+  ]
+}

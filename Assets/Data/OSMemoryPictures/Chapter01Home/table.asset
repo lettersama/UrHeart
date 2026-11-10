@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41c23797b4afd42b8912aad25ed10c, type: 3}
+  m_Name: table
+  m_EditorClassIdentifier: Assembly-CSharp::MrTGame.Narrative.OSMemoryPicSceneData
+  sceneId: table
+  titleKey: os.memory.pic.scene.table
+  contentPrefab: {fileID: 7955084269059098053, guid: 32f23894c258fee46b8a389be5cf2638, type: 3}
+  hotspots:
+  - hotspotId: books
+    labelKey: os.memory.pic.books
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3240
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: family_photo
+    labelKey: os.memory.pic.family_photo
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3260
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: cup
+    labelKey: os.memory.pic.cup
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 3220
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: 
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0
+  - hotspotId: back.table
+    labelKey: os.memory.pic.back.table
+    visibleWhen:
+      allFlags: []
+      noFlags: []
+      items: []
+    outcomes:
+    - when:
+        allFlags:
+        - window_fixed
+        - glass_swept
+        noFlags: []
+        items: []
+      memoryIndex: 3730
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags:
+        - window_fixed
+        noFlags: []
+        items: []
+      memoryIndex: 3720
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    - when:
+        allFlags: []
+        noFlags: []
+        items: []
+      memoryIndex: 2770
+      addFlags: []
+      removeFlags: []
+      addItems: []
+      removeItems: []
+      targetScene: living
+      soundCue: 
+      speakWhenNavigationBlocked: 0
+      glassStartle: 0
+      finishRepair: 0
+      effectDuration: 0
+    kind: 0
+    socketIndex: 0

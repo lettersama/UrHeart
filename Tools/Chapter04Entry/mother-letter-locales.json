@@ -1,0 +1,38 @@
+{
+  "os.record.6.name": {
+    "zh_CN": "母亲的信",
+    "zh_TW": "母親的信",
+    "en": "Mother's Letter",
+    "ja": "母の手紙",
+    "ko": "어머니의 편지",
+    "fr": "Lettre de ma mère",
+    "de": "Mutters Brief",
+    "es": "Carta de mi madre",
+    "pt_BR": "Carta da minha mãe",
+    "ru": "Письмо матери"
+  },
+  "os.record.6.description": {
+    "zh_CN": "一位母亲留下的手信，留下的都是世间的别离。\n\n她曾为一个女儿流尽眼泪，又为另一个女儿留下了整颗心。",
+    "zh_TW": "一位母親留下的手信，留下的都是世間的別離。\n\n她曾為一個女兒流盡眼淚，又為另一個女兒留下了整顆心。",
+    "en": "A handwritten letter left by a mother. Its pages hold only the partings of this world.\n\nShe once shed all her tears for one daughter, then left her whole heart to another.",
+    "ja": "母が書き残した一通の手紙。そこにあるのは、この世の別ればかり。\n\nひとりの娘のために涙を枯らし、もうひとりの娘には、その心をまるごと遺した。",
+    "ko": "한 어머니가 손수 써서 남긴 편지. 그 안에 남은 것은 세상의 이별뿐이다.\n\n그녀는 한 딸을 위해 모든 눈물을 쏟았고, 또 다른 딸에게는 자신의 심장을 온전히 남겼다.",
+    "fr": "Une lettre manuscrite laissée par une mère. Il n'y reste que les adieux de ce monde.\n\nElle a versé toutes ses larmes pour l'une de ses filles, puis laissé son cœur tout entier à l'autre.",
+    "de": "Ein handgeschriebener Brief, den eine Mutter hinterließ. Darin stehen nur die Abschiede dieser Welt.\n\nSie vergoss all ihre Tränen um die eine Tochter und hinterließ der anderen ihr ganzes Herz.",
+    "es": "Una carta escrita a mano que dejó una madre. En ella solo quedan las despedidas de este mundo.\n\nDerramó todas sus lágrimas por una hija y dejó su corazón entero a otra.",
+    "pt_BR": "Uma carta escrita à mão, deixada por uma mãe. Nela, só restam as despedidas deste mundo.\n\nEla derramou todas as suas lágrimas por uma filha e deixou seu coração inteiro para outra.",
+    "ru": "Рукописное письмо, оставленное матерью. В нём остались лишь разлуки этого мира.\n\nОна выплакала все слёзы по одной дочери, а другой оставила всё своё сердце."
+  },
+  "ui.os.record.open_letter": {
+    "zh_CN": "阅读信件",
+    "zh_TW": "閱讀信件",
+    "en": "Read letter",
+    "ja": "手紙を読む",
+    "ko": "편지 읽기",
+    "fr": "Lire la lettre",
+    "de": "Brief lesen",
+    "es": "Leer la carta",
+    "pt_BR": "Ler a carta",
+    "ru": "Прочитать письмо"
+  }
+}

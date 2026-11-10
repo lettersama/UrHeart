@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d4de4fcea2b0049bdbad4aa60eb3bf, type: 3}
+  m_Name: OSToolProgramData
+  m_EditorClassIdentifier: Assembly-CSharp::OSToolProgramData_SO
+  batteryIcon: {fileID: 1761224777, guid: 0bb0a419e7d0aa6478a07a1f3ad10057, type: 3}
+  programs:
+  - id: gramophone
+    localizationKey: ui.os.tool.program.gramophone
+    fallbackName: "\u7559\u58F0\u673A"
+    icon: {fileID: 1196806730, guid: 0bb0a419e7d0aa6478a07a1f3ad10057, type: 3}
+    batteryCost: 0
+  - id: energy-loop
+    localizationKey: ui.os.tool.program.energy_loop
+    fallbackName: "\u80FD\u6E90\u56DE\u8DEF"
+    icon: {fileID: 1615208007, guid: 0bb0a419e7d0aa6478a07a1f3ad10057, type: 3}
+    batteryCost: 0
+  - id: memory-repair-1
+    localizationKey: ui.os.tool.program.memory_repair_1
+    fallbackName: "\u56DE\u5FC6\u533A\u5347\u7EA7#1"
+    icon: {fileID: 1759494558, guid: 0bb0a419e7d0aa6478a07a1f3ad10057, type: 3}
+    batteryCost: 15
+  - id: memory-repair-2
+    localizationKey: ui.os.tool.program.memory_repair_2
+    fallbackName: "\u56DE\u5FC6\u533A\u5347\u7EA7#2"
+    icon: {fileID: -1921440752, guid: 0bb0a419e7d0aa6478a07a1f3ad10057, type: 3}
+    batteryCost: 15
+  - id: memory-repair-3
+    localizationKey: ui.os.tool.program.memory_repair_3
+    fallbackName: "\u56DE\u5FC6\u533A\u5347\u7EA7#3"
+    icon: {fileID: 21300000, guid: e90606ab83ac9e44e842af6954037522, type: 3}
+    batteryCost: 30
+  - id: memory-repair-4
+    localizationKey: ui.os.tool.program.memory_repair_4
+    fallbackName: "\u56de\u5fc6\u533a\u5347\u7ea7#4"
+    icon: {fileID: 21300000, guid: e90606ab83ac9e44e842af6954037522, type: 3}
+    batteryCost: 0

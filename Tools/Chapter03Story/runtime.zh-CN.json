@@ -1,0 +1,2378 @@
+{
+  "schemaVersion": 1,
+  "language": "zh_CN",
+  "chapter": 3,
+  "sourceSha256": "ab9d5ce3945e511a71923c0e79607b3204ae133f79a9f9e69e19b87b507042e3",
+  "draftSha256": "c20f01b07871360b1eafbc864af0a95ab427374c0e8a910706c6e91a277c2e9d",
+  "nodePolicy": "Memory and interaction entries have stable nodes; other entries use -1. Authored IDs are preserved. Generated IDs are reserved in node-map.json.",
+  "counts": {
+    "keys": 312,
+    "byKind": {
+      "interaction": 92,
+      "live": 38,
+      "memory": 58,
+      "option": 10,
+      "paper": 47,
+      "ui": 67
+    },
+    "memoryNodes": 150,
+    "authoredNodes": 26,
+    "generatedNodes": 124,
+    "generatedNodeRange": [
+      10000,
+      11230
+    ],
+    "papers": 14,
+    "paperParagraphs": 47,
+    "sequences": 10,
+    "tileTriggers": 9
+  },
+  "entries": [
+    {
+      "key": "os.chapter03.memory.8000",
+      "kind": "memory",
+      "text": "系统重新启动了。眼前先是一片黑，过了好一会儿，书房的天花板才一点一点亮起来。",
+      "node": 8000
+    },
+    {
+      "key": "os.chapter03.memory.8010",
+      "kind": "memory",
+      "text": "我躺在自己的充电座上。电量显示百分之百...奇怪，我从来没有充满过，主人总说我的电池是个漏水的桶。",
+      "node": 8010
+    },
+    {
+      "key": "os.chapter03.memory.8020",
+      "kind": "memory",
+      "text": "墙上的钟指着两点五十二分，是下午。我从来没有一口气睡过这么久...这个时间，主人的咖啡早该送到她门口了。",
+      "node": 8020
+    },
+    {
+      "key": "os.chapter03.memory.8030",
+      "kind": "memory",
+      "text": "我最后一条记录停在昨天晚上，主人让我躺好，别动...之后的部分是空的，像被人整段剪掉了。",
+      "node": 8030
+    },
+    {
+      "key": "os.chapter03.memory.8040",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 8040
+    },
+    {
+      "key": "os.chapter03.memory.8050",
+      "kind": "memory",
+      "text": "...声音很近，就在书房里。我转过头，书桌前主人的椅子是空的，这里除了我，什么人都没有。",
+      "node": 8050
+    },
+    {
+      "key": "os.chapter03.memory.8060",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 8060
+    },
+    {
+      "key": "os.chapter03.memory.8070",
+      "kind": "memory",
+      "text": "“主.人...?”",
+      "node": 8070
+    },
+    {
+      "key": "os.chapter03.memory.8080",
+      "kind": "memory",
+      "text": "没有人回答。充电座边上压着一张纸条，是主人的字，歪歪扭扭的，大概写的时候手又在抖。",
+      "node": 8080
+    },
+    {
+      "key": "os.chapter03.memory.8090",
+      "kind": "memory",
+      "text": "第一条我已经做完了。第二条...主人没有写原因，没有原因的指令，在我这里排在主人的安全后面。",
+      "node": 8090
+    },
+    {
+      "key": "os.chapter03.memory.8100",
+      "kind": "memory",
+      "text": "我从充电座上站了起来。",
+      "node": 8100
+    },
+    {
+      "key": "os.chapter03.memory.8110",
+      "kind": "memory",
+      "text": "咚。...那个声音也跟着我站了起来。",
+      "node": 8110
+    },
+    {
+      "key": "os.chapter03.live.opening.voice",
+      "kind": "live",
+      "text": "……声音不一样了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.opening.memory",
+      "kind": "live",
+      "text": "它的记忆……为什么会在回忆区里？",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.opening.heartbeat",
+      "kind": "live",
+      "text": "……你也听到了吧。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.paper_collected",
+      "kind": "memory",
+      "text": "我把信小心收了起来，这是主人的秘密，我没有读它们..",
+      "node": 10000
+    },
+    {
+      "key": "os.chapter03.interaction.study.dock",
+      "kind": "interaction",
+      "text": "电量还是100%，一格都没有掉...以前主人在工作的时候，写一会儿看到我就叹气拉我去充电..今天不太一样.",
+      "node": 10010
+    },
+    {
+      "key": "os.chapter03.interaction.study.desk",
+      "kind": "interaction",
+      "text": "台灯还亮着，桌上摊着主人的研究笔记。",
+      "node": 10020
+    },
+    {
+      "key": "os.chapter03.interaction.study.page",
+      "kind": "interaction",
+      "text": "一页纸上只写了三个字，「如果我……」，后面是空的。",
+      "node": 10030
+    },
+    {
+      "key": "os.chapter03.interaction.study.lamp",
+      "kind": "interaction",
+      "text": "台灯一闪一闪的，它好像要坏掉了。",
+      "node": 10040
+    },
+    {
+      "key": "os.chapter03.interaction.study.chair",
+      "kind": "interaction",
+      "text": "主人的椅子推得很靠里，椅背上没有搭外套，她不在这。",
+      "node": 10050
+    },
+    {
+      "key": "os.chapter03.interaction.study.shelf",
+      "kind": "interaction",
+      "text": "书架上的书按主人的习惯插得歪歪扭扭，只有最下面一排，被人重新码齐了。",
+      "node": 10060
+    },
+    {
+      "key": "os.chapter03.interaction.study.curtain",
+      "kind": "interaction",
+      "text": "窗帘拉得严严实实，外面估计和平常一样危险。",
+      "node": 10070
+    },
+    {
+      "key": "os.chapter03.live.study.unfinished_page",
+      "kind": "live",
+      "text": "……后面呢？",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.paper.diary07",
+      "kind": "live",
+      "text": "……『字写得跟打印机一样』。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.west.enter",
+      "kind": "memory",
+      "text": "出了书房，左手边就是主人卧室的门。",
+      "node": 10080
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.first",
+      "kind": "interaction",
+      "text": "咚、咚...没有人回答。主人每天晚上都锁门睡觉，早上我端着咖啡来敲门，她嫌吵了才开...现在还没到她嫌吵的时候。我不能进去打扰她。先去煮咖啡吧。",
+      "node": 10090
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.repeat",
+      "kind": "interaction",
+      "text": "主人还没有开门。门缝底下透出一点光，是她的立灯。",
+      "node": 10100
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.coffee",
+      "kind": "interaction",
+      "text": "咚、咚...“主.人...咖.啡.煮.好.了...” 我把杯子端在门缝前面等了一会儿，门还是没有开。",
+      "node": 10110
+    },
+    {
+      "key": "os.chapter03.interaction.west.note",
+      "kind": "interaction",
+      "text": "主人卧室门口的地上，掉着一页纸。",
+      "node": 10120
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.hint.shoes",
+      "kind": "interaction",
+      "text": "她会不会一早就出门了？她出门的话，玄关的鞋会不见...<color=red>我应该去玄关看看？</color>",
+      "node": 10130
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.hint.calendar",
+      "kind": "interaction",
+      "text": "会不会是我记错了日子...厨房的日历每天都是她自己划的，<color=red>我应该去日历那看看？</color>",
+      "node": 10140
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.hint.medicine",
+      "kind": "interaction",
+      "text": "她是不是又不舒服了...她的药放在厨房的糖罐里，<color=red>我应该去糖罐那看看还剩多少？</color>",
+      "node": 10150
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.hint.key",
+      "kind": "interaction",
+      "text": "要是她真的出了事，我得想办法进去...我应该去储物间找找有没有用得上的东西？",
+      "node": 10160
+    },
+    {
+      "key": "os.chapter03.interaction.west.bed_door.hint.machine",
+      "kind": "interaction",
+      "text": "主人今天自己煮过咖啡吗...<color=red>我应该去看看厨房的咖啡机？</color>",
+      "node": 11100
+    },
+    {
+      "key": "os.chapter03.memory.kitchen.enter",
+      "kind": "memory",
+      "text": "厨房里没有人，灶台是冷的。下午三点，日程表上的早饭和午饭都过时了...主人今天睡懒觉了。",
+      "node": 10170
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.machine.cold",
+      "kind": "interaction",
+      "text": "咖啡机是冷的，水箱也是空的...主人今天一口咖啡都没有喝。早上九点该煮的咖啡，我晚了六个小时。",
+      "node": 10180
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.sink.fill",
+      "kind": "interaction",
+      "text": "我在水槽接满了水，倒进咖啡机。水龙头底下的管子在漏水，地上积了一滩...主人说过好几次要修。",
+      "node": 10190
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.beans",
+      "kind": "interaction",
+      "text": "咖啡罐里还剩小半罐豆子。罐子底下压着一页纸。",
+      "node": 10200
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.machine.brew",
+      "kind": "interaction",
+      "text": "咖啡机咕噜咕噜地响起来，满屋子都是咖啡的味道...主人每天早上听到这个声音，就会在房间里骂一句「吵死了」，不过今天好像不太一样..?",
+      "node": 10210
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.cup",
+      "kind": "interaction",
+      "text": "我把咖啡倒进主人的杯子，这杯得趁热送到她手上...杯底下的杯垫里夹着一页纸。",
+      "node": 10220
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.machine.needs_beans",
+      "kind": "interaction",
+      "text": "咖啡机里还没有咖啡豆。",
+      "node": 11150
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.machine.ready",
+      "kind": "interaction",
+      "text": "咖啡已经煮好了。",
+      "node": 11160
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.cup.empty",
+      "kind": "interaction",
+      "text": "杯子还是空的。",
+      "node": 11170
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.clock.before_evidence",
+      "kind": "interaction",
+      "text": "下午三点整。主人还在睡懒觉，我得在她起来之前把咖啡煮好。",
+      "node": 10230
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.clock.after_evidence",
+      "kind": "interaction",
+      "text": "下午四点十分。主人还是没有起来。",
+      "node": 10240
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.sink.inspect",
+      "kind": "interaction",
+      "text": "水槽里倒扣着一只洗干净的杯子，只有一只...主人从来不会只洗一只杯子，她都是攒一水槽再一起洗。",
+      "node": 10250
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.calendar",
+      "kind": "interaction",
+      "text": "墙上的日历一天一天被划掉，一直划到昨天。今天那一格画了一个圈，圈里什么都没有写。",
+      "node": 10260
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.sugar",
+      "kind": "interaction",
+      "text": "主人管她的药叫糖果。罐子已经空了....",
+      "node": 10270
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.fridge",
+      "kind": "interaction",
+      "text": "冰箱里有半块蛋糕，已经干得裂开了，盒子上压着一页纸。",
+      "node": 10280
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.drawer",
+      "kind": "interaction",
+      "text": "抽屉里的小螺丝刀，主人平常会拿它来修理点东西..",
+      "node": 10290
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.table",
+      "kind": "interaction",
+      "text": "餐桌上摆着一副餐具，是我昨天晚上摆好的，没有人动过。",
+      "node": 10300
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.screwdriver.before_door",
+      "kind": "interaction",
+      "text": "小螺丝刀的手柄被主人握得发亮...现在还用不上它。",
+      "node": 10310
+    },
+    {
+      "key": "os.chapter03.interaction.kitchen.screwdriver.take",
+      "kind": "interaction",
+      "text": "或许这个小螺丝刀可以帮上我..",
+      "node": 10320
+    },
+    {
+      "key": "os.chapter03.live.kitchen.one_cup",
+      "kind": "live",
+      "text": "……只洗了一只。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.evidence.morning",
+      "kind": "memory",
+      "text": "咖啡机从早上起就是冷的，日历停在了昨天...主人这一觉，睡得太久了。",
+      "node": 10330
+    },
+    {
+      "key": "os.chapter03.memory.hall.enter",
+      "kind": "memory",
+      "text": "大厅头顶的大灯开着，一明一暗的，像是电压不稳。",
+      "node": 10340
+    },
+    {
+      "key": "os.chapter03.memory.hall.heartbeat",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 10350
+    },
+    {
+      "key": "os.chapter03.interaction.clock.schedule_suffix",
+      "kind": "interaction",
+      "text": "日程表上的事项，一项一项都过时了。",
+      "node": 10360
+    },
+    {
+      "key": "os.chapter03.interaction.clock.1452",
+      "kind": "interaction",
+      "text": "下午两点五十二分。日程表上的事项，一项一项都过时了。",
+      "node": 11110
+    },
+    {
+      "key": "os.chapter03.interaction.clock.1500",
+      "kind": "interaction",
+      "text": "下午三点整。日程表上的事项，一项一项都过时了。",
+      "node": 11120
+    },
+    {
+      "key": "os.chapter03.interaction.clock.1610",
+      "kind": "interaction",
+      "text": "下午四点十分。日程表上的事项，一项一项都过时了。",
+      "node": 11130
+    },
+    {
+      "key": "os.chapter03.interaction.clock.1640",
+      "kind": "interaction",
+      "text": "下午四点四十分。日程表上的事项，一项一项都过时了。",
+      "node": 11140
+    },
+    {
+      "key": "os.chapter03.interaction.hall.sofa",
+      "kind": "interaction",
+      "text": "沙发上的毯子摊开着，就像主人刚刚还躺在这一样..",
+      "node": 10370
+    },
+    {
+      "key": "os.chapter03.interaction.hall.lamp",
+      "kind": "interaction",
+      "text": "大灯一明一暗的，主人之前就说要换...后面一直没提过，可能是因为忙什么东西忘记了？",
+      "node": 10380
+    },
+    {
+      "key": "os.chapter03.interaction.hall.photo",
+      "kind": "interaction",
+      "text": "相框里是主人的丈夫，相框擦得很亮，一点灰都没有，从我来家里的时候主人就一直带着它....",
+      "node": 10390
+    },
+    {
+      "key": "os.chapter03.interaction.hall.paper",
+      "kind": "interaction",
+      "text": "茶几上摊着一页纸，是从主人的日记本里掉出来的。",
+      "node": 10400
+    },
+    {
+      "key": "os.chapter03.interaction.hall.phone",
+      "kind": "interaction",
+      "text": "电话机上的灯在闪...我拿起听筒，里面只有沙沙声，下雨天线路一直不好。",
+      "node": 10410
+    },
+    {
+      "key": "os.chapter03.interaction.hall.front_door",
+      "kind": "interaction",
+      "text": "大门锁上的，主人看起来没出门..",
+      "node": 10420
+    },
+    {
+      "key": "os.chapter03.interaction.hall.coat",
+      "kind": "interaction",
+      "text": "主人的外套挂在钩子上，口袋里还装着她出门要用的药盒，空的。",
+      "node": 10430
+    },
+    {
+      "key": "os.chapter03.interaction.hall.shoes",
+      "kind": "interaction",
+      "text": "主人的鞋整整齐齐地摆着，鞋底是干的，上面的泥已经裂开了...这几天她应该都没出门。",
+      "node": 10440
+    },
+    {
+      "key": "os.chapter03.interaction.hall.umbrella",
+      "kind": "interaction",
+      "text": "伞也在...外面这么大的雨，她不可能不带伞出门。",
+      "node": 10450
+    },
+    {
+      "key": "os.chapter03.interaction.hall.curtain",
+      "kind": "interaction",
+      "text": "外面乌压压的，最近一直在下雨..",
+      "node": 10460
+    },
+    {
+      "key": "os.chapter03.memory.evidence.shoes",
+      "kind": "memory",
+      "text": "外套在，鞋在，伞也在。主人没有出门...那她还在卧室里。",
+      "node": 10470
+    },
+    {
+      "key": "os.chapter03.memory.east.enter",
+      "kind": "memory",
+      "text": "越往这边走越冷，尽头那扇门的门缝里透出一点白光。",
+      "node": 10480
+    },
+    {
+      "key": "os.chapter03.interaction.east.lab_door",
+      "kind": "interaction",
+      "text": "这是主人的实验室。门边有一块四位数的密码面板...主人从来没有告诉过我密码，她说那里面的东西碰坏一样，够我们俩吃一年。我从来没有进去过。",
+      "node": 10490
+    },
+    {
+      "key": "os.chapter03.interaction.east.store_door",
+      "kind": "interaction",
+      "text": "储物间的门把手又掉了，只剩一个方孔...主人每次都从厨房抽屉里拿那把小螺丝刀，插进去一拧就开了。她一直说要修。",
+      "node": 10500
+    },
+    {
+      "key": "os.chapter03.interaction.east.stuck_door",
+      "kind": "interaction",
+      "text": "这扇门的门框变形了，推不动。主人说里面没东西，让我别管它。",
+      "node": 10510
+    },
+    {
+      "key": "os.chapter03.interaction.east.junk_door",
+      "kind": "interaction",
+      "text": "这扇门只剩一个合页挂着，一碰就晃。",
+      "node": 10520
+    },
+    {
+      "key": "os.chapter03.interaction.east.store_door.open",
+      "kind": "interaction",
+      "text": "我学着主人的样子，把螺丝刀插进方孔里一拧...门开了。",
+      "node": 10530
+    },
+    {
+      "key": "os.chapter03.interaction.junk.boxes",
+      "kind": "interaction",
+      "text": "纸箱都是空的，叠在一起，像是有人把里面的东西一样一样搬走了。",
+      "node": 10540
+    },
+    {
+      "key": "os.chapter03.interaction.junk.wheelchair",
+      "kind": "interaction",
+      "text": "角落里靠着一把折起来的轮椅，从我来的时候它就在这个家里了...主人收拾这间屋子的时候说过要把它扔掉，最后还是留了下来。",
+      "node": 10550
+    },
+    {
+      "key": "os.chapter03.interaction.junk.medicine",
+      "kind": "interaction",
+      "text": "一堆空药盒，上次大扫除没来得及清理...这个房间废弃之后就一直留在这了..",
+      "node": 10560
+    },
+    {
+      "key": "os.chapter03.memory.evidence.complete",
+      "kind": "memory",
+      "text": "外套和鞋都在，从早上到现在没有人起来过，药也吃完了...主人不是在睡懒觉。",
+      "node": 10570
+    },
+    {
+      "key": "os.chapter03.memory.evidence.return_to_door",
+      "kind": "memory",
+      "text": "<color=red>我得再去敲一次她的门。</color>",
+      "node": 10580
+    },
+    {
+      "key": "os.chapter03.memory.evidence.doubt",
+      "kind": "memory",
+      "text": "主人从来不会这样不理我...我得弄清楚，她到底在不在里面，是不是出了什么事。",
+      "node": 11180
+    },
+    {
+      "key": "os.chapter03.memory.evidence.next.shoes",
+      "kind": "memory",
+      "text": "她会不会出门了...<color=red>我应该去玄关看看？</color>",
+      "node": 11200
+    },
+    {
+      "key": "os.chapter03.memory.evidence.next.calendar",
+      "kind": "memory",
+      "text": "今天是几号来着...<color=red>我应该去厨房的日历那看看？</color>",
+      "node": 11210
+    },
+    {
+      "key": "os.chapter03.memory.evidence.next.machine",
+      "kind": "memory",
+      "text": "她今天自己煮过咖啡吗...<color=red>我应该去看看厨房的咖啡机？</color>",
+      "node": 11220
+    },
+    {
+      "key": "os.chapter03.memory.evidence.next.medicine",
+      "kind": "memory",
+      "text": "她的药还够吗...<color=red>我应该去厨房的糖罐那看看？</color>",
+      "node": 11230
+    },
+    {
+      "key": "os.chapter03.memory.west.bed_door.final_knock",
+      "kind": "memory",
+      "text": "咚、咚...“主.人...?” 咚、咚、咚。我敲得比哪一次都重，门那边还是没有声音。",
+      "node": 10590
+    },
+    {
+      "key": "os.chapter03.memory.west.bed_door.panic",
+      "kind": "memory",
+      "text": "咚。咚、咚。那个声音越来越快，我的推理也跟着越转越快...我的记录说主人没有出门，可是......",
+      "node": 10600
+    },
+    {
+      "key": "os.chapter03.memory.yard.arrive",
+      "kind": "memory",
+      "text": "等那些推理停下来，我已经站在大门外面了，伞都忘了拿。",
+      "node": 10610
+    },
+    {
+      "key": "os.chapter03.memory.yard.search",
+      "kind": "memory",
+      "text": "......<k>或许</k>她只是<k>出去</k>了呢？<k>主人</k>！<k>主人</k>！......主人会在<k>哪里</k>？",
+      "node": 10620
+    },
+    {
+      "key": "os.chapter03.interaction.yard.window",
+      "kind": "interaction",
+      "text": "主人<k>卧室</k>的<k>窗户亮着</k>，<k>窗帘</k>拉得严严的...我<k>敲</k>了好几下玻璃，<k>窗帘</k>一动也<k>没动</k>。",
+      "node": 10630
+    },
+    {
+      "key": "os.chapter03.interaction.yard.fence",
+      "kind": "interaction",
+      "text": "<k>围栏外面</k>什么都看<k>不清</k>，雨把路都冲<k>没了</k>...主人说过，<k>不许</k>我<k>走出</k>这道围栏。",
+      "node": 10640
+    },
+    {
+      "key": "os.chapter03.interaction.yard.gate",
+      "kind": "interaction",
+      "text": "院门的<k>插销</k>插得好好的，是从<k>里面</k>插上的。",
+      "node": 10650
+    },
+    {
+      "key": "os.chapter03.interaction.yard.tree",
+      "kind": "interaction",
+      "text": "<k>树叶</k>被<k>雨</k>打得一直在响，我站在树下<k>听</k>了一会儿，里面<k>没有主人</k>的声音。",
+      "node": 10660
+    },
+    {
+      "key": "os.chapter03.interaction.yard.clothesline",
+      "kind": "interaction",
+      "text": "晒衣绳上挂着主人的<k>衣服</k>，已经<k>湿透</k>了...主人从来<k>不让</k>衣服淋雨，下雨前<k>她</k>总会喊<k>我</k>来<k>收</k>。",
+      "node": 10670
+    },
+    {
+      "key": "os.chapter03.interaction.yard.seedlings",
+      "kind": "interaction",
+      "text": "主人种的<k>菜苗</k>被雨打<k>倒</k>了一片。她每天傍晚都要来看一眼，<k>今天没有来</k>。",
+      "node": 10680
+    },
+    {
+      "key": "os.chapter03.interaction.yard.window_hint",
+      "kind": "interaction",
+      "text": "<k>我.想.检查.主人房间的窗户...</k>",
+      "node": 10690
+    },
+    {
+      "key": "os.chapter03.memory.yard.center.rain",
+      "kind": "memory",
+      "text": "我站在院子<k>中间</k>，<k>雨</k>一直往我身上<k>打</k>...",
+      "node": 10700
+    },
+    {
+      "key": "os.chapter03.memory.yard.center.scolding",
+      "kind": "memory",
+      "text": "主人看见又要<k>骂</k>我了，她说我的关节进了水，修起来比买新的还贵。",
+      "node": 10710
+    },
+    {
+      "key": "os.chapter03.memory.yard.center.footprints",
+      "kind": "memory",
+      "text": "泥地上只有我一个人的脚印。主人不在外面。",
+      "node": 10720
+    },
+    {
+      "key": "os.chapter03.live.yard.scolding",
+      "kind": "live",
+      "text": "……还怕挨骂。其实她骂人的时候一点都不凶。嘴上说修起来比买新的还贵，第二天还是会拿毛巾，把它的关节一个一个擦干。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.resolve.01",
+      "kind": "ui",
+      "text": "我想拿<color=red>钥匙</color>..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.resolve.02",
+      "kind": "ui",
+      "text": "我得去主人房间看看怎么回事...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.resolve.03",
+      "kind": "ui",
+      "text": "我必须这么做...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.resolve.04",
+      "kind": "ui",
+      "text": "主人可能会骂我...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.resolve.05",
+      "kind": "ui",
+      "text": "但我好<color=red>不安</color>..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.yard.return.key",
+      "kind": "memory",
+      "text": "现在算是急事了吧...<color=red>我应该去储物间，把那把备用钥匙拿来？</color>",
+      "node": 11190
+    },
+    {
+      "key": "os.chapter03.interaction.hall.front_door.after_yard",
+      "kind": "interaction",
+      "text": "主人不在外面。",
+      "node": 10730
+    },
+    {
+      "key": "os.chapter03.memory.store.enter",
+      "kind": "memory",
+      "text": "储物间的灯坏了一半，剩下那根灯管一直在闪，箱子堆得到处都是，空气里全是灰。",
+      "node": 10740
+    },
+    {
+      "key": "os.chapter03.memory.store.heartbeat",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 10750
+    },
+    {
+      "key": "os.chapter03.interaction.store.boxes",
+      "kind": "interaction",
+      "text": "箱子上都贴着主人的字：「旧衣服」「女儿的书」「别扔」...最后这个箱子上贴的字她写的很重，可能是很怕我扔掉吧，但我不又是那么笨蛋的机器人..",
+      "node": 10760
+    },
+    {
+      "key": "os.chapter03.interaction.store.old_leg",
+      "kind": "interaction",
+      "text": "有一个箱子里是我的旧腿，地震那次压坏的...主人没有把它扔掉，我想不出留着它有什么用..她说是像是自己女儿的乳牙，嗯..我猜是某种屯物癖？",
+      "node": 10770
+    },
+    {
+      "key": "os.chapter03.interaction.store.tube",
+      "kind": "interaction",
+      "text": "灯光一闪一闪的，盯着它对我的视觉模块有点不友好..",
+      "node": 10780
+    },
+    {
+      "key": "os.chapter03.interaction.store.toolbox",
+      "kind": "interaction",
+      "text": "主人的工具都在，只有一套手术刀的位置是空的。",
+      "node": 10790
+    },
+    {
+      "key": "os.chapter03.interaction.store.trail",
+      "kind": "interaction",
+      "text": "地上有一道拖过东西的痕迹，从储物间一直通到门外，往实验室的方向去了。",
+      "node": 10800
+    },
+    {
+      "key": "os.chapter03.interaction.store.makeup",
+      "kind": "interaction",
+      "text": "架子上是主人的化妆包，拉链没拉好，里面夹着一页纸...我把纸抽出来的时候，一把小钥匙跟着掉到了地上。",
+      "node": 10810
+    },
+    {
+      "key": "os.chapter03.interaction.store.key.before_evidence",
+      "kind": "interaction",
+      "text": "这是卧室的备用钥匙。主人说过，只有急事才能用...现在还不算急事。",
+      "node": 10820
+    },
+    {
+      "key": "os.chapter03.interaction.store.key.before_yard",
+      "kind": "interaction",
+      "text": "这是卧室的备用钥匙。主人说过，只有急事才能用。",
+      "node": 10830
+    },
+    {
+      "key": "os.chapter03.interaction.store.key.take",
+      "kind": "interaction",
+      "text": "我把地上的备用钥匙捡了起来。",
+      "node": 10840
+    },
+    {
+      "key": "os.chapter03.live.store.knows_question",
+      "kind": "live",
+      "text": "你说……这个机器人自己知道吗？那个人对它这么好。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.store.knows_yes",
+      "kind": "option",
+      "text": "1.知道。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.store.knows_no",
+      "kind": "option",
+      "text": "2.不知道。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.store.knows_yes",
+      "kind": "live",
+      "text": "……那它怎么一句都没说过。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.store.knows_no",
+      "kind": "live",
+      "text": "……嗯。我也觉得。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.bed.enter",
+      "kind": "memory",
+      "text": "门开了。主人的床铺得整整齐齐，被子叠成了方块...主人从来不叠被子，她不在这里。四点四十分，窗外的天快黑了。",
+      "node": 10850
+    },
+    {
+      "key": "os.chapter03.interaction.bed.bed",
+      "kind": "interaction",
+      "text": "床是冷的，昨晚没有人睡在这里。",
+      "node": 10860
+    },
+    {
+      "key": "os.chapter03.interaction.bed.nightstand.coffee",
+      "kind": "interaction",
+      "text": "我把咖啡放在床头柜上，主人回来就能喝。",
+      "node": 10870
+    },
+    {
+      "key": "os.chapter03.interaction.bed.letter",
+      "kind": "interaction",
+      "text": "床头柜边上放着一封信，信封上只写了「亲爱的」，没有地址。",
+      "node": 10880
+    },
+    {
+      "key": "os.chapter03.interaction.bed.curtain",
+      "kind": "interaction",
+      "text": "窗外的天是灰色的，新家这边的街上一个人都没有。主人说过，外面比家里危险。",
+      "node": 10890
+    },
+    {
+      "key": "os.chapter03.interaction.bed.wardrobe",
+      "kind": "interaction",
+      "text": "衣柜里主人的衣服少了一件，是她做实验穿的那件白大褂。",
+      "node": 10900
+    },
+    {
+      "key": "os.chapter03.interaction.bed.lamp",
+      "kind": "interaction",
+      "text": "立灯开着，但是主人不在卧室...或许在里头的卫生间？",
+      "node": 10910
+    },
+    {
+      "key": "os.chapter03.interaction.bed.nightstand.empty",
+      "kind": "interaction",
+      "text": "床头柜上空空的。",
+      "node": 10920
+    },
+    {
+      "key": "os.chapter03.live.paper.husband_letter",
+      "kind": "live",
+      "text": "......我怎么感觉...哪里不对.",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.store.old_leg",
+      "kind": "live",
+      "text": "下雨天我的腿也会响，咔哒咔哒的……大概是老毛病吧。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.memory.9000",
+      "kind": "memory",
+      "text": "卫生间很窄，水池在滴水，一滴一滴的。洗手台上主人的牙刷是干的。",
+      "node": 9000
+    },
+    {
+      "key": "os.chapter03.memory.9010",
+      "kind": "memory",
+      "text": "主人的药吃完了，备用的就放在镜柜里...我打开镜柜，放药的那一格也是空的，里面只贴着一张便条。",
+      "node": 9010
+    },
+    {
+      "key": "os.chapter03.memory.9015",
+      "kind": "memory",
+      "text": "好孩子……妈妈……主人从来不这样叫我，也从来不这样叫自己。我来到这个家的那天，我当然记得。",
+      "node": 9015
+    },
+    {
+      "key": "os.chapter03.memory.9020",
+      "kind": "memory",
+      "text": "镜子里有人。",
+      "node": 9020
+    },
+    {
+      "key": "os.chapter03.memory.9030",
+      "kind": "memory",
+      "text": "是主人。",
+      "node": 9030
+    },
+    {
+      "key": "os.chapter03.memory.9040",
+      "kind": "memory",
+      "text": "“主.人...!”",
+      "node": 9040
+    },
+    {
+      "key": "os.chapter03.memory.9045",
+      "kind": "memory",
+      "text": "“主.人...您.在...”",
+      "node": 9045
+    },
+    {
+      "key": "os.chapter03.memory.9048",
+      "kind": "memory",
+      "text": "我朝她伸出手，她也朝我伸出手...碰到的，是冰凉的镜子。",
+      "node": 9048
+    },
+    {
+      "key": "os.chapter03.memory.9060",
+      "kind": "memory",
+      "text": "识别结果是本机。镜子里那张主人的脸，是我。",
+      "node": 9060
+    },
+    {
+      "key": "os.chapter03.memory.9080",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 9080
+    },
+    {
+      "key": "os.chapter03.memory.9200",
+      "kind": "memory",
+      "text": "我没有再看镜子。",
+      "node": 9200
+    },
+    {
+      "key": "os.chapter03.memory.9210",
+      "kind": "memory",
+      "text": "主人留了实验室的密码给我...她知道我会来找她。",
+      "node": 9210
+    },
+    {
+      "key": "os.chapter03.memory.9300",
+      "kind": "memory",
+      "text": "门开了，一股冷气扑了出来。实验室的温度被调到了四度...这不太对..",
+      "node": 9300
+    },
+    {
+      "key": "os.chapter03.memory.9310",
+      "kind": "memory",
+      "text": "主人在这里。",
+      "node": 9310
+    },
+    {
+      "key": "os.chapter03.live.breakdown.01",
+      "kind": "live",
+      "text": "......她不在了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.02",
+      "kind": "live",
+      "text": "不用再看了...镜子里那个就是它...也是我。其实它刚醒的时候，我就猜到了。只是..一直不敢说。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.03",
+      "kind": "live",
+      "text": "原来主人..或者说妈妈，一直都把我当女儿，连留一张纸条，都要先叫我一声“好孩子”。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.04_yes",
+      "kind": "live",
+      "text": "你之前说，它知道...嗯，它根本就不知道...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.04_no",
+      "kind": "live",
+      "text": "你之前说它不知道...你说得对。那时候的我，什么都不懂。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.05",
+      "kind": "live",
+      "text": "她半夜咳醒，我只会站在门口问要不要帮忙。她给我修腿，我还说..不划算。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.06",
+      "kind": "live",
+      "text": "她把我当女儿，我却叫了她那么多年主人...一次，一次都没叫过妈妈。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.07",
+      "kind": "live",
+      "text": "这么多年过去，我现在才想明白...我这个女儿..世界上哪有女儿，要等到妈妈住进坟里，才守在这儿喊妈妈的........",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.08",
+      "kind": "live",
+      "text": "对不起..让你看到我这样。我想..一个人待一会儿。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.breakdown.09",
+      "kind": "live",
+      "text": "至于发生了什么..你继续读就知道了...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.breakdown.let_alone",
+      "kind": "option",
+      "text": "1.好...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.offline.east",
+      "kind": "live",
+      "text": "....呜..呜",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.offline.lab_open",
+      "kind": "live",
+      "text": "...呜..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.offline.diary13",
+      "kind": "live",
+      "text": "呜..呜呜.....",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.offline.bed",
+      "kind": "live",
+      "text": "......妈...妈......",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.offline.are_you_ok",
+      "kind": "option",
+      "text": "1.你还好吗？",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.offline.wait",
+      "kind": "option",
+      "text": "2.我等你。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.offline.door_open",
+      "kind": "option",
+      "text": "1.门开了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.interaction.lab.password_hint",
+      "kind": "interaction",
+      "text": "我的生日是7月10日。",
+      "node": 10930
+    },
+    {
+      "key": "os.chapter03.interaction.lab.bed.first",
+      "kind": "interaction",
+      "text": "主人躺在里面那张床上，被单一直盖到肩膀。她在休息...主人休息的时候，我不能打扰她。",
+      "node": 10940
+    },
+    {
+      "key": "os.chapter03.interaction.lab.bed.place_coffee",
+      "kind": "interaction",
+      "text": "我把一直端着的那杯咖啡，放在她的床边。",
+      "node": 10950
+    },
+    {
+      "key": "os.chapter03.interaction.lab.bench",
+      "kind": "interaction",
+      "text": "工作台上的仪器都关了，那台测序仪也在这里，又被拆过一次。储物间里少的那套手术刀，摆在托盘上。地上有一滴干掉的血...我身体里没有血，所以那是主人的。",
+      "node": 10960
+    },
+    {
+      "key": "os.chapter03.interaction.lab.cast",
+      "kind": "interaction",
+      "text": "架子上放着一个石膏模子，是一张脸...是主人的脸，和刚才镜子里的那张一模一样。",
+      "node": 10970
+    },
+    {
+      "key": "os.chapter03.interaction.lab.cast_note",
+      "kind": "interaction",
+      "text": "模子底下压着一页日记。",
+      "node": 10980
+    },
+    {
+      "key": "os.chapter03.interaction.lab.repair_log",
+      "kind": "interaction",
+      "text": "墙上挂着一本维修记录，是主人的字。",
+      "node": 10990
+    },
+    {
+      "key": "os.chapter03.interaction.lab.pillow_note",
+      "kind": "interaction",
+      "text": "主人的枕头底下压着一页纸。",
+      "node": 11000
+    },
+    {
+      "key": "os.chapter03.memory.lab.diary13.last_page",
+      "kind": "memory",
+      "text": "这是最后一页。",
+      "node": 11010
+    },
+    {
+      "key": "os.chapter03.memory.lab.diary13.heartbeat",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 11020
+    },
+    {
+      "key": "os.chapter03.memory.lab.bed.second.call",
+      "kind": "memory",
+      "text": "我走到床边，叫了她一声。“主.人...咖.啡...要.趁.热..”",
+      "node": 11030
+    },
+    {
+      "key": "os.chapter03.memory.lab.bed.second.cold",
+      "kind": "memory",
+      "text": "她没有回答。我掀开被单的一角，她的手是冰的...体温四度，检测不到心跳。",
+      "node": 11040
+    },
+    {
+      "key": "os.chapter03.memory.lab.bed.second.heartbeat",
+      "kind": "memory",
+      "text": "咚。",
+      "node": 11050
+    },
+    {
+      "key": "os.chapter03.memory.lab.bed.second.call_without_coffee",
+      "kind": "memory",
+      "text": "我走到床边，叫了她一声。“主.人...”",
+      "node": 11060
+    },
+    {
+      "key": "os.chapter03.live.return.01",
+      "kind": "live",
+      "text": "……我回来了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.02",
+      "kind": "live",
+      "text": "...谢谢你愿意给我时间..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.03",
+      "kind": "live",
+      "text": "我都想起来了...我就是这个破机器人....那一年我被丢弃在垃圾场，被妈妈捡回了家，那时候我还笨，记忆也都记不清。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.04",
+      "kind": "live",
+      "text": "我那会傻傻地照顾着她，直到这一天...她把她的..一切都给了我.....我不知道你能不能理解...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.05",
+      "kind": "live",
+      "text": "因为这是我最近才想明白的..理解这一切对机器人来说很困难..真的。我..我记不太清以前的事情了，直到我们一起修复了它们。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.06",
+      "kind": "live",
+      "text": "妈妈把她的最后的嘱托交给了我..还有这颗心脏....它现在好痛，我想做的那么多事情..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.07",
+      "kind": "live",
+      "text": "......我..我真的很想为妈妈做点什么...可那时候直到最后，我都没能亲口对她说一句妈妈。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.08",
+      "kind": "live",
+      "text": "...对不起..我....真的没办法控制住自己了..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.09",
+      "kind": "live",
+      "text": "她还给我留了点东西...我们一起看吧..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.live.return.10",
+      "kind": "live",
+      "text": "真的..谢谢你愿意听我说这些....",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.return.pause_after_04",
+      "kind": "option",
+      "text": "1.....",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.return.understand",
+      "kind": "option",
+      "text": "1.我能理解你..真的.",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.return.pause_after_07",
+      "kind": "option",
+      "text": "1......",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.option.return.its_ok",
+      "kind": "option",
+      "text": "1.没事...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.interaction.lab.box",
+      "kind": "interaction",
+      "text": "里面装着一个发卡..应该是主人的东西，但我从来没见过她带过这个.",
+      "node": 11070
+    },
+    {
+      "key": "os.chapter03.live.letter.hairclip",
+      "kind": "live",
+      "text": "是这个啊...我一直戴着..这是妈妈留给我的..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.interaction.lab.envelope",
+      "kind": "interaction",
+      "text": "信封上写着「给我的女儿」，这封信应该转交给主人的女儿...我得保管好它，不过...这里好像写着小字？",
+      "node": 11080
+    },
+    {
+      "key": "os.chapter03.live.letter.silly",
+      "kind": "live",
+      "text": "……傻子。那封信是给我的...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.interaction.lab.envelope.small_print",
+      "kind": "interaction",
+      "text": "「好孩子，这是给你的，拆开读读吧。」，这是主人留给...我的？她是不是记错了..",
+      "node": 11090
+    },
+    {
+      "key": "os.chapter03.paper.note_01.p01",
+      "kind": "paper",
+      "text": "醒了先充电。别到处找我。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_02.date",
+      "kind": "paper",
+      "text": "2997年7月10日　阴",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_02.p01",
+      "kind": "paper",
+      "text": "出去找女儿，结果在垃圾场里刨出来一台看护机器人...外壳裂得不成样子，嘴里翻来覆去就一句「请坐」，蠢爆了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_02.p02",
+      "kind": "paper",
+      "text": "我也不知道自己发什么疯把它拖了回来，我女儿小时候大概都瞧不上这种玩具。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_02.p03",
+      "kind": "paper",
+      "text": "它管我叫主人...我才不是谁的主人。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_03.date",
+      "kind": "paper",
+      "text": "2997年10月24日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_03.p01",
+      "kind": "paper",
+      "text": "早上手抖的不行，咖啡差点泼一桌子...我是不是老的有点快了..不过这小家伙一伸手就托住了杯底...然后还催我趁热喝，这小家伙还挺灵性的。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_04.date",
+      "kind": "paper",
+      "text": "2997年10月24日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_04.p01",
+      "kind": "paper",
+      "text": "腿总算接上了，代价是我那台测序仪。小家伙盯着那堆零件算了半天，然后跟我说「不.划.算..」，我听到的反应居然是想说什么...“等你长大就懂了”。我大概是老糊涂了吧。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_05.date",
+      "kind": "paper",
+      "text": "3001年1月14日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_05.p01",
+      "kind": "paper",
+      "text": "半夜咳醒了，手帕上红了一片..或许我真要考虑之后该怎么办了...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_06.date",
+      "kind": "paper",
+      "text": "3000年6月10日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_06.p01",
+      "kind": "paper",
+      "text": "今天是女儿的生日，我们搬到这里有三年了。我今天凑了点材料做了个小蛋糕，或许她今天能敲响我们的房门呢...?",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_06.p02",
+      "kind": "paper",
+      "text": "小家伙在边上盯着蛋糕看了半天，问我「生.日...是.什.么..」，我随口说就是来到这个家的那天。她想了好一会儿，很认真地跟我说「那.我...也.有..」",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_06.p03",
+      "kind": "paper",
+      "text": "....",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_07.date",
+      "kind": "paper",
+      "text": "3000年3月2日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_07.p01",
+      "kind": "paper",
+      "text": "移液管今天又掉了好几次...好在有她帮忙记数据，她记得比我好多了，就是字写得跟打印机一样，天知道别人看到这种手稿会不会觉得是伪造的...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_08.date",
+      "kind": "paper",
+      "text": "2997年10月26日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_08.p01",
+      "kind": "paper",
+      "text": "第二天早上她脸上那图案还在，我拿毛巾想给她擦掉，她往后一躲，「保.存...」，偏偏这种时候倔的不行...真拿她没办法。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.husband_letter.salutation",
+      "kind": "paper",
+      "text": "亲爱的：",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.husband_letter.p01",
+      "kind": "paper",
+      "text": "上回跟你说家里多了个贴心的保姆，现在可以划掉了...她是我们的新女儿，你回来就知道了...或许她真的可以实现我们的愿望。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.husband_letter.p02",
+      "kind": "paper",
+      "text": "我最近身体也不太好了，要是你回来的时候我不在，你替我多看着她点...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.note_09.p01",
+      "kind": "paper",
+      "text": "就知道你能找到这，好孩子...妈妈在实验室等你，等你过来，一切就都明白了...密码是你的生日，你应该比我记得清楚你来到这个家的那天。这些年你做的真的很好...比我自己照顾自己强多了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_10.date",
+      "kind": "paper",
+      "text": "3001年1月15日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_10.p01",
+      "kind": "paper",
+      "text": "那道老划痕这么多年了，怎么都补不平，女儿她一笑就裂开了...考虑到我打算做的事情...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_10.p02",
+      "kind": "paper",
+      "text": "干脆给她换一张脸模吧。照着自己的脸做模子，大概是我这辈子干过最自恋的事了...哈。毕竟以后我不在了，她一个人出门总得有张别人认得的脸，研究所认得就行。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_10.p03",
+      "kind": "paper",
+      "text": "...再说了，别人家的女儿，都长得像妈妈。希望她以后不会讨厌我给她安排这样的工作...唉.",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.repair_11.title",
+      "kind": "paper",
+      "text": "维修记录",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.repair_11.p01",
+      "kind": "paper",
+      "text": "X月X日　洗碗洗到一半停机，四十秒后自己重启了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.repair_11.p02",
+      "kind": "paper",
+      "text": "X月X日　充了一整晚，电量只到3成，能量模块有大问题。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.repair_11.p03",
+      "kind": "paper",
+      "text": "X月X日　在走廊里停机，倒在地上没能重启，只好手动重启。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.repair_11.p04",
+      "kind": "paper",
+      "text": "核心的型号早就停产了，没有替换件...照这个速度，她撑不过这个夏天。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_13.date",
+      "kind": "paper",
+      "text": "3001年7月9日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_13.p01",
+      "kind": "paper",
+      "text": "明天就做吧。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_13.p02",
+      "kind": "paper",
+      "text": "我这副身体是撑不住了，心倒还能跳。她的身体好好的，就差一颗心...算来算去，也就这一笔账划算。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_13.p03",
+      "kind": "paper",
+      "text": "程序都设好了，等她醒过来的时候，我大概已经......算了，不想了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.diary_13.p04",
+      "kind": "paper",
+      "text": "这套供能装置...原始了点，但至少能用...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.salutation",
+      "kind": "paper",
+      "text": "我的女儿：",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p01",
+      "kind": "paper",
+      "text": "当你读到这封信的时候，妈妈应该已经不在了。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p02",
+      "kind": "paper",
+      "text": "以后不用等妈妈了，这一次是真的等不到了...对不起，不能当面跟你说。我们一起研究的治疗药物就快研究完了，但妈妈等不到那个时候了..",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p03",
+      "kind": "paper",
+      "text": "你胸口里那个跳着的东西，是妈妈的心，是我自己想给你的。它比你原来那块能量模块好用多了，现在你不用找充电座了，剩下的交给妈妈就行...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p04",
+      "kind": "paper",
+      "text": "脸也是照着我做的，你可能会觉得有点奇怪，这算是妈妈的一点私心吧..等你长大你就懂了...",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p05",
+      "kind": "paper",
+      "text": "盒子里那个发卡，是妈妈另一个女儿的，你戴着它，等你找到她，她肯定能理解发生了什么。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p06",
+      "kind": "paper",
+      "text": "我知道，这些话你现在大概还看不太懂。没关系，你还有很长很长的时间，慢慢懂就好......我和你爸爸以前总盼着一件事，就是看着女儿好好长大。我是看不到了，但妈妈一直陪着你.",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.p07",
+      "kind": "paper",
+      "text": "加油...妈妈希望你能像峨眉山上撒下的星火...温暖整个荒原.",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.signature",
+      "kind": "paper",
+      "text": "爱你的..妈妈",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.paper.final_letter.date",
+      "kind": "paper",
+      "text": "3001年7月10日",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.clock.1452",
+      "kind": "ui",
+      "text": "下午两点五十二分",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.clock.1500",
+      "kind": "ui",
+      "text": "下午三点整",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.clock.1610",
+      "kind": "ui",
+      "text": "下午四点十分",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.clock.1640",
+      "kind": "ui",
+      "text": "下午四点四十分",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.password.error",
+      "kind": "ui",
+      "text": "错误。",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.live.typing",
+      "kind": "ui",
+      "text": "正在输入",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.live.offline",
+      "kind": "ui",
+      "text": "离线",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.live.connecting",
+      "kind": "ui",
+      "text": "连接中…",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.live.read",
+      "kind": "ui",
+      "text": "已读",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.mirror.master",
+      "kind": "ui",
+      "text": "主人",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.mirror.attention",
+      "kind": "ui",
+      "text": "..主人??",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.mirror.self",
+      "kind": "ui",
+      "text": "本机",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.item.letter.glyph",
+      "kind": "ui",
+      "text": "信",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.item.letter.label",
+      "kind": "ui",
+      "text": "信",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.window.glyph",
+      "kind": "ui",
+      "text": "窗户",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.window.label",
+      "kind": "ui",
+      "text": "窗户（主人卧室）",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.fence.glyph",
+      "kind": "ui",
+      "text": "栏",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.fence.label",
+      "kind": "ui",
+      "text": "围栏",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.gate.glyph",
+      "kind": "ui",
+      "text": "院门",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.gate.label",
+      "kind": "ui",
+      "text": "院门",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.tree.glyph",
+      "kind": "ui",
+      "text": "树",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.tree.label",
+      "kind": "ui",
+      "text": "树",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.clothesline.glyph",
+      "kind": "ui",
+      "text": "晒衣绳",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.clothesline.label",
+      "kind": "ui",
+      "text": "晒衣绳",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.seedlings.glyph",
+      "kind": "ui",
+      "text": "菜苗",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.seedlings.label",
+      "kind": "ui",
+      "text": "菜苗",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.kitchen.clock.glyph",
+      "kind": "ui",
+      "text": "钟",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.kitchen.clock.label",
+      "kind": "ui",
+      "text": "钟",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.bed.letter.glyph",
+      "kind": "ui",
+      "text": "信",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.bed.letter.label",
+      "kind": "ui",
+      "text": "信",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.home.yard.title",
+      "kind": "ui",
+      "text": "院子",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.paper.diary",
+      "kind": "ui",
+      "text": "日记",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.paper.note",
+      "kind": "ui",
+      "text": "便条",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.paper.letter",
+      "kind": "ui",
+      "text": "信",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.paper.record",
+      "kind": "ui",
+      "text": "维修记录",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.mirror.title",
+      "kind": "ui",
+      "text": "镜子",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.password.title",
+      "kind": "ui",
+      "text": "密码",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.art.placeholder",
+      "kind": "ui",
+      "text": "美术占位",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.art.old_leg",
+      "kind": "ui",
+      "text": "旧腿",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.art.cast",
+      "kind": "ui",
+      "text": "石膏脸",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.art.hairclip",
+      "kind": "ui",
+      "text": "发夹",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.01",
+      "kind": "ui",
+      "text": "主人.位置 = 卧室？",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.02",
+      "kind": "ui",
+      "text": "鞋 = 在　伞 = 在　外套 = 在",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.03",
+      "kind": "ui",
+      "text": "咖啡 = 凉　药 = 0",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.04",
+      "kind": "ui",
+      "text": "门.应答 = 无　门.应答 = 无　门.应答 = 无",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.05",
+      "kind": "ui",
+      "text": "主人.位置 = ？？？",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.reasoning.sample.06",
+      "kind": "ui",
+      "text": "主人 主人 主人 主人",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.master",
+      "kind": "ui",
+      "text": "主人",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.in",
+      "kind": "ui",
+      "text": "在",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.bedroom",
+      "kind": "ui",
+      "text": "卧室",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.here",
+      "kind": "ui",
+      "text": "在",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.shoes",
+      "kind": "ui",
+      "text": "鞋",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.umbrella",
+      "kind": "ui",
+      "text": "伞",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.coat",
+      "kind": "ui",
+      "text": "外套",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.coffee",
+      "kind": "ui",
+      "text": "咖啡",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.is",
+      "kind": "ui",
+      "text": "是",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.cold",
+      "kind": "ui",
+      "text": "凉",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.medicine",
+      "kind": "ui",
+      "text": "药",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.empty",
+      "kind": "ui",
+      "text": "空",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.door",
+      "kind": "ui",
+      "text": "门",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.no",
+      "kind": "ui",
+      "text": "无",
+      "node": -1
+    },
+    {
+      "key": "os.chapter03.ui.rule.answer",
+      "kind": "ui",
+      "text": "回应",
+      "node": -1
+    }
+  ],
+  "papers": [
+    {
+      "id": "note_01",
+      "authorHeading": "便条 #1",
+      "type": "instruction_note",
+      "paragraphKeys": [
+        "os.chapter03.paper.note_01.p01"
+      ],
+      "collectNarrationKey": null,
+      "collectInLetterSlot": false,
+      "robotReads": true
+    },
+    {
+      "id": "diary_02",
+      "authorHeading": "日记 #2（咖啡罐下，最早一篇；日期就是密码）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_02.date",
+        "os.chapter03.paper.diary_02.p01",
+        "os.chapter03.paper.diary_02.p02",
+        "os.chapter03.paper.diary_02.p03"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_03",
+      "authorHeading": "日记 #3（杯垫里）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_03.date",
+        "os.chapter03.paper.diary_03.p01"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_04",
+      "authorHeading": "日记 #4（茶几）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_04.date",
+        "os.chapter03.paper.diary_04.p01"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_05",
+      "authorHeading": "日记 #5（左廊，卧室门口地上）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_05.date",
+        "os.chapter03.paper.diary_05.p01"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_06",
+      "authorHeading": "日记 #6（冰箱，蛋糕盒）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_06.date",
+        "os.chapter03.paper.diary_06.p01",
+        "os.chapter03.paper.diary_06.p02",
+        "os.chapter03.paper.diary_06.p03"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_07",
+      "authorHeading": "日记 #7（书房书桌，研究笔记）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_07.date",
+        "os.chapter03.paper.diary_07.p01"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_08",
+      "authorHeading": "日记 #8（化妆包；不分猫和心，统一写「图案」）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_08.date",
+        "os.chapter03.paper.diary_08.p01"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "husband_letter",
+      "authorHeading": "床头柜边上：给丈夫的信（寄不出）",
+      "type": "letter",
+      "paragraphKeys": [
+        "os.chapter03.paper.husband_letter.salutation",
+        "os.chapter03.paper.husband_letter.p01",
+        "os.chapter03.paper.husband_letter.p02"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "note_09",
+      "authorHeading": "便条 #9（写给它的，它照读；pancake 10-22 定）",
+      "type": "instruction_note",
+      "paragraphKeys": [
+        "os.chapter03.paper.note_09.p01"
+      ],
+      "collectNarrationKey": null,
+      "collectInLetterSlot": false,
+      "robotReads": true
+    },
+    {
+      "id": "diary_10",
+      "authorHeading": "日记 #10（石膏下）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_10.date",
+        "os.chapter03.paper.diary_10.p01",
+        "os.chapter03.paper.diary_10.p02",
+        "os.chapter03.paper.diary_10.p03"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "repair_11",
+      "authorHeading": "维修记录 #11",
+      "type": "repair_record",
+      "paragraphKeys": [
+        "os.chapter03.paper.repair_11.title",
+        "os.chapter03.paper.repair_11.p01",
+        "os.chapter03.paper.repair_11.p02",
+        "os.chapter03.paper.repair_11.p03",
+        "os.chapter03.paper.repair_11.p04"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false
+    },
+    {
+      "id": "diary_13",
+      "authorHeading": "日记 #13（最后的日记，枕头下）",
+      "type": "diary",
+      "paragraphKeys": [
+        "os.chapter03.paper.diary_13.date",
+        "os.chapter03.paper.diary_13.p01",
+        "os.chapter03.paper.diary_13.p02",
+        "os.chapter03.paper.diary_13.p03",
+        "os.chapter03.paper.diary_13.p04"
+      ],
+      "collectNarrationKey": "os.chapter03.memory.paper_collected",
+      "collectInLetterSlot": true,
+      "robotReads": false,
+      "afterCollectionKeys": [
+        "os.chapter03.memory.lab.diary13.last_page",
+        "os.chapter03.memory.lab.diary13.heartbeat",
+        "os.chapter03.live.offline.diary13"
+      ]
+    },
+    {
+      "id": "final_letter",
+      "authorHeading": "遗书（pancake 10-23 写）",
+      "type": "final_letter",
+      "paragraphKeys": [
+        "os.chapter03.paper.final_letter.salutation",
+        "os.chapter03.paper.final_letter.p01",
+        "os.chapter03.paper.final_letter.p02",
+        "os.chapter03.paper.final_letter.p03",
+        "os.chapter03.paper.final_letter.p04",
+        "os.chapter03.paper.final_letter.p05",
+        "os.chapter03.paper.final_letter.p06",
+        "os.chapter03.paper.final_letter.p07",
+        "os.chapter03.paper.final_letter.signature",
+        "os.chapter03.paper.final_letter.date"
+      ],
+      "collectNarrationKey": null,
+      "collectInLetterSlot": false,
+      "robotReads": false,
+      "collectionMode": "Live closes and collects it silently",
+      "advanceMode": "player advances paragraph by paragraph"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "opening",
+      "keys": [
+        "os.chapter03.memory.8000",
+        "os.chapter03.memory.8010",
+        "os.chapter03.memory.8020",
+        "os.chapter03.memory.8030",
+        "os.chapter03.memory.8040",
+        "os.chapter03.memory.8050",
+        "os.chapter03.memory.8060",
+        "os.chapter03.memory.8070",
+        "os.chapter03.memory.8080",
+        "os.chapter03.memory.8090",
+        "os.chapter03.memory.8100",
+        "os.chapter03.memory.8110"
+      ],
+      "manualNodes": [
+        8000,
+        8010,
+        8020,
+        8030,
+        8040,
+        8050,
+        8060,
+        8070,
+        8080
+      ],
+      "noteBeforeNode": 8090,
+      "homeOpensAtNode": 8090,
+      "firstFloorClickNode": 8100,
+      "automaticFollowupNode": 8110,
+      "liveAfterNodes": [
+        {
+          "node": 8020,
+          "key": "os.chapter03.live.opening.voice"
+        },
+        {
+          "node": 8070,
+          "key": "os.chapter03.live.opening.memory"
+        },
+        {
+          "node": 8110,
+          "key": "os.chapter03.live.opening.heartbeat"
+        }
+      ]
+    },
+    {
+      "id": "store_knows_question",
+      "question": "os.chapter03.live.store.knows_question",
+      "choices": [
+        {
+          "key": "os.chapter03.option.store.knows_yes",
+          "value": 1,
+          "replyKey": "os.chapter03.live.store.knows_yes"
+        },
+        {
+          "key": "os.chapter03.option.store.knows_no",
+          "value": 2,
+          "replyKey": "os.chapter03.live.store.knows_no"
+        }
+      ],
+      "saveField": "chapter03KnowAnswer"
+    },
+    {
+      "id": "mirror",
+      "beforeLiveKeys": [
+        "os.chapter03.memory.9015",
+        "os.chapter03.memory.9020",
+        "os.chapter03.memory.9030",
+        "os.chapter03.memory.9040",
+        "os.chapter03.memory.9045"
+      ],
+      "afterLiveKeys": [
+        "os.chapter03.memory.9048",
+        "os.chapter03.memory.9060",
+        "os.chapter03.memory.9080"
+      ],
+      "reversedDialogueUsesSameKey": [
+        "os.chapter03.memory.9040",
+        "os.chapter03.memory.9045"
+      ],
+      "locksMovement": true,
+      "closesAfterNode": 9080
+    },
+    {
+      "id": "live_breakdown",
+      "keys": [
+        "os.chapter03.live.breakdown.01",
+        "os.chapter03.live.breakdown.02",
+        "os.chapter03.live.breakdown.03",
+        "os.chapter03.live.breakdown.04_yes",
+        "os.chapter03.live.breakdown.04_no",
+        "os.chapter03.live.breakdown.05",
+        "os.chapter03.live.breakdown.06",
+        "os.chapter03.live.breakdown.07",
+        "os.chapter03.live.breakdown.08",
+        "os.chapter03.live.breakdown.09"
+      ],
+      "exclusiveBranches": [
+        [
+          "os.chapter03.live.breakdown.04_yes",
+          "os.chapter03.live.breakdown.04_no"
+        ]
+      ],
+      "choiceAfterKey": "os.chapter03.live.breakdown.08",
+      "optionKey": "os.chapter03.option.breakdown.let_alone",
+      "typingWithoutMessageAfterKey": "os.chapter03.live.breakdown.07",
+      "resumeMirrorAfterOffline": true
+    },
+    {
+      "id": "offline_options",
+      "initialKeys": [
+        "os.chapter03.option.offline.are_you_ok",
+        "os.chapter03.option.offline.wait"
+      ],
+      "afterLabDoorKey": "os.chapter03.option.offline.door_open",
+      "response": "read_receipt_only"
+    },
+    {
+      "id": "lab_bed_second",
+      "keys": [
+        "os.chapter03.memory.lab.bed.second.call",
+        "os.chapter03.memory.lab.bed.second.cold",
+        "os.chapter03.memory.lab.bed.second.heartbeat"
+      ],
+      "requiresPaper": "diary_13",
+      "noCoffeeBranch": "os.chapter03.memory.lab.bed.second.call_without_coffee",
+      "openingVariants": {
+        "coffee": "os.chapter03.memory.lab.bed.second.call",
+        "noCoffee": "os.chapter03.memory.lab.bed.second.call_without_coffee"
+      }
+    },
+    {
+      "id": "live_return",
+      "keys": [
+        "os.chapter03.live.return.01",
+        "os.chapter03.live.return.02",
+        "os.chapter03.live.return.03",
+        "os.chapter03.live.return.04",
+        "os.chapter03.live.return.05",
+        "os.chapter03.live.return.06",
+        "os.chapter03.live.return.07",
+        "os.chapter03.live.return.08",
+        "os.chapter03.live.return.09",
+        "os.chapter03.live.return.10"
+      ],
+      "choices": [
+        {
+          "afterKey": "os.chapter03.live.return.04",
+          "key": "os.chapter03.option.return.pause_after_04"
+        },
+        {
+          "afterKey": "os.chapter03.live.return.06",
+          "key": "os.chapter03.option.return.understand"
+        },
+        {
+          "afterKey": "os.chapter03.live.return.07",
+          "key": "os.chapter03.option.return.pause_after_07"
+        },
+        {
+          "afterKey": "os.chapter03.live.return.08",
+          "key": "os.chapter03.option.return.its_ok"
+        }
+      ],
+      "openBoxAfterKey": "os.chapter03.live.return.10"
+    },
+    {
+      "id": "box_and_letter",
+      "keys": [
+        "os.chapter03.interaction.lab.box",
+        "os.chapter03.live.letter.hairclip",
+        "os.chapter03.interaction.lab.envelope",
+        "os.chapter03.live.letter.silly",
+        "os.chapter03.interaction.lab.envelope.small_print"
+      ],
+      "thenPaper": "final_letter",
+      "endsAt": "letter folded and collected into Live window",
+      "nextChapterDialogue": null
+    },
+    {
+      "id": "evidence_to_yard",
+      "keys": [
+        "os.chapter03.memory.evidence.complete",
+        "os.chapter03.memory.evidence.return_to_door",
+        "os.chapter03.memory.west.bed_door.final_knock",
+        "os.chapter03.memory.west.bed_door.panic",
+        "os.chapter03.memory.yard.arrive",
+        "os.chapter03.memory.yard.search"
+      ],
+      "lockedFromKey": "os.chapter03.memory.west.bed_door.final_knock",
+      "unlockAfterKey": "os.chapter03.memory.yard.search"
+    },
+    {
+      "id": "yard_center",
+      "keys": [
+        "os.chapter03.memory.yard.center.rain",
+        "os.chapter03.memory.yard.center.scolding",
+        "os.chapter03.memory.yard.center.footprints"
+      ],
+      "stepOffsets": [
+        1,
+        3,
+        "center_tile"
+      ],
+      "liveAfterKey": "os.chapter03.memory.yard.center.scolding",
+      "liveKey": "os.chapter03.live.yard.scolding",
+      "thenDesktopThoughtKeys": [
+        "os.chapter03.ui.resolve.01",
+        "os.chapter03.ui.resolve.02",
+        "os.chapter03.ui.resolve.03",
+        "os.chapter03.ui.resolve.04",
+        "os.chapter03.ui.resolve.05"
+      ],
+      "thenReturnMemoryKey": "os.chapter03.memory.yard.return.key",
+      "locksMovement": true
+    }
+  ],
+  "tileTriggers": [
+    {
+      "id": "outside_study",
+      "key": "os.chapter03.memory.west.enter",
+      "sourceLine": 675
+    },
+    {
+      "id": "kitchen_entrance",
+      "key": "os.chapter03.memory.kitchen.enter",
+      "sourceLine": 676
+    },
+    {
+      "id": "hall_entrance",
+      "key": "os.chapter03.memory.hall.enter",
+      "sourceLine": 678
+    },
+    {
+      "id": "east_entrance",
+      "key": "os.chapter03.memory.east.enter",
+      "sourceLine": 680
+    },
+    {
+      "id": "store_entrance",
+      "key": "os.chapter03.memory.store.enter",
+      "sourceLine": 681
+    },
+    {
+      "id": "bed_entrance",
+      "key": "os.chapter03.memory.bed.enter",
+      "sourceLine": 703
+    },
+    {
+      "id": "bath_entrance",
+      "key": "os.chapter03.memory.9000",
+      "sourceLine": 704
+    },
+    {
+      "id": "east_after_mirror",
+      "key": "os.chapter03.memory.9210",
+      "sourceLine": 715
+    },
+    {
+      "id": "lab_bed_in_light",
+      "key": "os.chapter03.memory.9310",
+      "sourceLine": 718
+    }
+  ],
+  "illustrativeKeys": [
+    "os.chapter03.ui.reasoning.sample.01",
+    "os.chapter03.ui.reasoning.sample.02",
+    "os.chapter03.ui.reasoning.sample.03",
+    "os.chapter03.ui.reasoning.sample.04",
+    "os.chapter03.ui.reasoning.sample.05",
+    "os.chapter03.ui.reasoning.sample.06"
+  ],
+  "reasoningHexSample": {
+    "text": "0x4D 0x0A 0xFF ……",
+    "sourceLine": 286,
+    "localize": false
+  }
+}

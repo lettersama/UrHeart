@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_PixelHeartbeatUI
+  m_Shader: {fileID: 4800000, guid: 3dd091b2a41344fc8ca7eb070806e9a4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CoreWidth: 0.55
+    - _GridStep: 8
+    - _GridSweepCenter: -2
+    - _GridSweepTilt: 20
+    - _GridSweepWidth: 25
+    - _HighlightHaloStrength: 0.2
+    - _HighlightHaloWidth: 2.09
+    - _InnerStrength: 0.063
+    - _InnerWidth: 1.6
+    - _OuterStrength: 0
+    - _OuterWidth: 3.6
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CoreColor: {r: 0.19496846, g: 0.1565032, b: 0.14285424, a: 1}
+    - _CoreTransitionColor: {r: 0.20125782, g: 0.15022123, b: 0.14746249, a: 1}
+    - _GlowColor: {r: 0.13836467, g: 0.13562655, b: 0.1353189, a: 1}
+    - _GridColor: {r: 0.63529414, g: 0.42775568, b: 0.4, a: 0.2}
+    - _HighlightCoreColor: {r: 3.1666267, g: 0.3751007, b: 0.22903249, a: 1}
+    - _HighlightGlowColor: {r: 0.18867922, g: 0.15129936, b: 0.15129936, a: 0.7764706}
+    - _HighlightTransitionColor: {r: 1.932879, g: 0.17490017, b: 0.12764268, a: 1}
+    - _VirtualSize: {r: 120, g: 40, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

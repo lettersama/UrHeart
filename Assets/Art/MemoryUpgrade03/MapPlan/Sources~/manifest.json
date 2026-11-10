@@ -1,0 +1,237 @@
+{
+  "version": 2,
+  "status": "Native art candidate; author visual acceptance pending",
+  "canvas": {
+    "width": 216,
+    "height": 162,
+    "origin": "top-left",
+    "pixelsPerUnit": 20,
+    "spritePivot": [
+      0.5,
+      0.5
+    ],
+    "filterMode": "Point"
+  },
+  "opaquePalette": [
+    "#000000",
+    "#87827e"
+  ],
+  "alphaValues": [
+    0,
+    255
+  ],
+  "base": "map_base.png",
+  "locations": {
+    "home": [
+      88,
+      120
+    ],
+    "target": [
+      159,
+      49
+    ],
+    "homeLabelBounds": [
+      82,
+      108,
+      13,
+      9
+    ],
+    "targetLabelBounds": [
+      153,
+      37,
+      13,
+      9
+    ],
+    "currentPositionTriangleBounds": [
+      85,
+      102,
+      7,
+      4
+    ]
+  },
+  "hand": {
+    "up": "Hand/hand_up.png",
+    "down": "Hand/hand_down.png",
+    "lockedNativeMaster": "HandTraceReview/hand_trace.png",
+    "statesPixelIdentical": true,
+    "pressMethod": "Shared native hand; raised UI offset (0,2), pressed (0,0). No pixel deformation.",
+    "canvas": [
+      216,
+      162
+    ],
+    "tipPixel": [
+      159,
+      49
+    ],
+    "spritePivot": [
+      0.5,
+      0.5
+    ],
+    "entryDirection": "from-lower-right",
+    "placement": "Full-canvas overlay at local zero; move only by native whole pixels",
+    "raisedUiOffset": [
+      0,
+      2
+    ],
+    "poseCleanup": "Locked reference-traced native silhouette, thumb, index gap, folded fingers and cuff. Both states are byte-identical pixels; Unity provides integer displacement.",
+    "pressedUiOffset": [
+      0,
+      0
+    ]
+  },
+  "route": {
+    "mode": "cumulative-replace",
+    "durationMs": 2400,
+    "frameDurationMs": 200,
+    "homeCircle": [
+      88,
+      120
+    ],
+    "targetCircle": [
+      159,
+      49
+    ],
+    "drawPolyline": [
+      [
+        91,
+        119
+      ],
+      [
+        96,
+        116
+      ],
+      [
+        100,
+        113
+      ],
+      [
+        105,
+        113
+      ],
+      [
+        106,
+        108
+      ],
+      [
+        108,
+        100
+      ],
+      [
+        109,
+        97
+      ],
+      [
+        106,
+        93
+      ],
+      [
+        105,
+        89
+      ],
+      [
+        107,
+        80
+      ],
+      [
+        108,
+        69
+      ],
+      [
+        110,
+        59
+      ],
+      [
+        110,
+        56
+      ],
+      [
+        112,
+        51
+      ],
+      [
+        115,
+        43
+      ],
+      [
+        117,
+        43
+      ],
+      [
+        150,
+        50
+      ],
+      [
+        153,
+        51
+      ],
+      [
+        156,
+        49
+      ]
+    ],
+    "dash": {
+      "onPixels": 3,
+      "offPixels": 3,
+      "brushPixels": 2,
+      "paperColourSeparationPixels": 2,
+      "continuousPaperCorridorPixels": 6,
+      "clearDashGaps": true,
+      "clearanceFollowsRevealedRoute": true,
+      "separationPreservesBuildingsTreesAndLabels": false,
+      "separationPreservesLocationMarkers": true
+    },
+    "frames": [
+      "Route/route_00.png",
+      "Route/route_01.png",
+      "Route/route_02.png",
+      "Route/route_03.png",
+      "Route/route_04.png",
+      "Route/route_05.png",
+      "Route/route_06.png",
+      "Route/route_07.png",
+      "Route/route_08.png",
+      "Route/route_09.png",
+      "Route/route_10.png",
+      "Route/route_11.png"
+    ],
+    "full": "Route/route_full.png"
+  },
+  "arrival": {
+    "center": [
+      159,
+      49
+    ],
+    "durationMs": 650,
+    "frameDurationsMs": [
+      217,
+      217,
+      216
+    ],
+    "frames": [
+      "Arrival/arrival_00.png",
+      "Arrival/arrival_01.png",
+      "Arrival/arrival_02.png"
+    ],
+    "finalFrameTransparent": true,
+    "purpose": "Small strokes expand below and beside the depot marker, then disappear; do not obscure 02"
+  },
+  "sequence": [
+    "paper-only",
+    "hand-enters",
+    "index-press",
+    "hand-withdraws",
+    "route-reveal-home-to-depot",
+    "arrival-feedback",
+    "hold-final-map"
+  ],
+  "sourceFiles": [
+    "map_base.aseprite",
+    "Hand/hand_pointer.aseprite",
+    "Route/route_reveal.aseprite",
+    "Arrival/arrival_feedback.aseprite"
+  ],
+  "provenance": {
+    "drawing": "Native Aseprite MCP integer-coordinate shapes and layers",
+    "generatedImageUse": "Reference requested 216x162; tool returned 1448x1086. Final is native 216x162 Aseprite redraw, no bitmap conversion or sampling."
+  }
+}

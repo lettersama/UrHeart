@@ -48,6 +48,8 @@ git clone https://github.com/lettersama/UrHeart.git
 
 ## 运行
 
+本仓库的 `steam_appid.txt` 使用 Valve 示例游戏 [Spacewar 的 App ID `480`](https://partner.steamgames.com/doc/sdk/api/example)。它用于 Steam 接入测试；UrHeart 的正式成就需要对应的 App ID 和 Steamworks 后台配置。
+
 1. 打开 `Assets/Scenes/GameSetUp.unity`。
 2. 如果只想在本地查看游戏、不接入 Steam，选中挂有 `GameSetup` 组件的对象，勾选 **Is Itch**。该开关会跳过 Steam 初始化与成就接入。
 3. 检查 `GameSetup` 的发行和测试开关：**Is Demo** 决定是否运行 Demo 内容；**Is Test** 等测试开关用于开发。当前工程保存的是完整版、Steam 接入开启、正式启动流程。

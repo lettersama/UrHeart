@@ -1,0 +1,17 @@
+{
+  "font": "SeoulHangang M",
+  "localFile": "Assets/Font/KRFont/SeoulHangangM.ttf",
+  "embeddedVersion": "Version 1.06",
+  "embeddedCopyright": "Copyright(c)2009. Seoul Metropolitan Government. All rights reserved.",
+  "author": "Seoul Metropolitan Government",
+  "sha256": "f8588a5028880105fccd923e627ef2acbf02ab6d6535fc3e90979b2d6d770f2a",
+  "checked": "2026-11-10",
+  "officialSources": [
+    "https://www.seoul.go.kr/seoul/font.do",
+    "https://world.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
+  ],
+  "displayedLicense": "KOGL Type 1 (Attribution), displayed next to the Korean font copyright notice",
+  "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+  "termsSummary": "Free download and use; sale, transfer for profit, and redistribution without permission are prohibited. Preserve attribution and the original conditions.",
+  "recordScope": "Source and terms record only; does not expand permission or replace the original terms."
+}

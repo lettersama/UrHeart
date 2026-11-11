@@ -1,0 +1,20 @@
+{
+  "font": "张穸洛浮生楷体",
+  "localFile": "Assets/Font/Zhang_CN/Zhang_CN.ttf",
+  "postScriptName": "ZhangxiluoFO-Regular",
+  "embeddedVersion": "Version 1.00",
+  "embeddedLicenseText": null,
+  "sha256": "bf9068818d8d85b65caa9625c62b44ba612a16d52f9eff1a5f21b0e79254e343",
+  "checked": "2026-11-10",
+  "originalRelease": {
+    "url": "https://www.tuyiyi.com/p/92644.html",
+    "accessResult": "HTTP 403 Forbidden; original terms could not be retrieved during this check"
+  },
+  "secondarySource": {
+    "url": "https://www.maoken.com/freefonts/27277.html",
+    "reportedAuthor": "图翼网 X 张穸洛",
+    "reportedPermission": "Free commercial use for individuals and businesses, attributed by the page to the author",
+    "scopeCaveat": "The page labels its usage guidance as experience-based and lists software embedding as uncertain"
+  },
+  "recordScope": "Source record only, not a new license or independently verified permission for embedding or font-file redistribution."
+}

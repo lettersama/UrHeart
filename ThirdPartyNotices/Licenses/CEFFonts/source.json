@@ -1,0 +1,22 @@
+{
+  "project": "CEF Fonts CJK",
+  "upstreamRepository": "https://github.com/Partyb0ssishere/cef-fonts-cjk",
+  "localFonts": [
+    "CEFFontsCJK-Regular.ttf",
+    "CEFFontsCJKMono-Regular.ttf"
+  ],
+  "embeddedVersion": "Release 2.25",
+  "embeddedLicense": "SIL Open Font License V1.1",
+  "copyright": "Copyright (c) 2022 PartyB0ssishere (1243062850@qq.com)",
+  "upstreamRef": "v2.25",
+  "retrieved": "2026-11-10",
+  "files": [
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Partyb0ssishere/cef-fonts-cjk/v2.25/LICENSE",
+      "gitBlobSha": "514f3785e42d3aa6e3ee462346e3a37741d10c33",
+      "bytes": 4358,
+      "sha256": "018874d627011dfebd891fab8f15664eca92590a6c3a0b295f08a99748ac4c3a"
+    }
+  ]
+}

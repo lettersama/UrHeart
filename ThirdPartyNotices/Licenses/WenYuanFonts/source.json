@@ -1,0 +1,22 @@
+{
+  "project": "WenYuanFonts",
+  "localFont": "WenYuanRoundedSCVF.ttf",
+  "embeddedVersion": "Version 1.000",
+  "embeddedLicense": "SIL Open Font License, Version 1.1",
+  "upstreamRef": "v1.000",
+  "retrieved": "2026-11-10",
+  "files": [
+    {
+      "file": "LICENSE.md",
+      "url": "https://github.com/takushun-wu/WenYuanFonts/blob/v1.000/LICENSE.md",
+      "gitBlobSha": "df070966f5337d50fd7a279e1c85fb9ec2e22951",
+      "sha256": "c149e69d2e578e94e3fb8dd96e0f687757fbd00a63603d0a8979ec49237cf8be"
+    },
+    {
+      "file": "LICENSE-zh.md",
+      "url": "https://github.com/takushun-wu/WenYuanFonts/blob/v1.000/LICENSE-zh.md",
+      "gitBlobSha": "159938b8ed2fa3bf33c85c0b4aa4232ccb84d1f1",
+      "sha256": "d55aceb5e5c37919c37f80c1b776a535f7de4b6e297312dfa2134ec8e957de59"
+    }
+  ]
+}

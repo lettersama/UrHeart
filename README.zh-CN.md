@@ -59,8 +59,12 @@ git clone https://github.com/lettersama/UrHeart.git
 
 工程的构建场景顺序为 `GameSetUp`、`Game_Main`、`GameUI`。请保留项目原有的 Packages 和 ProjectSettings；不要把 Assets 单独导入一个配置不同的空工程来代替完整工程。
 
-## 下载校验与资源记录
+## 下载校验
 
 工程发布页同时提供 `SHA256SUMS.txt`、`font-assets-manifest.json` 和 `project-files-manifest.json`。Windows 下可用 `Get-FileHash 文件名 -Algorithm SHA256` 核对 ZIP。
 
-第三方素材的现有来源和许可记录保留在 `ThirdPartyNotices/`，Steamworks.NET 的许可保留在其原目录。商业插件请通过各自的官方渠道获取。
+## 开源协议
+
+[MIT](LICENSE)
+
+第三方代码与素材遵循各自的许可，详情见[第三方声明](THIRD_PARTY_NOTICES.md)。

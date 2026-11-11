@@ -59,8 +59,12 @@ The repository's `steam_appid.txt` uses Valve's example game [Spacewar App ID `4
 
 The build scene order is `GameSetUp`, `Game_Main`, then `GameUI`. Keep the project's original `Packages` and `ProjectSettings`; copying only `Assets` into an empty project with different settings will not reproduce the full project setup.
 
-## Verify downloads and find asset credits
+## Verify downloads
 
 The Releases page also provides `SHA256SUMS.txt`, `font-assets-manifest.json`, and `project-files-manifest.json`. On Windows, use `Get-FileHash <filename> -Algorithm SHA256` to check a ZIP against the supplied checksum.
 
-Existing third-party asset source and license records are kept in `ThirdPartyNotices/`. The Steamworks.NET license remains in its original directory. Obtain commercial plugins through their official channels.
+## License
+
+[MIT](LICENSE)
+
+Third-party code and assets retain their own licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

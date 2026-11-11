@@ -158,8 +158,14 @@
       "sha256": "54AE373F14A2A43B80AB8F8B2DA32CC02D667755B401F1D886B4886E13C5BEC2"
     }
   ],
-  "unresolved": [
-    "Assets/Font/文渊圆体1.000/LICENSE-zh.md contains an HTTP 429 response, not a license. Verify the actual font license before open-source publication."
-  ],
-  "pluginLicenses": "Existing plugin license files remain in their original directories."
+  "unresolved": [],
+  "pluginLicenses": "Existing plugin license files remain in their original directories.",
+  "resolved": [
+    {
+      "date": "2026-11-10",
+      "issue": "Assets/Font/文渊圆体1.000/LICENSE-zh.md contains an HTTP 429 response, not a license. Verify the actual font license before open-source publication.",
+      "resolution": "Restored the upstream English OFL license and Chinese translation from WenYuanFonts v1.000. Copies are included in the font supplement and ThirdPartyNotices/Licenses/WenYuanFonts/.",
+      "sourceRecord": "Licenses/WenYuanFonts/source.json"
+    }
+  ]
 }
